@@ -1,0 +1,2604 @@
+2024-10-19 03:12:47:1247 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:53:17:5317 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:53:24:5324 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:53:36:5336 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:54:28:5428 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:54:58:5458 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:55:07:557 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:55:38:5538 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:56:47:5647 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:56:56:5656 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:57:51:5751 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:58:08:588 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:58:22:5822 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:58:29:5829 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:58:37:5837 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 03:59:49:5949 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:00:00:00 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:00:12:012 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:00:19:019 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:00:33:033 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:01:07:17 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:01:17:117 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:01:24:124 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:02:08:28 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:02:18:218 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:02:27:227 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:02:53:253 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:03:11:311 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:03:33:333 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:03:42:342 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:03:55:355 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:04:04:44 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:04:18:418 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:04:47:447 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:04:57:457 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:05:07:57 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:08:09:89 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:08:37:837 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:08:58:858 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:20:38:2038 [35mhttp[39m: [35m::1 GET /api/blog 404 1771 - 12.047 ms[39m
+[35m[39m
+2024-10-19 04:21:10:2110 [35mhttp[39m: [35m::1 GET /api/posts 200 42 - 137.806 ms[39m
+[35m[39m
+2024-10-19 04:21:21:2121 [35mhttp[39m: [35m::1 POST /api/posts 401 32 - 1.640 ms[39m
+[35m[39m
+2024-10-19 04:23:02:232 [35mhttp[39m: [35m::1 GET /api/auth/signup 404 1785 - 38.169 ms[39m
+[35m[39m
+2024-10-19 04:23:17:2317 [35mhttp[39m: [35m::1 POST /api/auth/signup 400 130 - 5.510 ms[39m
+[35m[39m
+2024-10-19 04:23:25:2325 [35mhttp[39m: [35m::1 POST /api/auth/signup 201 298 - 335.456 ms[39m
+[35m[39m
+2024-10-19 04:23:45:2345 [35mhttp[39m: [35m::1 POST /api/posts 401 32 - 120.495 ms[39m
+[35m[39m
+2024-10-19 04:25:28:2528 [35mhttp[39m: [35m::1 POST /api/auth/signup 500 554 - 66.237 ms[39m
+[35m[39m
+2024-10-19 04:25:54:2554 [35mhttp[39m: [35m::1 POST /api/auth/signup 400 1412 - 10.268 ms[39m
+[35m[39m
+2024-10-19 04:25:55:2555 [35mhttp[39m: [35m::1 POST /api/auth/signup 400 100 - 3.811 ms[39m
+[35m[39m
+2024-10-19 04:26:05:265 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 298 - 222.576 ms[39m
+[35m[39m
+2024-10-19 04:26:53:2653 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 298 - 233.332 ms[39m
+[35m[39m
+2024-10-19 04:27:12:2712 [35mhttp[39m: [35m::1 POST /api/posts 401 32 - 119.798 ms[39m
+[35m[39m
+2024-10-19 04:27:29:2729 [35mhttp[39m: [35m::1 POST /api/posts 400 97 - 75.136 ms[39m
+[35m[39m
+2024-10-19 04:27:41:2741 [35mhttp[39m: [35m::1 POST /api/posts 500 - - 109.219 ms[39m
+[35m[39m
+2024-10-19 04:28:14:2814 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:28:18:2818 [35mhttp[39m: [35m::1 POST /api/posts 500 - - 143.541 ms[39m
+[35m[39m
+2024-10-19 04:29:24:2924 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:29:28:2928 [35mhttp[39m: [35m::1 POST /api/posts 500 - - 120.149 ms[39m
+[35m[39m
+2024-10-19 04:33:30:3330 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:33:35:3335 [35mhttp[39m: [35m::1 POST /api/posts 201 - - 175.539 ms[39m
+[35m[39m
+2024-10-19 04:34:50:3450 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:35:07:357 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:35:10:3510 [35mhttp[39m: [35m::1 POST /api/posts 201 - - 216.053 ms[39m
+[35m[39m
+2024-10-19 04:37:49:3749 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:37:52:3752 [35mhttp[39m: [35m::1 POST /api/posts 500 - - 162.599 ms[39m
+[35m[39m
+2024-10-19 04:39:03:393 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:39:05:395 [35mhttp[39m: [35m::1 POST /api/posts 201 - - 279.299 ms[39m
+[35m[39m
+2024-10-19 04:43:51:4351 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:44:18:4418 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:45:10:4510 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:46:15:4615 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:47:50:4750 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:47:54:4754 [35mhttp[39m: [35m::1 POST /api/blog 400 256 - 113.856 ms[39m
+[35m[39m
+2024-10-19 04:49:17:4917 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:49:22:4922 [35mhttp[39m: [35m::1 POST /api/blog 400 256 - 89.903 ms[39m
+[35m[39m
+2024-10-19 04:51:01:511 [35mhttp[39m: [35m::1 POST /api/blog 400 199 - 82.139 ms[39m
+[35m[39m
+2024-10-19 04:52:34:5234 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:52:40:5240 [35mhttp[39m: [35m::1 POST /api/blog 400 135 - 147.730 ms[39m
+[35m[39m
+2024-10-19 04:52:57:5257 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:53:09:539 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:53:11:5311 [35mhttp[39m: [35m::1 POST /api/blog 500 - - 172.896 ms[39m
+[35m[39m
+2024-10-19 04:55:10:5510 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:55:27:5527 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:55:46:5546 [35mhttp[39m: [35m::1 POST /api/blog 500 - - 85.918 ms[39m
+[35m[39m
+2024-10-19 04:56:03:563 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:56:25:5625 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-10-19 04:56:27:5627 [35mhttp[39m: [35m::1 POST /api/blog 201 - - 709.911 ms[39m
+[35m[39m
+2024-11-02 14:49:11:4911 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-06 00:10:38:1038 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-08 23:35:08:358 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 02:43:56:4356 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:03:26:326 [35mhttp[39m: [35m::1 POST /api/ideas 404 1763 - 27.127 ms[39m
+[35m[39m
+2024-11-09 03:03:55:355 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:04:49:449 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:06:19:619 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:07:12:712 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:07:40:740 [35mhttp[39m: [35m::1 POST /api/ideas 401 32 - 109.410 ms[39m
+[35m[39m
+2024-11-09 03:18:58:1858 [35mhttp[39m: [35m::1 POST /auth/signup 404 1767 - 69.003 ms[39m
+[35m[39m
+2024-11-09 03:20:19:2019 [35mhttp[39m: [35m::1 POST /api/auth/signup 201 304 - 430.085 ms[39m
+[35m[39m
+2024-11-09 03:20:45:2045 [35mhttp[39m: [35m::1 POST /api/ideas 403 51 - 71.380 ms[39m
+[35m[39m
+2024-11-09 03:22:11:2211 [35mhttp[39m: [35m::1 POST /api/ideas 400 182 - 66.836 ms[39m
+[35m[39m
+2024-11-09 03:22:28:2228 [35mhttp[39m: [35m::1 POST /api/ideas 400 182 - 61.223 ms[39m
+[35m[39m
+2024-11-09 03:25:00:250 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:25:58:2558 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:25:59:2559 [35mhttp[39m: [35m::1 POST /api/ideas 500 - - 1146.079 ms[39m
+[35m[39m
+2024-11-09 03:31:29:3129 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:32:58:3258 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 03:33:05:335 [35mhttp[39m: [35m::1 POST /api/ideas 201 969 - 205.717 ms[39m
+[35m[39m
+2024-11-09 03:33:27:3327 [35mhttp[39m: [35m::1 POST /api/ideas 201 488 - 128.971 ms[39m
+[35m[39m
+2024-11-09 14:44:58:4458 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 16:30:48:3048 [35mhttp[39m: [35m::1 GET /ideas?limit=10&page=1 404 1797 - 39.989 ms[39m
+[35m[39m
+2024-11-09 16:31:15:3115 [35mhttp[39m: [35m::1 GET /ideas?limit=10&page=1 404 1797 - 4.352 ms[39m
+[35m[39m
+2024-11-09 16:31:30:3130 [35mhttp[39m: [35m::1 GET /ideas?limit=10&page=1 404 1797 - 3.426 ms[39m
+[35m[39m
+2024-11-09 16:32:35:3235 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 371.505 ms[39m
+[35m[39m
+2024-11-09 16:35:20:3520 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 141.467 ms[39m
+[35m[39m
+2024-11-09 16:38:22:3822 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 16:38:29:3829 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 213.487 ms[39m
+[35m[39m
+2024-11-09 16:39:08:398 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 130.711 ms[39m
+[35m[39m
+2024-11-09 16:39:23:3923 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 159.540 ms[39m
+[35m[39m
+2024-11-09 16:45:05:455 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 119.030 ms[39m
+[35m[39m
+2024-11-09 16:47:04:474 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 117.832 ms[39m
+[35m[39m
+2024-11-09 16:48:02:482 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 123.078 ms[39m
+[35m[39m
+2024-11-09 16:48:05:485 [35mhttp[39m: [35m::1 DELETE /api/ideas/672ebbd1967c47d969356b9b 204 - - 224.500 ms[39m
+[35m[39m
+2024-11-09 16:48:05:485 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 608 - 133.228 ms[39m
+[35m[39m
+2024-11-09 16:48:05:485 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 127.554 ms[39m
+[35m[39m
+2024-11-09 16:48:12:4812 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 151.871 ms[39m
+[35m[39m
+2024-11-09 16:48:36:4836 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 133.185 ms[39m
+[35m[39m
+2024-11-09 16:48:40:4840 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 137.349 ms[39m
+[35m[39m
+2024-11-09 16:48:45:4845 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 171.577 ms[39m
+[35m[39m
+2024-11-09 16:48:53:4853 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 113.935 ms[39m
+[35m[39m
+2024-11-09 16:49:52:4952 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 111.765 ms[39m
+[35m[39m
+2024-11-09 16:51:24:5124 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 213.767 ms[39m
+[35m[39m
+2024-11-09 16:52:34:5234 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 116.864 ms[39m
+[35m[39m
+2024-11-09 16:52:38:5238 [35mhttp[39m: [35m::1 DELETE /api/ideas/672ebbe7967c47d969356b9e 204 - - 181.735 ms[39m
+[35m[39m
+2024-11-09 16:52:38:5238 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 142.266 ms[39m
+[35m[39m
+2024-11-09 16:52:38:5238 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 124.283 ms[39m
+[35m[39m
+2024-11-09 16:53:21:5321 [35mhttp[39m: [35m::1 DELETE /api/ideas/672ebbe7967c47d969356b9e 500 556 - 177.816 ms[39m
+[35m[39m
+2024-11-09 16:59:28:5928 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 112.854 ms[39m
+[35m[39m
+2024-11-09 16:59:45:5945 [35mhttp[39m: [35m::1 POST /api/ideas 201 162 - 199.032 ms[39m
+[35m[39m
+2024-11-09 16:59:46:5946 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 204 - 152.838 ms[39m
+[35m[39m
+2024-11-09 16:59:50:5950 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 130.054 ms[39m
+[35m[39m
+2024-11-09 16:59:53:5953 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f78e159abcadcec453563 204 - - 157.322 ms[39m
+[35m[39m
+2024-11-09 16:59:53:5953 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 123.110 ms[39m
+[35m[39m
+2024-11-09 16:59:53:5953 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 117.957 ms[39m
+[35m[39m
+2024-11-09 16:59:55:5955 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f78e159abcadcec453563 500 556 - 195.007 ms[39m
+[35m[39m
+2024-11-09 17:03:05:35 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:03:08:38 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f78e159abcadcec453563 400 575 - 214.592 ms[39m
+[35m[39m
+2024-11-09 17:03:22:322 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f78e159abcadcec453563 400 575 - 178.235 ms[39m
+[35m[39m
+2024-11-09 17:03:56:356 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:04:24:424 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:06:29:629 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:08:15:815 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:20:09:209 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f78e159abcadcec453563 400 575 - 368.714 ms[39m
+[35m[39m
+2024-11-09 17:20:21:2021 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 132.781 ms[39m
+[35m[39m
+2024-11-09 17:20:32:2032 [35mhttp[39m: [35m::1 POST /api/ideas 201 158 - 175.744 ms[39m
+[35m[39m
+2024-11-09 17:20:32:2032 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 200 - 150.752 ms[39m
+[35m[39m
+2024-11-09 17:20:37:2037 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 129.160 ms[39m
+[35m[39m
+2024-11-09 17:20:40:2040 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f7dc057ae6fa6e930bca4 204 - - 188.032 ms[39m
+[35m[39m
+2024-11-09 17:20:40:2040 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 156.421 ms[39m
+[35m[39m
+2024-11-09 17:20:41:2041 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 185.611 ms[39m
+[35m[39m
+2024-11-09 17:22:29:2229 [35mhttp[39m: [35m::1 POST /api/ideas 201 471 - 180.077 ms[39m
+[35m[39m
+2024-11-09 17:22:30:2230 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 513 - 167.508 ms[39m
+[35m[39m
+2024-11-09 17:22:36:2236 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f7e3557ae6fa6e930bcb1 204 - - 203.248 ms[39m
+[35m[39m
+2024-11-09 17:22:36:2236 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 230.410 ms[39m
+[35m[39m
+2024-11-09 17:22:36:2236 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 282.878 ms[39m
+[35m[39m
+2024-11-09 17:24:50:2450 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 196.204 ms[39m
+[35m[39m
+2024-11-09 17:25:00:250 [35mhttp[39m: [35m::1 POST /api/ideas 201 161 - 184.372 ms[39m
+[35m[39m
+2024-11-09 17:25:00:250 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 203 - 167.656 ms[39m
+[35m[39m
+2024-11-09 17:25:06:256 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 129.222 ms[39m
+[35m[39m
+2024-11-09 17:25:09:259 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f7ecc57ae6fa6e930bcbe 204 - - 128.181 ms[39m
+[35m[39m
+2024-11-09 17:25:09:259 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 146.634 ms[39m
+[35m[39m
+2024-11-09 17:25:10:2510 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 158.183 ms[39m
+[35m[39m
+2024-11-09 17:25:32:2532 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 109.278 ms[39m
+[35m[39m
+2024-11-09 17:25:51:2551 [35mhttp[39m: [35m::1 POST /api/ideas 201 170 - 181.647 ms[39m
+[35m[39m
+2024-11-09 17:25:51:2551 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 383 - 176.987 ms[39m
+[35m[39m
+2024-11-09 17:25:51:2551 [35mhttp[39m: [35m::1 POST /api/ideas 201 170 - 203.456 ms[39m
+[35m[39m
+2024-11-09 17:25:52:2552 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 383 - 136.303 ms[39m
+[35m[39m
+2024-11-09 17:25:56:2556 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 158.099 ms[39m
+[35m[39m
+2024-11-09 17:25:59:2559 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f7eff57ae6fa6e930bcd1 204 - - 150.897 ms[39m
+[35m[39m
+2024-11-09 17:26:00:260 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 212 - 153.681 ms[39m
+[35m[39m
+2024-11-09 17:26:00:260 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 139.177 ms[39m
+[35m[39m
+2024-11-09 17:29:13:2913 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f7eff57ae6fa6e930bccd 204 - - 150.747 ms[39m
+[35m[39m
+2024-11-09 17:29:13:2913 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 319.241 ms[39m
+[35m[39m
+2024-11-09 17:29:14:2914 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 148.754 ms[39m
+[35m[39m
+2024-11-09 17:29:29:2929 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 117.264 ms[39m
+[35m[39m
+2024-11-09 17:29:46:2946 [35mhttp[39m: [35m::1 POST /api/ideas 201 164 - 133.442 ms[39m
+[35m[39m
+2024-11-09 17:29:46:2946 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 206 - 130.204 ms[39m
+[35m[39m
+2024-11-09 17:29:54:2954 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f7fea57ae6fa6e930bce7 204 - - 135.879 ms[39m
+[35m[39m
+2024-11-09 17:29:54:2954 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 208.005 ms[39m
+[35m[39m
+2024-11-09 17:29:54:2954 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 183.072 ms[39m
+[35m[39m
+2024-11-09 17:30:52:3052 [35mhttp[39m: [35m::1 POST /api/ideas 201 162 - 130.499 ms[39m
+[35m[39m
+2024-11-09 17:30:52:3052 [35mhttp[39m: [35m::1 POST /api/ideas 201 162 - 162.985 ms[39m
+[35m[39m
+2024-11-09 17:30:52:3052 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 367 - 165.924 ms[39m
+[35m[39m
+2024-11-09 17:30:52:3052 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 111.772 ms[39m
+[35m[39m
+2024-11-09 17:30:57:3057 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f802c57ae6fa6e930bcf2 204 - - 132.515 ms[39m
+[35m[39m
+2024-11-09 17:30:58:3058 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 204 - 205.945 ms[39m
+[35m[39m
+2024-11-09 17:30:58:3058 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 119.143 ms[39m
+[35m[39m
+2024-11-09 17:33:53:3353 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:34:48:3448 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:34:55:3455 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f802c57ae6fa6e930bcf5 204 - - 282.891 ms[39m
+[35m[39m
+2024-11-09 17:34:55:3455 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 153.866 ms[39m
+[35m[39m
+2024-11-09 17:34:55:3455 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 128.805 ms[39m
+[35m[39m
+2024-11-09 17:35:41:3541 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-09 17:35:43:3543 [35mhttp[39m: [35m::1 POST /api/ideas 201 589 - 1646.279 ms[39m
+[35m[39m
+2024-11-09 17:35:43:3543 [35mhttp[39m: [35m::1 POST /api/ideas 201 589 - 289.616 ms[39m
+[35m[39m
+2024-11-09 17:35:44:3544 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 561.677 ms[39m
+[35m[39m
+2024-11-09 17:35:44:3544 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 145.005 ms[39m
+[35m[39m
+2024-11-09 17:35:49:3549 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 124.691 ms[39m
+[35m[39m
+2024-11-09 17:35:52:3552 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f814fa734dc6c41872e86 200 589 - 176.468 ms[39m
+[35m[39m
+2024-11-09 17:35:52:3552 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 631 - 191.184 ms[39m
+[35m[39m
+2024-11-09 17:35:52:3552 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 122.783 ms[39m
+[35m[39m
+2024-11-09 17:44:58:4458 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 298 - 314.426 ms[39m
+[35m[39m
+2024-11-09 17:45:04:454 [35mhttp[39m: [35m::1 POST /api/ideas 401 32 - 68.014 ms[39m
+[35m[39m
+2024-11-09 17:45:09:459 [35mhttp[39m: [35m::1 POST /api/ideas 401 32 - 85.573 ms[39m
+[35m[39m
+2024-11-09 17:45:34:4534 [35mhttp[39m: [35m::1 POST /api/ideas 400 141 - 72.307 ms[39m
+[35m[39m
+2024-11-09 17:45:54:4554 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 207.123 ms[39m
+[35m[39m
+2024-11-09 17:45:56:4556 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 156.353 ms[39m
+[35m[39m
+2024-11-09 17:45:57:4557 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 159.453 ms[39m
+[35m[39m
+2024-11-09 17:45:58:4558 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 152.058 ms[39m
+[35m[39m
+2024-11-09 17:45:59:4559 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 176.961 ms[39m
+[35m[39m
+2024-11-09 17:46:00:460 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 165.665 ms[39m
+[35m[39m
+2024-11-09 17:46:04:464 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 186.309 ms[39m
+[35m[39m
+2024-11-09 17:46:25:4625 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 179.481 ms[39m
+[35m[39m
+2024-11-09 17:46:28:4628 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f814fa734dc6c41872e89 200 589 - 198.833 ms[39m
+[35m[39m
+2024-11-09 17:46:29:4629 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 230.769 ms[39m
+[35m[39m
+2024-11-09 17:46:29:4629 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 158.856 ms[39m
+[35m[39m
+2024-11-09 17:46:35:4635 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f814fa734dc6c41872e89 400 575 - 136.228 ms[39m
+[35m[39m
+2024-11-09 17:48:44:4844 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b2a734dc6c41872e9d 200 - - 171.465 ms[39m
+[35m[39m
+2024-11-09 17:48:44:4844 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 149.721 ms[39m
+[35m[39m
+2024-11-09 17:48:45:4845 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 197.507 ms[39m
+[35m[39m
+2024-11-09 17:48:55:4855 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 125.532 ms[39m
+[35m[39m
+2024-11-09 17:48:58:4858 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b4a734dc6c41872ea0 200 - - 166.237 ms[39m
+[35m[39m
+2024-11-09 17:48:58:4858 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 133.364 ms[39m
+[35m[39m
+2024-11-09 17:48:59:4859 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 166.544 ms[39m
+[35m[39m
+2024-11-09 17:55:00:550 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 184.285 ms[39m
+[35m[39m
+2024-11-09 17:55:03:553 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b5a734dc6c41872ea3 200 - - 166.562 ms[39m
+[35m[39m
+2024-11-09 17:55:04:554 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 131.662 ms[39m
+[35m[39m
+2024-11-09 17:55:04:554 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 141.148 ms[39m
+[35m[39m
+2024-11-09 17:59:23:5923 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 124.993 ms[39m
+[35m[39m
+2024-11-09 17:59:29:5929 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b6a734dc6c41872ea6 200 - - 248.077 ms[39m
+[35m[39m
+2024-11-09 17:59:29:5929 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 126.468 ms[39m
+[35m[39m
+2024-11-09 17:59:29:5929 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 136.667 ms[39m
+[35m[39m
+2024-11-09 18:25:26:2526 [35mhttp[39m: [35m::1 GET /api/[%22ideas%22,%22list%22,%7B%22page%22:1,%22limit%22:10%7D] 404 1879 - 6.792 ms[39m
+[35m[39m
+2024-11-09 18:26:10:2610 [35mhttp[39m: [35m::1 GET /api/[%22ideas%22,%22list%22,%7B%22page%22:1,%22limit%22:10%7D] 404 1879 - 1.966 ms[39m
+[35m[39m
+2024-11-09 18:32:56:3256 [35mhttp[39m: [35m::1 GET /api/[%22ideas%22,%22list%22,%7B%22page%22:1,%22limit%22:10%7D] 404 1879 - 4.351 ms[39m
+[35m[39m
+2024-11-09 18:33:12:3312 [35mhttp[39m: [35m::1 GET /api/[%22ideas%22,%22list%22,%7B%22page%22:1,%22limit%22:10%7D] 404 1879 - 2.227 ms[39m
+[35m[39m
+2024-11-09 18:34:54:3454 [35mhttp[39m: [35m::1 GET /api/[%22ideas%22,%22list%22,%7B%22page%22:1,%22limit%22:10%7D] 404 1879 - 2.827 ms[39m
+[35m[39m
+2024-11-09 18:34:55:3455 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 162.739 ms[39m
+[35m[39m
+2024-11-09 18:41:18:4118 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 114.444 ms[39m
+[35m[39m
+2024-11-09 18:42:22:4222 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 150.893 ms[39m
+[35m[39m
+2024-11-09 18:42:31:4231 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 120.695 ms[39m
+[35m[39m
+2024-11-09 18:47:13:4713 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 149.074 ms[39m
+[35m[39m
+2024-11-09 18:47:46:4746 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 178.802 ms[39m
+[35m[39m
+2024-11-09 18:51:32:5132 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 156.614 ms[39m
+[35m[39m
+2024-11-09 18:51:53:5153 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 128.308 ms[39m
+[35m[39m
+2024-11-09 18:55:15:5515 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 113.823 ms[39m
+[35m[39m
+2024-11-09 18:55:18:5518 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b7a734dc6c41872ea9 200 - - 182.663 ms[39m
+[35m[39m
+2024-11-09 18:55:18:5518 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 150.794 ms[39m
+[35m[39m
+2024-11-12 00:04:46:446 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 00:06:48:648 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 235.387 ms[39m
+[35m[39m
+2024-11-12 00:06:57:657 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b8a734dc6c41872eac 401 32 - 123.204 ms[39m
+[35m[39m
+2024-11-12 00:17:33:1733 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 305 - 194.161 ms[39m
+[35m[39m
+2024-11-12 00:17:44:1744 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 142.097 ms[39m
+[35m[39m
+2024-11-12 00:17:48:1748 [35mhttp[39m: [35m::1 DELETE /api/ideas/672f83b8a734dc6c41872eac 200 - - 227.552 ms[39m
+[35m[39m
+2024-11-12 00:17:48:1748 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 132.186 ms[39m
+[35m[39m
+2024-11-12 00:18:45:1845 [35mhttp[39m: [35m::1 POST /api/ideas 201 166 - 201.196 ms[39m
+[35m[39m
+2024-11-12 00:18:45:1845 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 208 - 171.378 ms[39m
+[35m[39m
+2024-11-12 00:23:08:238 [35mhttp[39m: [35m::1 POST /api/ideas 401 32 - 59.984 ms[39m
+[35m[39m
+2024-11-12 00:24:09:249 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 298 - 197.259 ms[39m
+[35m[39m
+2024-11-12 00:24:16:2416 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 188.951 ms[39m
+[35m[39m
+2024-11-12 00:24:17:2417 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 185.449 ms[39m
+[35m[39m
+2024-11-12 00:24:19:2419 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 172.446 ms[39m
+[35m[39m
+2024-11-12 00:24:19:2419 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 141.372 ms[39m
+[35m[39m
+2024-11-12 00:24:21:2421 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 155.371 ms[39m
+[35m[39m
+2024-11-12 00:24:22:2422 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 124.128 ms[39m
+[35m[39m
+2024-11-12 00:24:23:2423 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 129.907 ms[39m
+[35m[39m
+2024-11-12 00:24:24:2424 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 146.956 ms[39m
+[35m[39m
+2024-11-12 00:24:25:2425 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 250.442 ms[39m
+[35m[39m
+2024-11-12 00:24:29:2429 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 263.747 ms[39m
+[35m[39m
+2024-11-12 00:24:41:2441 [35mhttp[39m: [35m::1 DELETE /api/ideas/673282c57391f66e120d32b7 200 166 - 141.399 ms[39m
+[35m[39m
+2024-11-12 00:24:41:2441 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 223.096 ms[39m
+[35m[39m
+2024-11-12 00:47:46:4746 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284107391f66e120d32be 200 - - 125.726 ms[39m
+[35m[39m
+2024-11-12 00:47:46:4746 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 193.270 ms[39m
+[35m[39m
+2024-11-12 00:48:09:489 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284107391f66e120d32be 400 575 - 203.398 ms[39m
+[35m[39m
+2024-11-12 00:48:25:4825 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 199.500 ms[39m
+[35m[39m
+2024-11-12 00:48:28:4828 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284117391f66e120d32c1 200 - - 139.100 ms[39m
+[35m[39m
+2024-11-12 00:48:28:4828 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 207.337 ms[39m
+[35m[39m
+2024-11-12 01:06:45:645 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 181.669 ms[39m
+[35m[39m
+2024-11-12 01:08:16:816 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284127391f66e120d32c4 200 - - 162.204 ms[39m
+[35m[39m
+2024-11-12 01:08:16:816 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 176.077 ms[39m
+[35m[39m
+2024-11-12 01:08:50:850 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 178.431 ms[39m
+[35m[39m
+2024-11-12 01:09:37:937 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 175.712 ms[39m
+[35m[39m
+2024-11-12 01:09:43:943 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284137391f66e120d32c7 200 - - 173.438 ms[39m
+[35m[39m
+2024-11-12 01:10:09:109 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 121.149 ms[39m
+[35m[39m
+2024-11-12 01:10:13:1013 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284147391f66e120d32ca 200 - - 126.772 ms[39m
+[35m[39m
+2024-11-12 01:10:35:1035 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 129.751 ms[39m
+[35m[39m
+2024-11-12 01:10:41:1041 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284157391f66e120d32cd 200 - - 135.044 ms[39m
+[35m[39m
+2024-11-12 01:11:27:1127 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284157391f66e120d32cd 400 575 - 150.551 ms[39m
+[35m[39m
+2024-11-12 01:11:48:1148 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 128.822 ms[39m
+[35m[39m
+2024-11-12 01:11:57:1157 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284167391f66e120d32d0 200 - - 140.640 ms[39m
+[35m[39m
+2024-11-12 01:12:31:1231 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284167391f66e120d32d0 400 575 - 132.585 ms[39m
+[35m[39m
+2024-11-12 01:12:38:1238 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284177391f66e120d32d3 200 - - 131.920 ms[39m
+[35m[39m
+2024-11-12 01:13:00:130 [35mhttp[39m: [35m::1 DELETE /api/ideas/673284187391f66e120d32d6 200 - - 122.839 ms[39m
+[35m[39m
+2024-11-12 01:13:26:1326 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 112.287 ms[39m
+[35m[39m
+2024-11-12 01:13:29:1329 [35mhttp[39m: [35m::1 POST /api/ideas - - - - ms[39m
+[35m[39m
+2024-11-12 01:13:34:1334 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 193.938 ms[39m
+[35m[39m
+2024-11-12 01:13:37:1337 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 115.595 ms[39m
+[35m[39m
+2024-11-12 01:13:40:1340 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 239.430 ms[39m
+[35m[39m
+2024-11-12 01:13:42:1342 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 235.952 ms[39m
+[35m[39m
+2024-11-12 01:13:43:1343 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 130.877 ms[39m
+[35m[39m
+2024-11-12 01:13:45:1345 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 184.130 ms[39m
+[35m[39m
+2024-11-12 01:13:46:1346 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 136.278 ms[39m
+[35m[39m
+2024-11-12 01:13:47:1347 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 133.015 ms[39m
+[35m[39m
+2024-11-12 01:13:50:1350 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 175.434 ms[39m
+[35m[39m
+2024-11-12 01:16:50:1650 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328f9e7391f66e120d330e 200 - - 134.556 ms[39m
+[35m[39m
+2024-11-12 01:17:00:170 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 239.688 ms[39m
+[35m[39m
+2024-11-12 01:17:07:177 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328fa47391f66e120d3313 200 - - 143.849 ms[39m
+[35m[39m
+2024-11-12 01:17:58:1758 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 118.631 ms[39m
+[35m[39m
+2024-11-12 01:18:04:184 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328fa67391f66e120d3316 200 - - 121.716 ms[39m
+[35m[39m
+2024-11-12 01:18:04:184 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 144.948 ms[39m
+[35m[39m
+2024-11-12 01:19:17:1917 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 130.836 ms[39m
+[35m[39m
+2024-11-12 01:19:20:1920 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328fa77391f66e120d3319 200 - - 144.941 ms[39m
+[35m[39m
+2024-11-12 01:19:20:1920 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 129.610 ms[39m
+[35m[39m
+2024-11-12 01:20:03:203 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328fab7391f66e120d3322 200 - - 134.164 ms[39m
+[35m[39m
+2024-11-12 01:20:03:203 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 200.094 ms[39m
+[35m[39m
+2024-11-12 01:20:19:2019 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 114.240 ms[39m
+[35m[39m
+2024-11-12 01:22:00:220 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 114.553 ms[39m
+[35m[39m
+2024-11-12 01:22:05:225 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328faa7391f66e120d331f 200 - - 147.160 ms[39m
+[35m[39m
+2024-11-12 01:22:05:225 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 160.385 ms[39m
+[35m[39m
+2024-11-12 01:27:13:2713 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 126.282 ms[39m
+[35m[39m
+2024-11-12 01:27:50:2750 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 140.927 ms[39m
+[35m[39m
+2024-11-12 01:27:53:2753 [35mhttp[39m: [35m::1 DELETE /api/ideas/67328fa87391f66e120d331c 200 - - 137.348 ms[39m
+[35m[39m
+2024-11-12 01:27:53:2753 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 133.741 ms[39m
+[35m[39m
+2024-11-12 01:28:06:286 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 111.127 ms[39m
+[35m[39m
+2024-11-12 01:28:10:2810 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 183.709 ms[39m
+[35m[39m
+2024-11-12 01:28:12:2812 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 172.427 ms[39m
+[35m[39m
+2024-11-12 01:28:13:2813 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 133.268 ms[39m
+[35m[39m
+2024-11-12 01:28:20:2820 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 125.232 ms[39m
+[35m[39m
+2024-11-12 01:28:31:2831 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 139.401 ms[39m
+[35m[39m
+2024-11-12 01:28:34:2834 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732930a7391f66e120d334f 200 - - 180.440 ms[39m
+[35m[39m
+2024-11-12 01:28:35:2835 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 180.856 ms[39m
+[35m[39m
+2024-11-12 01:29:39:2939 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 115.627 ms[39m
+[35m[39m
+2024-11-12 01:30:02:302 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 113.906 ms[39m
+[35m[39m
+2024-11-12 01:30:54:3054 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 125.794 ms[39m
+[35m[39m
+2024-11-12 01:33:54:3354 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 120.440 ms[39m
+[35m[39m
+2024-11-12 01:34:31:3431 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 121.576 ms[39m
+[35m[39m
+2024-11-12 01:34:34:3434 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732930c7391f66e120d3352 200 - - 157.776 ms[39m
+[35m[39m
+2024-11-12 01:34:34:3434 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 145.704 ms[39m
+[35m[39m
+2024-11-12 01:34:43:3443 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732930d7391f66e120d3355 200 - - 156.541 ms[39m
+[35m[39m
+2024-11-12 01:34:43:3443 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 42 - 135.996 ms[39m
+[35m[39m
+2024-11-12 01:34:58:3458 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 109.689 ms[39m
+[35m[39m
+2024-11-12 01:40:53:4053 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 145.165 ms[39m
+[35m[39m
+2024-11-12 01:40:54:4054 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 165.936 ms[39m
+[35m[39m
+2024-11-12 01:40:56:4056 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 237.499 ms[39m
+[35m[39m
+2024-11-12 01:40:57:4057 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 129.720 ms[39m
+[35m[39m
+2024-11-12 01:40:58:4058 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 159.395 ms[39m
+[35m[39m
+2024-11-12 01:40:59:4059 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 163.324 ms[39m
+[35m[39m
+2024-11-12 01:41:00:410 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 165.912 ms[39m
+[35m[39m
+2024-11-12 01:41:01:411 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 140.159 ms[39m
+[35m[39m
+2024-11-12 01:41:02:412 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 135.511 ms[39m
+[35m[39m
+2024-11-12 01:41:03:413 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 150.853 ms[39m
+[35m[39m
+2024-11-12 01:41:04:414 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 179.848 ms[39m
+[35m[39m
+2024-11-12 01:41:07:417 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 229.651 ms[39m
+[35m[39m
+2024-11-12 01:48:24:4824 [35mhttp[39m: [35m::1 DELETE /api/ideas/673296057391f66e120d3374 200 - - 137.738 ms[39m
+[35m[39m
+2024-11-12 01:48:24:4824 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 170.476 ms[39m
+[35m[39m
+2024-11-12 01:48:28:4828 [35mhttp[39m: [35m::1 DELETE /api/ideas/673296067391f66e120d3377 200 - - 123.232 ms[39m
+[35m[39m
+2024-11-12 01:48:28:4828 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 205.266 ms[39m
+[35m[39m
+2024-11-12 01:48:35:4835 [35mhttp[39m: [35m::1 DELETE /api/ideas/673296087391f66e120d337a 200 - - 125.030 ms[39m
+[35m[39m
+2024-11-12 01:48:35:4835 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 225.169 ms[39m
+[35m[39m
+2024-11-12 01:57:30:5730 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 174.786 ms[39m
+[35m[39m
+2024-11-12 01:58:19:5819 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 173.070 ms[39m
+[35m[39m
+2024-11-12 01:58:45:5845 [35mhttp[39m: [35m::1 GET /api/ideas/6732960b7391f66e120d3383 200 - - 75.816 ms[39m
+[35m[39m
+2024-11-12 01:59:27:5927 [35mhttp[39m: [35m::1 PATCH /api/ideas/6732960b7391f66e120d3383 200 - - 388.904 ms[39m
+[35m[39m
+2024-11-12 01:59:27:5927 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 236.392 ms[39m
+[35m[39m
+2024-11-12 01:59:33:5933 [35mhttp[39m: [35m::1 GET /api/ideas/6732960a7391f66e120d3380 200 - - 59.507 ms[39m
+[35m[39m
+2024-11-12 01:59:38:5938 [35mhttp[39m: [35m::1 PATCH /api/ideas/6732960a7391f66e120d3380 200 - - 178.733 ms[39m
+[35m[39m
+2024-11-12 01:59:39:5939 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 221.391 ms[39m
+[35m[39m
+2024-11-12 02:00:41:041 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 200 - - 68.046 ms[39m
+[35m[39m
+2024-11-12 02:00:53:053 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 166.394 ms[39m
+[35m[39m
+2024-11-12 02:00:54:054 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 204.213 ms[39m
+[35m[39m
+2024-11-12 02:02:05:25 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:02:16:216 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 206.438 ms[39m
+[35m[39m
+2024-11-12 02:02:17:217 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 192.743 ms[39m
+[35m[39m
+2024-11-12 02:02:42:242 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 200.700 ms[39m
+[35m[39m
+2024-11-12 02:02:43:243 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 200.932 ms[39m
+[35m[39m
+2024-11-12 02:03:39:339 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:04:02:42 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:04:19:419 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 377.607 ms[39m
+[35m[39m
+2024-11-12 02:04:20:420 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 246.536 ms[39m
+[35m[39m
+2024-11-12 02:05:16:516 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:05:27:527 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 321.452 ms[39m
+[35m[39m
+2024-11-12 02:05:28:528 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 312.733 ms[39m
+[35m[39m
+2024-11-12 02:05:54:554 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:06:06:66 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:06:14:614 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:06:15:615 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 879.722 ms[39m
+[35m[39m
+2024-11-12 02:06:16:616 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 196.555 ms[39m
+[35m[39m
+2024-11-12 02:06:42:642 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:06:44:644 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 612.876 ms[39m
+[35m[39m
+2024-11-12 02:06:44:644 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 214.097 ms[39m
+[35m[39m
+2024-11-12 02:07:34:734 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:07:44:744 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 500 630 - 223.564 ms[39m
+[35m[39m
+2024-11-12 02:07:51:751 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 500 630 - 314.484 ms[39m
+[35m[39m
+2024-11-12 02:08:41:841 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:10:02:102 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:10:07:107 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 381.800 ms[39m
+[35m[39m
+2024-11-12 02:10:08:108 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 200.737 ms[39m
+[35m[39m
+2024-11-12 02:10:50:1050 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:10:52:1052 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 293.502 ms[39m
+[35m[39m
+2024-11-12 02:10:52:1052 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 189.319 ms[39m
+[35m[39m
+2024-11-12 02:11:12:1112 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:11:18:1118 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 500 - - 108.499 ms[39m
+[35m[39m
+2024-11-12 02:11:28:1128 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 500 - - 65.538 ms[39m
+[35m[39m
+2024-11-12 02:11:56:1156 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:12:30:1230 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:12:32:1232 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 500 - - 157.871 ms[39m
+[35m[39m
+2024-11-12 02:12:58:1258 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:13:02:132 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 500 - - 242.967 ms[39m
+[35m[39m
+2024-11-12 02:14:37:1437 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:14:42:1442 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 374.199 ms[39m
+[35m[39m
+2024-11-12 02:14:42:1442 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 307.861 ms[39m
+[35m[39m
+2024-11-12 02:25:58:2558 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 302.445 ms[39m
+[35m[39m
+2024-11-12 02:25:59:2559 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 201.529 ms[39m
+[35m[39m
+2024-11-12 02:26:27:2627 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 260.631 ms[39m
+[35m[39m
+2024-11-12 02:26:27:2627 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 240.658 ms[39m
+[35m[39m
+2024-11-12 02:27:11:2711 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 201.599 ms[39m
+[35m[39m
+2024-11-12 02:28:39:2839 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732960a7391f66e120d3380 200 - - 355.178 ms[39m
+[35m[39m
+2024-11-12 02:28:39:2839 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 242.524 ms[39m
+[35m[39m
+2024-11-12 02:29:28:2928 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 200 - - 76.900 ms[39m
+[35m[39m
+2024-11-12 02:29:43:2943 [35mhttp[39m: [35m::1 PATCH /api/ideas/673296097391f66e120d337d 200 - - 251.133 ms[39m
+[35m[39m
+2024-11-12 02:29:43:2943 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 181.397 ms[39m
+[35m[39m
+2024-11-12 02:31:20:3120 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 243.344 ms[39m
+[35m[39m
+2024-11-12 02:31:42:3142 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 253.939 ms[39m
+[35m[39m
+2024-11-12 02:34:40:3440 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 202.227 ms[39m
+[35m[39m
+2024-11-12 02:44:27:4427 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 404 1811 - 14.090 ms[39m
+[35m[39m
+2024-11-12 02:44:32:4432 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 404 1811 - 1.664 ms[39m
+[35m[39m
+2024-11-12 02:45:56:4556 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 02:59:43:5943 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:00:53:053 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:00:59:059 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 45 - 191.824 ms[39m
+[35m[39m
+2024-11-12 03:04:51:451 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 129.517 ms[39m
+[35m[39m
+2024-11-12 03:04:58:458 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 122.674 ms[39m
+[35m[39m
+2024-11-12 03:20:49:2049 [35mhttp[39m: [35m::1 POST /api/projects 400 160 - 313.526 ms[39m
+[35m[39m
+2024-11-12 03:23:50:2350 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:24:00:240 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:24:54:2454 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:24:58:2458 [35mhttp[39m: [35m::1 POST /api/projects 400 121 - 122.493 ms[39m
+[35m[39m
+2024-11-12 03:25:11:2511 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:25:14:2514 [35mhttp[39m: [35m::1 POST /api/projects 400 121 - 159.110 ms[39m
+[35m[39m
+2024-11-12 03:26:25:2625 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:27:28:2728 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:27:58:2758 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:28:11:2811 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:28:16:2816 [35mhttp[39m: [35m::1 POST /api/projects 500 - - 179.476 ms[39m
+[35m[39m
+2024-11-12 03:28:53:2853 [35mhttp[39m: [35m::1 POST /api/projects 500 - - 69.868 ms[39m
+[35m[39m
+2024-11-12 03:34:11:3411 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:34:48:3448 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:35:01:351 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:48:02:482 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 03:48:11:4811 [35mhttp[39m: [35m::1 POST /api/projects 201 232 - 1506.101 ms[39m
+[35m[39m
+2024-11-12 03:48:15:4815 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 277 - 131.350 ms[39m
+[35m[39m
+2024-11-12 03:49:42:4942 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 174.752 ms[39m
+[35m[39m
+2024-11-12 03:57:44:5744 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 128.628 ms[39m
+[35m[39m
+2024-11-12 03:58:39:5839 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 143.860 ms[39m
+[35m[39m
+2024-11-12 03:59:07:597 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 134.790 ms[39m
+[35m[39m
+2024-11-12 03:59:44:5944 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 04:00:03:03 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-12 04:00:11:011 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 316 - 162.907 ms[39m
+[35m[39m
+2024-11-18 00:57:20:5720 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-18 01:30:56:3056 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 407.139 ms[39m
+[35m[39m
+2024-11-18 01:31:20:3120 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 182.706 ms[39m
+[35m[39m
+2024-11-23 07:29:20:2920 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 07:29:37:2937 [35mhttp[39m: [35m::1 GET /health 200 112 - 14.594 ms[39m
+[35m[39m
+2024-11-23 07:33:01:331 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 07:33:35:3335 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 07:45:01:451 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 07:45:32:4532 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 08:00:10:010 [32minfo[39m: [32mServer in development mode started successfully using port 55108[39m
+2024-11-23 08:00:16:016 [35mhttp[39m: [35m::1 GET / 404 1755 - 16.459 ms[39m
+[35m[39m
+2024-11-23 08:00:26:026 [35mhttp[39m: [35m::1 GET /health 200 112 - 1.541 ms[39m
+[35m[39m
+2024-11-23 08:03:05:35 [32minfo[39m: [32mServer in development mode started successfully using port 55296[39m
+2024-11-23 08:03:10:310 [35mhttp[39m: [35m::1 GET / 404 1755 - 10.747 ms[39m
+[35m[39m
+2024-11-23 08:12:34:1234 [32minfo[39m: [32mServer in development mode started successfully using port 55471[39m
+2024-11-23 08:12:39:1239 [35mhttp[39m: [35m::1 GET / 404 1755 - 19.648 ms[39m
+[35m[39m
+2024-11-23 08:12:44:1244 [35mhttp[39m: [35m::1 GET /health 200 112 - 3.427 ms[39m
+[35m[39m
+2024-11-23 08:13:21:1321 [32minfo[39m: [32mServer in development mode started successfully using port 55471[39m
+2024-11-23 08:13:40:1340 [32minfo[39m: [32mServer in development mode started successfully using port 55607[39m
+2024-11-23 08:13:49:1349 [35mhttp[39m: [35m::1 GET / 404 1755 - 23.013 ms[39m
+[35m[39m
+2024-11-23 08:14:12:1412 [32minfo[39m: [32mServer in development mode started successfully using port 55607[39m
+2024-11-23 08:14:20:1420 [35mhttp[39m: [35m::1 GET / 200 49 - 4.167 ms[39m
+[35m[39m
+2024-11-23 08:23:34:2334 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 08:26:34:2634 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 08:26:47:2647 [35mhttp[39m: [35m::1 GET /health 200 49 - 7.479 ms[39m
+[35m[39m
+2024-11-23 08:35:08:358 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 08:44:03:443 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 08:44:20:4420 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-23 08:44:50:4450 [32minfo[39m: [32mServer sss in development mode started successfully using port 8080[39m
+2024-11-23 08:45:19:4519 [32minfo[39m: [32mServer sss in development mode started successfully using port 8080[39m
+2024-11-23 08:45:47:4547 [32minfo[39m: [32mServer sss in development mode started successfully using port 8080[39m
+2024-11-24 00:52:23:5223 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:03:14:314 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 49 - 6.256 ms[39m
+[35m[39m
+2024-11-24 01:04:12:412 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 1.137 ms[39m
+[35m[39m
+2024-11-24 01:04:29:429 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 0.782 ms[39m
+[35m[39m
+2024-11-24 01:05:02:52 [35mhttp[39m: [35m::1 POST /api/projects 200 49 - 5.470 ms[39m
+[35m[39m
+2024-11-24 01:05:04:54 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 0.628 ms[39m
+[35m[39m
+2024-11-24 01:05:35:535 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:05:57:557 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 316 - 150.762 ms[39m
+[35m[39m
+2024-11-24 01:06:23:623 [35mhttp[39m: [35m::1 POST /api/projects 401 32 - 79.903 ms[39m
+[35m[39m
+2024-11-24 01:06:35:635 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 305 - 263.996 ms[39m
+[35m[39m
+2024-11-24 01:06:49:649 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 183.058 ms[39m
+[35m[39m
+2024-11-24 01:07:05:75 [35mhttp[39m: [35m::1 POST /api/projects 201 269 - 1191.682 ms[39m
+[35m[39m
+2024-11-24 01:07:06:76 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 586 - 116.909 ms[39m
+[35m[39m
+2024-11-24 01:07:19:719 [35mhttp[39m: [35m::1 DELETE /api/projects/6742601928198f0aece36c38 204 - - 133.024 ms[39m
+[35m[39m
+2024-11-24 01:07:19:719 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 316 - 131.636 ms[39m
+[35m[39m
+2024-11-24 01:18:42:1842 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 271 - 60.275 ms[39m
+[35m[39m
+2024-11-24 01:19:38:1938 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 66.599 ms[39m
+[35m[39m
+2024-11-24 01:23:52:2352 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 108.324 ms[39m
+[35m[39m
+2024-11-24 01:25:03:253 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 168.299 ms[39m
+[35m[39m
+2024-11-24 01:25:38:2538 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 59.394 ms[39m
+[35m[39m
+2024-11-24 01:25:43:2543 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 273 - 159.197 ms[39m
+[35m[39m
+2024-11-24 01:25:45:2545 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 318 - 117.567 ms[39m
+[35m[39m
+2024-11-24 01:26:37:2637 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 112.959 ms[39m
+[35m[39m
+2024-11-24 01:29:03:293 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 112.551 ms[39m
+[35m[39m
+2024-11-24 01:29:05:295 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 273 - 70.833 ms[39m
+[35m[39m
+2024-11-24 01:29:10:2910 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 272 - 136.542 ms[39m
+[35m[39m
+2024-11-24 01:29:10:2910 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 317 - 115.014 ms[39m
+[35m[39m
+2024-11-24 01:30:13:3013 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 280 - 127.726 ms[39m
+[35m[39m
+2024-11-24 01:30:13:3013 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 325 - 118.923 ms[39m
+[35m[39m
+2024-11-24 01:30:32:3032 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 142.711 ms[39m
+[35m[39m
+2024-11-24 01:30:44:3044 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 280 - 58.400 ms[39m
+[35m[39m
+2024-11-24 01:30:54:3054 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 280 - 148.984 ms[39m
+[35m[39m
+2024-11-24 01:30:55:3055 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 137.744 ms[39m
+[35m[39m
+2024-11-24 01:33:51:3351 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:34:10:3410 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:34:30:3430 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 280 - 214.161 ms[39m
+[35m[39m
+2024-11-24 01:34:30:3430 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 184.692 ms[39m
+[35m[39m
+2024-11-24 01:39:07:397 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:39:11:3911 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 280 - 247.966 ms[39m
+[35m[39m
+2024-11-24 01:39:11:3911 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 142.214 ms[39m
+[35m[39m
+2024-11-24 01:39:31:3931 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:39:49:3949 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 01:40:49:4049 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 280 - 1763.217 ms[39m
+[35m[39m
+2024-11-24 01:40:49:4049 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 325 - 164.037 ms[39m
+[35m[39m
+2024-11-24 01:42:12:4212 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 292 - 1215.995 ms[39m
+[35m[39m
+2024-11-24 01:42:12:4212 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 337 - 140.588 ms[39m
+[35m[39m
+2024-11-24 01:43:55:4355 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 292 - 126.937 ms[39m
+[35m[39m
+2024-11-24 01:44:12:4412 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 68.339 ms[39m
+[35m[39m
+2024-11-24 01:47:25:4725 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 292 - 200.056 ms[39m
+[35m[39m
+2024-11-24 01:47:27:4727 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 138.526 ms[39m
+[35m[39m
+2024-11-24 02:32:36:3236 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 254 - 182.597 ms[39m
+[35m[39m
+2024-11-24 02:43:30:4330 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 02:59:30:5930 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-11-24 02:59:37:5937 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 332 - 214.143 ms[39m
+[35m[39m
+2024-11-24 03:12:32:1232 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 200 141 - 164.844 ms[39m
+[35m[39m
+2024-11-24 03:23:59:2359 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 304 - - 138.975 ms[39m
+[35m[39m
+2024-11-24 03:24:18:2418 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 304 - - 138.791 ms[39m
+[35m[39m
+2024-11-24 03:24:34:2434 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 208.625 ms[39m
+[35m[39m
+2024-11-24 03:24:42:2442 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 148 - 159.039 ms[39m
+[35m[39m
+2024-11-24 03:27:55:2755 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 304 - - 123.499 ms[39m
+[35m[39m
+2024-11-24 03:28:10:2810 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 150 - 195.376 ms[39m
+[35m[39m
+2024-11-24 03:28:12:2812 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 334 - 189.670 ms[39m
+[35m[39m
+2024-11-24 03:28:31:2831 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 168.753 ms[39m
+[35m[39m
+2024-11-24 03:28:39:2839 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 304 - - 131.777 ms[39m
+[35m[39m
+2024-11-24 03:28:58:2858 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 304 - - 151.744 ms[39m
+[35m[39m
+2024-11-24 03:29:24:2924 [35mhttp[39m: [35m::1 PATCH /api/users/67130a0c229db4a3c8dd9279 200 145 - 130.777 ms[39m
+[35m[39m
+2024-11-24 03:29:26:2926 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 338 - 173.269 ms[39m
+[35m[39m
+2024-11-24 03:31:12:3112 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 200 145 - 117.105 ms[39m
+[35m[39m
+2024-11-24 03:31:20:3120 [35mhttp[39m: [35m::1 PATCH /api/users/67130a0c229db4a3c8dd9279 200 144 - 163.672 ms[39m
+[35m[39m
+2024-11-24 03:31:22:3122 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 337 - 198.910 ms[39m
+[35m[39m
+2024-11-24 03:31:29:3129 [35mhttp[39m: [35m::1 DELETE /api/users/67130a0c229db4a3c8dd9279 204 - - 149.403 ms[39m
+[35m[39m
+2024-11-24 03:31:29:3129 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 192 - 186.670 ms[39m
+[35m[39m
+2024-11-24 03:31:34:3134 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 173.165 ms[39m
+[35m[39m
+2024-11-24 03:45:33:4533 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 138.683 ms[39m
+[35m[39m
+2024-11-24 03:45:42:4542 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 236.380 ms[39m
+[35m[39m
+2024-11-24 03:46:07:467 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 200 - - 63.237 ms[39m
+[35m[39m
+2024-12-12 02:17:28:1728 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-12 02:26:18:2618 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 337 - 294.734 ms[39m
+[35m[39m
+2024-12-12 02:26:31:2631 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 241.234 ms[39m
+[35m[39m
+2024-12-12 02:26:35:2635 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 292 - 136.375 ms[39m
+[35m[39m
+2024-12-12 02:26:43:2643 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 246.833 ms[39m
+[35m[39m
+2024-12-12 02:30:37:3037 [35mhttp[39m: [35m::1 POST /api/projects 401 32 - 182.572 ms[39m
+[35m[39m
+2024-12-12 02:30:48:3048 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 564 - 249.777 ms[39m
+[35m[39m
+2024-12-12 02:32:27:3227 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 449.205 ms[39m
+[35m[39m
+2024-12-12 02:32:36:3236 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 192 - 384.230 ms[39m
+[35m[39m
+2024-12-12 02:32:43:3243 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 244.228 ms[39m
+[35m[39m
+2024-12-12 02:33:20:3320 [35mhttp[39m: [35m::1 POST /api/projects 201 572 - 1284.593 ms[39m
+[35m[39m
+2024-12-12 02:33:23:3323 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 910 - 245.135 ms[39m
+[35m[39m
+2024-12-12 02:33:31:3331 [35mhttp[39m: [35m::1 GET /api/projects/675a2f5009c8aafb30e46dd4 200 572 - 122.818 ms[39m
+[35m[39m
+2024-12-12 02:33:36:3336 [35mhttp[39m: [35m::1 PATCH /api/projects/675a2f5009c8aafb30e46dd4 200 576 - 285.418 ms[39m
+[35m[39m
+2024-12-12 02:33:37:3337 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 914 - 243.591 ms[39m
+[35m[39m
+2024-12-12 02:49:05:495 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 241.391 ms[39m
+[35m[39m
+2024-12-12 02:49:34:4934 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 411.477 ms[39m
+[35m[39m
+2024-12-12 02:54:09:549 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 395.405 ms[39m
+[35m[39m
+2024-12-12 02:57:28:5728 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 362.106 ms[39m
+[35m[39m
+2024-12-12 02:58:01:581 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 384.316 ms[39m
+[35m[39m
+2024-12-12 02:59:10:5910 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 362.390 ms[39m
+[35m[39m
+2024-12-12 02:59:41:5941 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 358.174 ms[39m
+[35m[39m
+2024-12-12 03:03:59:359 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 345.100 ms[39m
+[35m[39m
+2024-12-12 03:04:06:46 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 364.423 ms[39m
+[35m[39m
+2024-12-12 03:06:02:62 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 296.035 ms[39m
+[35m[39m
+2024-12-12 03:06:05:65 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 788.686 ms[39m
+[35m[39m
+2024-12-12 03:06:09:69 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 245.531 ms[39m
+[35m[39m
+2024-12-12 03:06:15:615 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 443.439 ms[39m
+[35m[39m
+2024-12-12 03:07:16:716 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 249.643 ms[39m
+[35m[39m
+2024-12-12 03:08:26:826 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 267.974 ms[39m
+[35m[39m
+2024-12-12 03:11:32:1132 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 247.685 ms[39m
+[35m[39m
+2024-12-12 03:14:29:1429 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 253.461 ms[39m
+[35m[39m
+2024-12-12 03:15:10:1510 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 241.284 ms[39m
+[35m[39m
+2024-12-12 03:15:12:1512 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 242.853 ms[39m
+[35m[39m
+2024-12-12 03:15:14:1514 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 249.208 ms[39m
+[35m[39m
+2024-12-12 03:15:48:1548 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 381.343 ms[39m
+[35m[39m
+2024-12-12 03:15:53:1553 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 394.826 ms[39m
+[35m[39m
+2024-12-12 03:17:08:178 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 317.304 ms[39m
+[35m[39m
+2024-12-12 03:17:13:1713 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 460.115 ms[39m
+[35m[39m
+2024-12-12 03:17:20:1720 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 241.837 ms[39m
+[35m[39m
+2024-12-12 03:20:19:2019 [35mhttp[39m: [35m::1 POST /api/projects 201 476 - 1070.578 ms[39m
+[35m[39m
+2024-12-12 03:20:22:2022 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 283.352 ms[39m
+[35m[39m
+2024-12-12 03:20:38:2038 [35mhttp[39m: [35m::1 GET /api/projects/675a3a5209c8aafb30e46e14 200 476 - 141.357 ms[39m
+[35m[39m
+2024-12-12 03:20:54:2054 [35mhttp[39m: [35m::1 PATCH /api/projects/675a3a5209c8aafb30e46e14 200 480 - 259.964 ms[39m
+[35m[39m
+2024-12-12 03:20:54:2054 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 275.188 ms[39m
+[35m[39m
+2024-12-12 03:21:38:2138 [35mhttp[39m: [35m::1 POST /api/projects 201 252 - 8647.418 ms[39m
+[35m[39m
+2024-12-12 03:21:42:2142 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 251.405 ms[39m
+[35m[39m
+2024-12-12 03:21:51:2151 [35mhttp[39m: [35m::1 DELETE /api/projects/675a3aa209c8aafb30e46e1e 204 - - 301.229 ms[39m
+[35m[39m
+2024-12-12 03:21:51:2151 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 272.039 ms[39m
+[35m[39m
+2024-12-12 03:22:00:220 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 370.056 ms[39m
+[35m[39m
+2024-12-12 03:25:24:2524 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 380.339 ms[39m
+[35m[39m
+2024-12-12 03:25:36:2536 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 200 - - 129.387 ms[39m
+[35m[39m
+2024-12-12 03:27:18:2718 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 528.193 ms[39m
+[35m[39m
+2024-12-12 03:28:18:2818 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732960b7391f66e120d3383 200 - - 302.397 ms[39m
+[35m[39m
+2024-12-12 03:28:19:2819 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 414.472 ms[39m
+[35m[39m
+2024-12-12 03:28:22:2822 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732960c7391f66e120d3386 200 - - 256.570 ms[39m
+[35m[39m
+2024-12-12 03:28:22:2822 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 444.459 ms[39m
+[35m[39m
+2024-12-12 03:28:25:2825 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732960d7391f66e120d3389 200 - - 259.839 ms[39m
+[35m[39m
+2024-12-12 03:28:25:2825 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 399.350 ms[39m
+[35m[39m
+2024-12-12 03:28:28:2828 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732960e7391f66e120d338c 200 - - 266.923 ms[39m
+[35m[39m
+2024-12-12 03:28:28:2828 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 459.211 ms[39m
+[35m[39m
+2024-12-12 03:28:31:2831 [35mhttp[39m: [35m::1 DELETE /api/ideas/6732960f7391f66e120d338f 200 - - 260.060 ms[39m
+[35m[39m
+2024-12-12 03:28:31:2831 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 379.760 ms[39m
+[35m[39m
+2024-12-12 03:29:39:2939 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 304 - - 152.022 ms[39m
+[35m[39m
+2024-12-12 03:29:53:2953 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 247.625 ms[39m
+[35m[39m
+2024-12-12 03:29:59:2959 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 277.834 ms[39m
+[35m[39m
+2024-12-12 03:32:51:3251 [35mhttp[39m: [35m::1 POST /api/media 201 86 - 1138.242 ms[39m
+[35m[39m
+2024-12-12 03:33:16:3316 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 324.306 ms[39m
+[35m[39m
+2024-12-12 03:33:17:3317 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 392.189 ms[39m
+[35m[39m
+2024-12-12 03:33:24:3324 [35mhttp[39m: [35m::1 GET /api/ideas/675a3d5c09c8aafb30e46e48 200 - - 125.654 ms[39m
+[35m[39m
+2024-12-12 03:33:29:3329 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 460.336 ms[39m
+[35m[39m
+2024-12-12 03:33:33:3333 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 304 - - 129.894 ms[39m
+[35m[39m
+2024-12-12 03:36:30:3630 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 424.297 ms[39m
+[35m[39m
+2024-12-12 03:36:34:3634 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 360.425 ms[39m
+[35m[39m
+2024-12-12 03:36:44:3644 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 264.208 ms[39m
+[35m[39m
+2024-12-12 03:37:12:3712 [35mhttp[39m: [35m::1 DELETE /api/projects/675a3a5209c8aafb30e46e14 204 - - 281.218 ms[39m
+[35m[39m
+2024-12-12 03:37:12:3712 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 914 - 272.465 ms[39m
+[35m[39m
+2024-12-12 03:37:34:3734 [35mhttp[39m: [35m::1 GET /api/projects/create 500 - - 59.425 ms[39m
+[35m[39m
+2024-12-12 03:38:33:3833 [35mhttp[39m: [35m::1 PATCH /api/projects/create 500 - - 914.145 ms[39m
+[35m[39m
+2024-12-12 03:39:28:3928 [35mhttp[39m: [35m::1 PATCH /api/projects/create 500 - - 967.066 ms[39m
+[35m[39m
+2024-12-12 03:39:53:3953 [35mhttp[39m: [35m::1 PATCH /api/projects/create 500 - - 531.393 ms[39m
+[35m[39m
+2024-12-12 03:45:11:4511 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-12 03:45:24:4524 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 387.526 ms[39m
+[35m[39m
+2024-12-12 03:45:41:4541 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 456.288 ms[39m
+[35m[39m
+2024-12-12 03:47:09:479 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 326.909 ms[39m
+[35m[39m
+2024-12-12 03:47:12:4712 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 380.349 ms[39m
+[35m[39m
+2024-12-12 03:47:38:4738 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 349.914 ms[39m
+[35m[39m
+2024-12-12 03:47:41:4741 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 391.895 ms[39m
+[35m[39m
+2024-12-12 03:47:46:4746 [35mhttp[39m: [35m::1 GET /api/projects/create 500 - - 26.114 ms[39m
+[35m[39m
+2024-12-12 03:48:42:4842 [35mhttp[39m: [35m::1 PATCH /api/projects/create 500 - - 1319.399 ms[39m
+[35m[39m
+2024-12-12 03:53:23:5323 [35mhttp[39m: [35m::1 GET /api/projects/create 500 - - 4.693 ms[39m
+[35m[39m
+2024-12-12 03:54:14:5414 [35mhttp[39m: [35m::1 POST /api/projects 201 469 - 1172.376 ms[39m
+[35m[39m
+2024-12-12 03:54:23:5423 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 249.528 ms[39m
+[35m[39m
+2024-12-12 03:54:32:5432 [35mhttp[39m: [35m::1 GET /api/projects/675a4246b1ee6a22f40fc954 200 469 - 124.727 ms[39m
+[35m[39m
+2024-12-12 03:54:46:5446 [35mhttp[39m: [35m::1 PATCH /api/projects/675a4246b1ee6a22f40fc954 200 474 - 325.811 ms[39m
+[35m[39m
+2024-12-12 03:54:47:5447 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 273.745 ms[39m
+[35m[39m
+2024-12-12 03:55:36:5536 [35mhttp[39m: [35m::1 POST /api/projects 201 252 - 8709.110 ms[39m
+[35m[39m
+2024-12-12 03:55:39:5539 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 244.331 ms[39m
+[35m[39m
+2024-12-12 03:55:44:5544 [35mhttp[39m: [35m::1 DELETE /api/projects/675a4298b1ee6a22f40fc95e 204 - - 252.557 ms[39m
+[35m[39m
+2024-12-12 03:55:44:5544 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 265.898 ms[39m
+[35m[39m
+2024-12-12 03:57:48:5748 [35mhttp[39m: [35m::1 POST /api/media 201 86 - 1153.427 ms[39m
+[35m[39m
+2024-12-12 03:58:11:5811 [35mhttp[39m: [35m::1 POST /api/ideas 201 - - 394.996 ms[39m
+[35m[39m
+2024-12-12 03:58:19:5819 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 429.448 ms[39m
+[35m[39m
+2024-12-12 03:58:26:5826 [35mhttp[39m: [35m::1 DELETE /api/ideas/675a3d5c09c8aafb30e46e48 200 - - 248.352 ms[39m
+[35m[39m
+2024-12-12 03:58:26:5826 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 434.010 ms[39m
+[35m[39m
+2024-12-12 03:58:31:5831 [35mhttp[39m: [35m::1 DELETE /api/ideas/673296107391f66e120d3392 200 - - 392.119 ms[39m
+[35m[39m
+2024-12-12 03:58:31:5831 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 453.481 ms[39m
+[35m[39m
+2024-12-12 03:58:53:5853 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 304 - - 128.453 ms[39m
+[35m[39m
+2024-12-12 03:59:09:599 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 366.629 ms[39m
+[35m[39m
+2024-12-13 06:25:10:2510 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-13 06:27:16:2716 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 401 32 - 191.213 ms[39m
+[35m[39m
+2024-12-13 06:28:17:2817 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 307 - 684.129 ms[39m
+[35m[39m
+2024-12-13 06:28:22:2822 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 590.821 ms[39m
+[35m[39m
+2024-12-13 06:28:31:2831 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 150 - 463.343 ms[39m
+[35m[39m
+2024-12-13 06:28:43:2843 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 149 - 375.137 ms[39m
+[35m[39m
+2024-12-13 06:28:56:2856 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 148 - 354.177 ms[39m
+[35m[39m
+2024-12-13 06:29:08:298 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 190 - 608.944 ms[39m
+[35m[39m
+2024-12-13 06:30:50:3050 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 148 - 401.925 ms[39m
+[35m[39m
+2024-12-13 06:31:01:311 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 169 - 385.567 ms[39m
+[35m[39m
+2024-12-13 06:31:50:3150 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 343.416 ms[39m
+[35m[39m
+2024-12-13 06:32:52:3252 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 292 - 170.475 ms[39m
+[35m[39m
+2024-12-13 06:33:18:3318 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 347.787 ms[39m
+[35m[39m
+2024-12-13 06:41:29:4129 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 405.937 ms[39m
+[35m[39m
+2024-12-13 06:44:24:4424 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 539.288 ms[39m
+[35m[39m
+2024-12-13 06:47:20:4720 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 507.085 ms[39m
+[35m[39m
+2024-12-13 06:47:36:4736 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 554.005 ms[39m
+[35m[39m
+2024-12-13 06:47:58:4758 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 396.738 ms[39m
+[35m[39m
+2024-12-13 06:48:56:4856 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 439.155 ms[39m
+[35m[39m
+2024-12-13 06:48:58:4858 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 - - - - ms[39m
+[35m[39m
+2024-12-13 06:49:00:490 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 - - - - ms[39m
+[35m[39m
+2024-12-13 06:49:01:491 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 330.970 ms[39m
+[35m[39m
+2024-12-13 06:49:35:4935 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 211 - 661.791 ms[39m
+[35m[39m
+2024-12-13 06:49:41:4941 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 169 - 334.306 ms[39m
+[35m[39m
+2024-12-13 06:50:34:5034 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 149 - 432.856 ms[39m
+[35m[39m
+2024-12-13 06:51:21:5121 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 149 - 337.888 ms[39m
+[35m[39m
+2024-12-13 06:51:36:5136 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 191 - 556.148 ms[39m
+[35m[39m
+2024-12-13 06:51:44:5144 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 149 - 327.772 ms[39m
+[35m[39m
+2024-12-13 06:52:35:5235 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 159 - 354.178 ms[39m
+[35m[39m
+2024-12-13 06:52:37:5237 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 201 - 679.989 ms[39m
+[35m[39m
+2024-12-13 06:54:14:5414 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 149 - 337.644 ms[39m
+[35m[39m
+2024-12-13 06:54:16:5416 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 191 - 493.561 ms[39m
+[35m[39m
+2024-12-13 06:54:24:5424 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 159 - 364.234 ms[39m
+[35m[39m
+2024-12-13 06:54:25:5425 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 201 - 541.199 ms[39m
+[35m[39m
+2024-12-13 06:55:19:5519 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 410.786 ms[39m
+[35m[39m
+2024-12-13 06:55:27:5527 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 162.910 ms[39m
+[35m[39m
+2024-12-13 06:55:31:5531 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 200 294 - 512.439 ms[39m
+[35m[39m
+2024-12-13 06:55:31:5531 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 335.869 ms[39m
+[35m[39m
+2024-12-13 06:58:45:5845 [35mhttp[39m: [35m::1 GET /api/users/67130a0c229db4a3c8dd9279 500 545 - 371.476 ms[39m
+[35m[39m
+2024-12-13 06:58:51:5851 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 543.183 ms[39m
+[35m[39m
+2024-12-13 06:59:10:5910 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 159 - 453.492 ms[39m
+[35m[39m
+2024-12-13 06:59:21:5921 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 169 - 424.529 ms[39m
+[35m[39m
+2024-12-13 06:59:22:5922 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 211 - 534.500 ms[39m
+[35m[39m
+2024-12-13 06:59:41:5941 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 400 157 - 173.909 ms[39m
+[35m[39m
+2024-12-13 06:59:47:5947 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 168 - 361.694 ms[39m
+[35m[39m
+2024-12-13 06:59:48:5948 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 210 - 606.632 ms[39m
+[35m[39m
+2024-12-13 06:59:55:5955 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 403 51 - 171.386 ms[39m
+[35m[39m
+2024-12-13 07:00:06:06 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 403 51 - 251.656 ms[39m
+[35m[39m
+2024-12-13 07:00:23:023 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 403 51 - 167.605 ms[39m
+[35m[39m
+2024-12-13 07:03:25:325 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 168 - 328.131 ms[39m
+[35m[39m
+2024-12-13 07:04:27:427 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 403 51 - 181.977 ms[39m
+[35m[39m
+2024-12-13 07:04:42:442 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 304 - - 341.905 ms[39m
+[35m[39m
+2024-12-13 07:04:50:450 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 403 51 - 168.970 ms[39m
+[35m[39m
+2024-12-13 07:13:10:1310 [35mhttp[39m: [35m::1 PATCH /api/users/672eb8d2f4bc3f14710562dc 200 169 - 360.619 ms[39m
+[35m[39m
+2024-12-13 07:13:12:1312 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 211 - 491.857 ms[39m
+[35m[39m
+2024-12-13 07:16:46:1646 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 537.093 ms[39m
+[35m[39m
+2024-12-13 07:22:19:2219 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 - - - - ms[39m
+[35m[39m
+2024-12-13 07:22:21:2221 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 535.709 ms[39m
+[35m[39m
+2024-12-13 07:25:43:2543 [35mhttp[39m: [35m::1 POST /api/auth/signup 400 574 - 180.511 ms[39m
+[35m[39m
+2024-12-13 07:26:01:261 [35mhttp[39m: [35m::1 POST /api/auth/signup 201 292 - 785.228 ms[39m
+[35m[39m
+2024-12-13 07:26:04:264 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 347 - 582.279 ms[39m
+[35m[39m
+2024-12-13 07:27:36:2736 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 515.554 ms[39m
+[35m[39m
+2024-12-13 07:28:02:282 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 794.296 ms[39m
+[35m[39m
+2024-12-13 07:28:06:286 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 538.093 ms[39m
+[35m[39m
+2024-12-13 07:29:09:299 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 451.002 ms[39m
+[35m[39m
+2024-12-13 07:29:20:2920 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 512.579 ms[39m
+[35m[39m
+2024-12-13 07:30:10:3010 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-13 07:30:13:3013 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 1846.996 ms[39m
+[35m[39m
+2024-12-13 07:30:35:3035 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-13 07:30:43:3043 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-13 07:30:59:3059 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 294 - 187.321 ms[39m
+[35m[39m
+2024-12-13 07:31:01:311 [35mhttp[39m: [35m::1 PATCH /api/projects/6732b3dbd3052f6116500939 403 51 - 191.765 ms[39m
+[35m[39m
+2024-12-13 07:35:51:3551 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 233.773 ms[39m
+[35m[39m
+2024-12-13 07:35:53:3553 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 184.318 ms[39m
+[35m[39m
+2024-12-13 07:35:54:3554 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 304 - - 164.851 ms[39m
+[35m[39m
+2024-12-13 07:36:04:364 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 176.380 ms[39m
+[35m[39m
+2024-12-13 07:36:48:3648 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 235.699 ms[39m
+[35m[39m
+2024-12-13 07:38:03:383 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.804 ms[39m
+[35m[39m
+2024-12-13 07:38:32:3832 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 188.379 ms[39m
+[35m[39m
+2024-12-13 07:38:43:3843 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.932 ms[39m
+[35m[39m
+2024-12-13 07:45:47:4547 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-13 07:46:55:4655 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 220.263 ms[39m
+[35m[39m
+2024-12-13 07:47:37:4737 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.280 ms[39m
+[35m[39m
+2024-12-13 07:47:47:4747 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 173.950 ms[39m
+[35m[39m
+2024-12-13 07:49:48:4948 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.495 ms[39m
+[35m[39m
+2024-12-13 07:51:24:5124 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 193.365 ms[39m
+[35m[39m
+2024-12-13 07:52:18:5218 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.067 ms[39m
+[35m[39m
+2024-12-13 07:52:20:5220 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 182.813 ms[39m
+[35m[39m
+2024-12-13 07:52:21:5221 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 169.117 ms[39m
+[35m[39m
+2024-12-13 07:52:26:5226 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.522 ms[39m
+[35m[39m
+2024-12-13 07:53:08:538 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 209.914 ms[39m
+[35m[39m
+2024-12-13 07:53:13:5313 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 285.043 ms[39m
+[35m[39m
+2024-12-13 07:53:18:5318 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.573 ms[39m
+[35m[39m
+2024-12-13 07:53:22:5322 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.186 ms[39m
+[35m[39m
+2024-12-13 07:53:26:5326 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 174.441 ms[39m
+[35m[39m
+2024-12-13 07:53:31:5331 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.939 ms[39m
+[35m[39m
+2024-12-13 07:53:35:5335 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 182.296 ms[39m
+[35m[39m
+2024-12-13 07:53:39:5339 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.437 ms[39m
+[35m[39m
+2024-12-13 07:53:41:5341 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.028 ms[39m
+[35m[39m
+2024-12-13 07:53:43:5343 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.541 ms[39m
+[35m[39m
+2024-12-13 07:53:45:5345 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 251.882 ms[39m
+[35m[39m
+2024-12-13 07:53:47:5347 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 204.752 ms[39m
+[35m[39m
+2024-12-13 07:53:50:5350 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.879 ms[39m
+[35m[39m
+2024-12-13 07:53:52:5352 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 174.412 ms[39m
+[35m[39m
+2024-12-13 07:53:57:5357 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.684 ms[39m
+[35m[39m
+2024-12-13 07:53:59:5359 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 251.847 ms[39m
+[35m[39m
+2024-12-13 07:54:01:541 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 173.006 ms[39m
+[35m[39m
+2024-12-13 07:54:03:543 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 288.150 ms[39m
+[35m[39m
+2024-12-13 07:54:04:544 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.063 ms[39m
+[35m[39m
+2024-12-13 07:54:06:546 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 185.085 ms[39m
+[35m[39m
+2024-12-13 07:54:08:548 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.064 ms[39m
+[35m[39m
+2024-12-13 07:54:10:5410 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.329 ms[39m
+[35m[39m
+2024-12-13 07:54:11:5411 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.051 ms[39m
+[35m[39m
+2024-12-13 07:54:13:5413 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.487 ms[39m
+[35m[39m
+2024-12-13 07:54:15:5415 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 169.282 ms[39m
+[35m[39m
+2024-12-13 07:54:16:5416 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 179.274 ms[39m
+[35m[39m
+2024-12-13 07:54:18:5418 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 173.096 ms[39m
+[35m[39m
+2024-12-13 07:54:20:5420 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 174.717 ms[39m
+[35m[39m
+2024-12-13 07:54:22:5422 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 197.112 ms[39m
+[35m[39m
+2024-12-13 07:54:23:5423 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.154 ms[39m
+[35m[39m
+2024-12-13 07:54:25:5425 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 217.224 ms[39m
+[35m[39m
+2024-12-13 07:54:26:5426 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.764 ms[39m
+[35m[39m
+2024-12-13 07:54:28:5428 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 173.885 ms[39m
+[35m[39m
+2024-12-13 07:54:30:5430 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.713 ms[39m
+[35m[39m
+2024-12-13 07:54:31:5431 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.504 ms[39m
+[35m[39m
+2024-12-13 07:54:33:5433 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.867 ms[39m
+[35m[39m
+2024-12-13 07:54:34:5434 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 171.229 ms[39m
+[35m[39m
+2024-12-13 07:54:36:5436 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 237.367 ms[39m
+[35m[39m
+2024-12-13 07:54:37:5437 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 181.324 ms[39m
+[35m[39m
+2024-12-13 07:54:39:5439 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 175.157 ms[39m
+[35m[39m
+2024-12-13 07:54:41:5441 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.309 ms[39m
+[35m[39m
+2024-12-13 07:54:42:5442 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 172.388 ms[39m
+[35m[39m
+2024-12-13 07:54:44:5444 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.122 ms[39m
+[35m[39m
+2024-12-13 07:54:45:5445 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 216.738 ms[39m
+[35m[39m
+2024-12-13 07:54:46:5446 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.298 ms[39m
+[35m[39m
+2024-12-13 07:54:48:5448 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.171 ms[39m
+[35m[39m
+2024-12-13 07:54:49:5449 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 169.558 ms[39m
+[35m[39m
+2024-12-13 07:54:51:5451 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.036 ms[39m
+[35m[39m
+2024-12-13 07:54:53:5453 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.307 ms[39m
+[35m[39m
+2024-12-13 07:54:54:5454 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.794 ms[39m
+[35m[39m
+2024-12-13 07:54:55:5455 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 224.048 ms[39m
+[35m[39m
+2024-12-13 07:54:57:5457 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.146 ms[39m
+[35m[39m
+2024-12-13 07:54:58:5458 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.914 ms[39m
+[35m[39m
+2024-12-13 07:55:00:550 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 180.989 ms[39m
+[35m[39m
+2024-12-13 07:55:01:551 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.129 ms[39m
+[35m[39m
+2024-12-13 07:55:03:553 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 176.544 ms[39m
+[35m[39m
+2024-12-13 07:55:05:555 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 176.965 ms[39m
+[35m[39m
+2024-12-13 07:55:06:556 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 197.232 ms[39m
+[35m[39m
+2024-12-13 07:55:08:558 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 184.884 ms[39m
+[35m[39m
+2024-12-13 07:55:10:5510 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 177.918 ms[39m
+[35m[39m
+2024-12-13 07:55:11:5511 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 228.688 ms[39m
+[35m[39m
+2024-12-13 07:55:13:5513 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.024 ms[39m
+[35m[39m
+2024-12-13 07:55:16:5516 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 186.748 ms[39m
+[35m[39m
+2024-12-13 07:55:19:5519 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 244.300 ms[39m
+[35m[39m
+2024-12-13 07:55:21:5521 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 181.177 ms[39m
+[35m[39m
+2024-12-13 07:55:24:5524 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 198.793 ms[39m
+[35m[39m
+2024-12-13 07:55:27:5527 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.494 ms[39m
+[35m[39m
+2024-12-13 07:55:29:5529 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 190.267 ms[39m
+[35m[39m
+2024-12-13 07:55:32:5532 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.607 ms[39m
+[35m[39m
+2024-12-13 07:55:35:5535 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 202.899 ms[39m
+[35m[39m
+2024-12-13 07:55:37:5537 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 161.936 ms[39m
+[35m[39m
+2024-12-13 07:55:39:5539 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 175.276 ms[39m
+[35m[39m
+2024-12-13 07:55:40:5540 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.647 ms[39m
+[35m[39m
+2024-12-13 07:55:42:5542 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.361 ms[39m
+[35m[39m
+2024-12-13 07:55:43:5543 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.979 ms[39m
+[35m[39m
+2024-12-13 07:55:45:5545 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.885 ms[39m
+[35m[39m
+2024-12-13 07:55:46:5546 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.816 ms[39m
+[35m[39m
+2024-12-13 07:55:48:5548 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.500 ms[39m
+[35m[39m
+2024-12-13 07:55:50:5550 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.409 ms[39m
+[35m[39m
+2024-12-13 07:55:52:5552 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.019 ms[39m
+[35m[39m
+2024-12-13 07:55:54:5554 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.430 ms[39m
+[35m[39m
+2024-12-13 07:55:55:5555 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 215.311 ms[39m
+[35m[39m
+2024-12-13 07:55:57:5557 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 253.757 ms[39m
+[35m[39m
+2024-12-13 07:55:59:5559 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.256 ms[39m
+[35m[39m
+2024-12-13 07:56:00:560 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.583 ms[39m
+[35m[39m
+2024-12-13 07:56:02:562 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 242.085 ms[39m
+[35m[39m
+2024-12-13 07:56:04:564 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 208.003 ms[39m
+[35m[39m
+2024-12-13 07:56:05:565 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 175.951 ms[39m
+[35m[39m
+2024-12-13 07:56:07:567 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.237 ms[39m
+[35m[39m
+2024-12-13 07:56:09:569 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 201.683 ms[39m
+[35m[39m
+2024-12-13 07:56:10:5610 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.696 ms[39m
+[35m[39m
+2024-12-13 07:56:12:5612 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 183.849 ms[39m
+[35m[39m
+2024-12-13 07:56:14:5614 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.972 ms[39m
+[35m[39m
+2024-12-13 07:56:15:5615 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.475 ms[39m
+[35m[39m
+2024-12-13 07:56:17:5617 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 172.934 ms[39m
+[35m[39m
+2024-12-13 07:56:19:5619 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.509 ms[39m
+[35m[39m
+2024-12-13 07:56:20:5620 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.270 ms[39m
+[35m[39m
+2024-12-13 07:56:22:5622 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 174.452 ms[39m
+[35m[39m
+2024-12-13 07:56:24:5624 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.178 ms[39m
+[35m[39m
+2024-12-13 07:56:25:5625 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.869 ms[39m
+[35m[39m
+2024-12-13 07:56:27:5627 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 173.080 ms[39m
+[35m[39m
+2024-12-13 07:56:29:5629 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 172.321 ms[39m
+[35m[39m
+2024-12-13 07:56:31:5631 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.284 ms[39m
+[35m[39m
+2024-12-13 07:56:32:5632 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.160 ms[39m
+[35m[39m
+2024-12-13 07:56:34:5634 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 174.353 ms[39m
+[35m[39m
+2024-12-13 07:56:37:5637 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 196.823 ms[39m
+[35m[39m
+2024-12-13 07:56:40:5640 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.110 ms[39m
+[35m[39m
+2024-12-13 07:56:43:5643 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 181.932 ms[39m
+[35m[39m
+2024-12-13 07:56:45:5645 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 180.959 ms[39m
+[35m[39m
+2024-12-13 07:56:46:5646 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.889 ms[39m
+[35m[39m
+2024-12-13 07:56:49:5649 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.156 ms[39m
+[35m[39m
+2024-12-13 07:56:52:5652 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 168.942 ms[39m
+[35m[39m
+2024-12-13 07:56:54:5654 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.260 ms[39m
+[35m[39m
+2024-12-13 07:56:56:5656 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.178 ms[39m
+[35m[39m
+2024-12-13 07:56:58:5658 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.332 ms[39m
+[35m[39m
+2024-12-13 07:57:00:570 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.125 ms[39m
+[35m[39m
+2024-12-13 07:57:04:574 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 182.041 ms[39m
+[35m[39m
+2024-12-13 07:57:06:576 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.189 ms[39m
+[35m[39m
+2024-12-13 07:57:09:579 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 175.277 ms[39m
+[35m[39m
+2024-12-13 07:57:12:5712 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.455 ms[39m
+[35m[39m
+2024-12-13 07:57:14:5714 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 192.676 ms[39m
+[35m[39m
+2024-12-13 07:57:18:5718 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 186.808 ms[39m
+[35m[39m
+2024-12-13 07:57:21:5721 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 169.008 ms[39m
+[35m[39m
+2024-12-13 07:57:23:5723 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.498 ms[39m
+[35m[39m
+2024-12-13 07:57:25:5725 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.170 ms[39m
+[35m[39m
+2024-12-13 07:57:27:5727 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.203 ms[39m
+[35m[39m
+2024-12-13 07:57:29:5729 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.935 ms[39m
+[35m[39m
+2024-12-13 07:57:31:5731 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.343 ms[39m
+[35m[39m
+2024-12-13 07:57:32:5732 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.941 ms[39m
+[35m[39m
+2024-12-13 07:57:34:5734 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.318 ms[39m
+[35m[39m
+2024-12-13 07:57:37:5737 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.475 ms[39m
+[35m[39m
+2024-12-13 07:57:38:5738 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 165.145 ms[39m
+[35m[39m
+2024-12-13 07:57:40:5740 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.927 ms[39m
+[35m[39m
+2024-12-13 07:57:42:5742 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 176.952 ms[39m
+[35m[39m
+2024-12-13 07:57:44:5744 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.413 ms[39m
+[35m[39m
+2024-12-13 07:57:46:5746 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.785 ms[39m
+[35m[39m
+2024-12-13 07:57:48:5748 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 162.612 ms[39m
+[35m[39m
+2024-12-13 07:57:49:5749 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 173.768 ms[39m
+[35m[39m
+2024-12-13 07:57:51:5751 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 174.174 ms[39m
+[35m[39m
+2024-12-13 07:57:54:5754 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 187.218 ms[39m
+[35m[39m
+2024-12-13 07:57:56:5756 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 188.444 ms[39m
+[35m[39m
+2024-12-13 07:57:59:5759 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 163.987 ms[39m
+[35m[39m
+2024-12-13 07:58:03:583 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 166.723 ms[39m
+[35m[39m
+2024-12-13 07:58:06:586 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.076 ms[39m
+[35m[39m
+2024-12-13 08:02:03:23 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.819 ms[39m
+[35m[39m
+2024-12-13 08:02:34:234 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 169.606 ms[39m
+[35m[39m
+2024-12-13 08:06:16:616 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 209.665 ms[39m
+[35m[39m
+2024-12-13 08:07:24:724 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 181.087 ms[39m
+[35m[39m
+2024-12-13 08:08:17:817 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.398 ms[39m
+[35m[39m
+2024-12-13 08:08:38:838 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.376 ms[39m
+[35m[39m
+2024-12-13 08:10:06:106 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 164.438 ms[39m
+[35m[39m
+2024-12-13 08:11:40:1140 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 170.576 ms[39m
+[35m[39m
+2024-12-13 08:28:06:286 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 401 32 - 0.535 ms[39m
+[35m[39m
+2024-12-13 08:32:36:3236 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 236.665 ms[39m
+[35m[39m
+2024-12-13 08:33:18:3318 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 403 51 - 167.186 ms[39m
+[35m[39m
+2024-12-13 08:43:00:430 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 382.451 ms[39m
+[35m[39m
+2024-12-13 08:43:08:438 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 291.063 ms[39m
+[35m[39m
+2024-12-13 08:43:16:4316 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 312.936 ms[39m
+[35m[39m
+2024-12-13 08:44:38:4438 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 334.976 ms[39m
+[35m[39m
+2024-12-13 08:44:40:4440 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 334.752 ms[39m
+[35m[39m
+2024-12-13 09:10:27:1027 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 381.396 ms[39m
+[35m[39m
+2024-12-13 09:22:42:2242 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 292.656 ms[39m
+[35m[39m
+2024-12-13 09:29:03:293 [35mhttp[39m: [35m::1 GET /api/users/me 200 135 - 355.509 ms[39m
+[35m[39m
+2024-12-13 09:29:47:2947 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 362.956 ms[39m
+[35m[39m
+2024-12-13 09:38:44:3844 [35mhttp[39m: [35m::1 GET /api/users/me 304 - - 371.369 ms[39m
+[35m[39m
+2024-12-13 09:39:05:395 [35mhttp[39m: [35m::1 PATCH /api/users/675bc568da2e6a8aa1a741d2 403 51 - 182.645 ms[39m
+[35m[39m
+2024-12-13 09:56:11:5611 [35mhttp[39m: [35m::1 GET /api/orders?limit=10&page=1 404 1807 - 45.412 ms[39m
+[35m[39m
+2024-12-13 09:56:11:5611 [35mhttp[39m: [35m::1 GET /api/orders/ 404 1777 - 2.924 ms[39m
+[35m[39m
+2024-12-13 10:02:08:28 [35mhttp[39m: [35m::1 GET /api/users/me 304 - - 417.722 ms[39m
+[35m[39m
+2024-12-13 10:08:54:854 [35mhttp[39m: [35m::1 GET /api/launched-projects?limit=12&page=1 404 1829 - 1.057 ms[39m
+[35m[39m
+2024-12-13 10:09:13:913 [35mhttp[39m: [35m::1 GET /api/launched-projects?limit=12&page=1 404 1829 - 1.635 ms[39m
+[35m[39m
+2024-12-13 10:09:20:920 [35mhttp[39m: [35m::1 GET /api/launched-projects?limit=12&page=1 404 1829 - 1.234 ms[39m
+[35m[39m
+2024-12-13 10:10:37:1037 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 200 - - 349.242 ms[39m
+[35m[39m
+2024-12-13 10:11:36:1136 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 367.100 ms[39m
+[35m[39m
+2024-12-13 10:12:50:1250 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 329.569 ms[39m
+[35m[39m
+2024-12-13 10:13:24:1324 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 372.967 ms[39m
+[35m[39m
+2024-12-13 10:14:46:1446 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 328.549 ms[39m
+[35m[39m
+2024-12-15 01:02:10:210 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-15 01:05:48:548 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 292 - 448.351 ms[39m
+[35m[39m
+2024-12-15 01:06:01:61 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 326 - 389.120 ms[39m
+[35m[39m
+2024-12-15 01:06:11:611 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 347 - 464.355 ms[39m
+[35m[39m
+2024-12-15 01:06:20:620 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 264.980 ms[39m
+[35m[39m
+2024-12-15 01:13:57:1357 [35mhttp[39m: [35m::1 POST /api/projects 201 245 - 1635.303 ms[39m
+[35m[39m
+2024-12-15 01:13:59:1359 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 419.798 ms[39m
+[35m[39m
+2024-12-15 01:14:06:146 [35mhttp[39m: [35m::1 GET /api/projects/675e11355bc4ea0a09d0605a 200 245 - 171.529 ms[39m
+[35m[39m
+2024-12-15 01:15:38:1538 [35mhttp[39m: [35m::1 GET /api/projects/675e11355bc4ea0a09d0605a 304 - - 120.170 ms[39m
+[35m[39m
+2024-12-15 01:15:50:1550 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 299.003 ms[39m
+[35m[39m
+2024-12-15 01:15:54:1554 [35mhttp[39m: [35m::1 GET /api/projects/675e11355bc4ea0a09d0605a 304 - - 124.887 ms[39m
+[35m[39m
+2024-12-15 01:17:23:1723 [35mhttp[39m: [35m::1 GET /api/projects/675e11355bc4ea0a09d0605a 304 - - 124.532 ms[39m
+[35m[39m
+2024-12-15 01:18:17:1817 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 258.918 ms[39m
+[35m[39m
+2024-12-15 01:18:22:1822 [35mhttp[39m: [35m::1 DELETE /api/projects/675e11355bc4ea0a09d0605a 204 - - 271.478 ms[39m
+[35m[39m
+2024-12-15 01:18:22:1822 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 269.476 ms[39m
+[35m[39m
+2024-12-15 01:18:44:1844 [35mhttp[39m: [35m::1 POST /api/projects 201 247 - 1467.360 ms[39m
+[35m[39m
+2024-12-15 01:18:45:1845 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 251.616 ms[39m
+[35m[39m
+2024-12-15 01:19:38:1938 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-15 01:19:54:1954 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-15 01:20:39:2039 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-15 01:24:12:2412 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-15 01:24:20:2420 [35mhttp[39m: [35m::1 DELETE /api/projects/675e12545bc4ea0a09d0606b 204 - - 455.107 ms[39m
+[35m[39m
+2024-12-15 01:24:21:2421 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 293.126 ms[39m
+[35m[39m
+2024-12-15 01:24:38:2438 [35mhttp[39m: [35m::1 POST /api/projects 201 282 - 2130.386 ms[39m
+[35m[39m
+2024-12-15 01:24:39:2439 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 251.232 ms[39m
+[35m[39m
+2024-12-15 01:24:43:2443 [35mhttp[39m: [35m::1 GET /api/projects/675e13b673ca1c85b0f90238 200 282 - 122.545 ms[39m
+[35m[39m
+2024-12-15 01:25:15:2515 [35mhttp[39m: [35m::1 GET /api/projects/675e13b673ca1c85b0f90238 304 - - 125.882 ms[39m
+[35m[39m
+2024-12-15 01:25:56:2556 [35mhttp[39m: [35m::1 GET /api/projects/675e13b673ca1c85b0f90238 304 - - 120.951 ms[39m
+[35m[39m
+2024-12-15 01:27:12:2712 [35mhttp[39m: [35m::1 GET /api/projects/675e13b673ca1c85b0f90238 304 - - 121.108 ms[39m
+[35m[39m
+2024-12-15 01:27:17:2717 [35mhttp[39m: [35m::1 PATCH /api/projects/675e13b673ca1c85b0f90238 200 287 - 353.638 ms[39m
+[35m[39m
+2024-12-15 01:27:19:2719 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 245.391 ms[39m
+[35m[39m
+2024-12-15 01:27:27:2727 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 242.477 ms[39m
+[35m[39m
+2024-12-15 01:30:15:3015 [35mhttp[39m: [35m::1 POST /api/ideas 201 243 - 286.487 ms[39m
+[35m[39m
+2024-12-15 01:30:18:3018 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 370.289 ms[39m
+[35m[39m
+2024-12-15 01:30:32:3032 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 200 243 - 119.724 ms[39m
+[35m[39m
+2024-12-15 01:31:09:319 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 304 - - 120.956 ms[39m
+[35m[39m
+2024-12-15 01:31:44:3144 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 304 - - 122.822 ms[39m
+[35m[39m
+2024-12-15 01:32:10:3210 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 304 - - 119.936 ms[39m
+[35m[39m
+2024-12-15 01:34:25:3425 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 304 - - 181.890 ms[39m
+[35m[39m
+2024-12-15 01:34:36:3436 [35mhttp[39m: [35m::1 PATCH /api/ideas/675e150773ca1c85b0f90247 200 224 - 801.558 ms[39m
+[35m[39m
+2024-12-15 01:34:38:3438 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 412.887 ms[39m
+[35m[39m
+2024-12-15 01:35:04:354 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 419.141 ms[39m
+[35m[39m
+2024-12-28 00:00:59:059 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2024-12-28 01:20:33:2033 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 200 - - 471.464 ms[39m
+[35m[39m
+2024-12-28 01:41:30:4130 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1 200 - - 410.606 ms[39m
+[35m[39m
+2024-12-28 01:41:31:4131 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1 200 - - 660.196 ms[39m
+[35m[39m
+2024-12-28 01:50:16:5016 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 200 - - 363.889 ms[39m
+[35m[39m
+2024-12-28 01:50:16:5016 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 200 - - 506.194 ms[39m
+[35m[39m
+2024-12-28 01:50:55:5055 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 335.425 ms[39m
+[35m[39m
+2024-12-28 01:50:55:5055 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 536.432 ms[39m
+[35m[39m
+2024-12-28 01:51:17:5117 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 332.047 ms[39m
+[35m[39m
+2024-12-28 01:51:17:5117 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 488.055 ms[39m
+[35m[39m
+2024-12-28 01:52:19:5219 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 320.442 ms[39m
+[35m[39m
+2024-12-28 01:52:19:5219 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 478.592 ms[39m
+[35m[39m
+2024-12-28 02:06:53:653 [35mhttp[39m: [35m::1 GET /api/projects/675a2f5009c8aafb30e46dd4 200 597 - 191.500 ms[39m
+[35m[39m
+2024-12-28 02:09:53:953 [35mhttp[39m: [35m::1 GET /api/projects/675a2f5009c8aafb30e46dd4 304 - - 196.320 ms[39m
+[35m[39m
+2024-12-28 02:10:17:1017 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 303.513 ms[39m
+[35m[39m
+2024-12-28 02:10:17:1017 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 521.881 ms[39m
+[35m[39m
+2024-12-28 02:10:41:1041 [35mhttp[39m: [35m::1 GET /api/ideas/675a4333b1ee6a22f40fc968 200 - - 166.749 ms[39m
+[35m[39m
+2025-05-24 14:17:22:1722 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:20:05:205 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 200 - - 175.606 ms[39m
+[35m[39m
+2025-05-24 14:20:05:205 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 200 - - 231.516 ms[39m
+[35m[39m
+2025-05-24 14:22:23:2223 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 200 - - 154.918 ms[39m
+[35m[39m
+2025-05-24 14:25:50:2550 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 96.598 ms[39m
+[35m[39m
+2025-05-24 14:25:55:2555 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 72.113 ms[39m
+[35m[39m
+2025-05-24 14:26:00:260 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 78.237 ms[39m
+[35m[39m
+2025-05-24 14:27:07:277 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 59.967 ms[39m
+[35m[39m
+2025-05-24 14:27:10:2710 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 72.662 ms[39m
+[35m[39m
+2025-05-24 14:27:13:2713 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 59.079 ms[39m
+[35m[39m
+2025-05-24 14:27:25:2725 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 432 - 218.300 ms[39m
+[35m[39m
+2025-05-24 14:27:49:2749 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 432 - 191.046 ms[39m
+[35m[39m
+2025-05-24 14:29:39:2939 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:29:56:2956 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 5 - 13.129 ms[39m
+[35m[39m
+2025-05-24 14:30:18:3018 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:30:24:3024 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 7 - 12.799 ms[39m
+[35m[39m
+2025-05-24 14:30:51:3051 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:30:59:3059 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 106.949 ms[39m
+[35m[39m
+2025-05-24 14:31:20:3120 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 432 - 220.541 ms[39m
+[35m[39m
+2025-05-24 14:36:05:365 [35mhttp[39m: [35m::1 POST /api/v1/auth/signin 404 1434 - 5.090 ms[39m
+[35m[39m
+2025-05-24 14:36:41:3641 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 63.597 ms[39m
+[35m[39m
+2025-05-24 14:36:49:3649 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 326 - 240.878 ms[39m
+[35m[39m
+2025-05-24 14:37:15:3715 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 326 - 209.749 ms[39m
+[35m[39m
+2025-05-24 14:37:21:3721 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 347 - 197.243 ms[39m
+[35m[39m
+2025-05-24 14:37:43:3743 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 146.746 ms[39m
+[35m[39m
+2025-05-24 14:38:05:385 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 432 - 192.235 ms[39m
+[35m[39m
+2025-05-24 14:38:12:3812 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 326 - 200.757 ms[39m
+[35m[39m
+2025-05-24 14:39:12:3912 [35mhttp[39m: [35m::1 POST /api/auth/signIn 200 326 - 209.363 ms[39m
+[35m[39m
+2025-05-24 14:39:13:3913 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 170.744 ms[39m
+[35m[39m
+2025-05-24 14:39:24:3924 [35mhttp[39m: [35m::1 POST /api/auth/signIn 401 432 - 205.347 ms[39m
+[35m[39m
+2025-05-24 14:40:38:4038 [35mhttp[39m: [35m::1 POST /api/auth/signIn 401 432 - 189.422 ms[39m
+[35m[39m
+2025-05-24 14:40:51:4051 [35mhttp[39m: [35m::1 POST /api/auth/signIn 401 432 - 178.540 ms[39m
+[35m[39m
+2025-05-24 14:41:10:4110 [35mhttp[39m: [35m::1 POST /api/auth/signIn 401 432 - 195.735 ms[39m
+[35m[39m
+2025-05-24 14:41:32:4132 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 432 - 194.514 ms[39m
+[35m[39m
+2025-05-24 14:43:42:4342 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:43:55:4355 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 432 - 330.567 ms[39m
+[35m[39m
+2025-05-24 14:44:15:4415 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:44:23:4423 [35mhttp[39m: [35m::1 POST /api/auth/signIn 404 432 - 258.198 ms[39m
+[35m[39m
+2025-05-24 14:45:49:4549 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:46:02:462 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 483 - 228.108 ms[39m
+[35m[39m
+2025-05-24 14:46:10:4610 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:46:15:4615 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 432 - 224.854 ms[39m
+[35m[39m
+2025-05-24 14:46:33:4633 [35mhttp[39m: [35m::1 POST /api/auth/signin 404 498 - 62.556 ms[39m
+[35m[39m
+2025-05-24 14:46:38:4638 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 326 - 234.538 ms[39m
+[35m[39m
+2025-05-24 14:49:21:4921 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:49:26:4926 [35mhttp[39m: [35m::1 POST /api/auth/signIn 400 432 - 243.680 ms[39m
+[35m[39m
+2025-05-24 14:49:35:4935 [35mhttp[39m: [35m::1 POST /api/auth/signIn 400 432 - 194.347 ms[39m
+[35m[39m
+2025-05-24 14:49:49:4949 [35mhttp[39m: [35m::1 POST /api/auth/signIn 400 432 - 182.387 ms[39m
+[35m[39m
+2025-05-24 14:50:05:505 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 14:50:34:5034 [35mhttp[39m: [35m::1 POST /api/auth/signIn 200 326 - 240.186 ms[39m
+[35m[39m
+2025-05-24 14:50:35:5035 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 198.771 ms[39m
+[35m[39m
+2025-05-24 16:33:36:3336 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 124.102 ms[39m
+[35m[39m
+2025-05-24 16:33:36:3336 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 186.509 ms[39m
+[35m[39m
+2025-05-24 16:33:51:3351 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 128.677 ms[39m
+[35m[39m
+2025-05-24 16:33:51:3351 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 187.589 ms[39m
+[35m[39m
+2025-05-24 16:39:55:3955 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 121.080 ms[39m
+[35m[39m
+2025-05-24 16:40:46:4046 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 117.338 ms[39m
+[35m[39m
+2025-05-24 16:40:47:4047 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 131.343 ms[39m
+[35m[39m
+2025-05-24 16:43:45:4345 [35mhttp[39m: [35m::1 GET /api/projects/675e13b673ca1c85b0f90238 200 287 - 81.213 ms[39m
+[35m[39m
+2025-05-24 16:48:07:487 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 133.771 ms[39m
+[35m[39m
+2025-05-24 16:48:59:4859 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 128.536 ms[39m
+[35m[39m
+2025-05-24 16:50:48:5048 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 133.316 ms[39m
+[35m[39m
+2025-05-24 16:51:06:516 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 121.346 ms[39m
+[35m[39m
+2025-05-24 16:51:14:5114 [35mhttp[39m: [35m::1 GET /api/projects/675a2f5009c8aafb30e46dd4 200 597 - 75.700 ms[39m
+[35m[39m
+2025-05-24 16:51:38:5138 [35mhttp[39m: [35m::1 GET /api/projects/6732b3dbd3052f6116500939 200 294 - 57.474 ms[39m
+[35m[39m
+2025-05-24 16:55:27:5527 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 178.598 ms[39m
+[35m[39m
+2025-05-24 16:57:02:572 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 18773.009 ms[39m
+[35m[39m
+2025-05-24 16:59:44:5944 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 1919.668 ms[39m
+[35m[39m
+2025-05-24 17:05:48:548 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 123.903 ms[39m
+[35m[39m
+2025-05-24 17:06:08:68 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 202.839 ms[39m
+[35m[39m
+2025-05-24 17:06:36:636 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 200 - - 65.383 ms[39m
+[35m[39m
+2025-05-24 17:06:46:646 [35mhttp[39m: [35m::1 GET /api/ideas/675a4333b1ee6a22f40fc968 200 - - 81.992 ms[39m
+[35m[39m
+2025-05-24 17:06:57:657 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 200 224 - 67.923 ms[39m
+[35m[39m
+2025-05-24 17:27:43:2743 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 189.485 ms[39m
+[35m[39m
+2025-05-24 17:28:55:2855 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 165.948 ms[39m
+[35m[39m
+2025-05-24 17:29:01:291 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 121.373 ms[39m
+[35m[39m
+2025-05-24 17:32:26:3226 [35mhttp[39m: [35m::1 POST /api/projects 400 106 - 85.702 ms[39m
+[35m[39m
+2025-05-24 17:32:49:3249 [35mhttp[39m: [35m::1 POST /api/projects 500 655 - 1287.962 ms[39m
+[35m[39m
+2025-05-24 17:34:23:3423 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:34:26:3426 [35mhttp[39m: [35m::1 POST /api/projects 500 655 - 1239.689 ms[39m
+[35m[39m
+2025-05-24 17:34:50:3450 [35mhttp[39m: [35m::1 POST /api/projects 400 - - 84.042 ms[39m
+[35m[39m
+2025-05-24 17:35:40:3540 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:35:43:3543 [35mhttp[39m: [35m::1 POST /api/projects 201 212 - 179.800 ms[39m
+[35m[39m
+2025-05-24 17:35:44:3544 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 133.928 ms[39m
+[35m[39m
+2025-05-24 17:37:03:373 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 126.419 ms[39m
+[35m[39m
+2025-05-24 17:37:12:3712 [35mhttp[39m: [35m::1 GET /api/projects/6831d93f77e757c81ec46c44 200 337 - 110.285 ms[39m
+[35m[39m
+2025-05-24 17:37:23:3723 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 200 - - 135.315 ms[39m
+[35m[39m
+2025-05-24 17:37:23:3723 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 199.504 ms[39m
+[35m[39m
+2025-05-24 17:37:25:3725 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 200 - - 117.917 ms[39m
+[35m[39m
+2025-05-24 17:37:59:3759 [35mhttp[39m: [35m::1 GET /api/projects/6831d93f77e757c81ec46c44 304 - - 72.530 ms[39m
+[35m[39m
+2025-05-24 17:38:26:3826 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:40:25:4025 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 1474.212 ms[39m
+[35m[39m
+2025-05-24 17:40:28:4028 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 225.771 ms[39m
+[35m[39m
+2025-05-24 17:40:36:4036 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 391.069 ms[39m
+[35m[39m
+2025-05-24 17:42:24:4224 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 138.649 ms[39m
+[35m[39m
+2025-05-24 17:42:24:4224 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 167.065 ms[39m
+[35m[39m
+2025-05-24 17:42:24:4224 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 121.090 ms[39m
+[35m[39m
+2025-05-24 17:42:25:4225 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 130.917 ms[39m
+[35m[39m
+2025-05-24 17:42:25:4225 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 145.828 ms[39m
+[35m[39m
+2025-05-24 17:42:25:4225 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 115.757 ms[39m
+[35m[39m
+2025-05-24 17:42:25:4225 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 129.392 ms[39m
+[35m[39m
+2025-05-24 17:42:36:4236 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:42:45:4245 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 153.770 ms[39m
+[35m[39m
+2025-05-24 17:42:48:4248 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=s 500 - - 10.557 ms[39m
+[35m[39m
+2025-05-24 17:42:48:4248 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=ss 500 - - 3.174 ms[39m
+[35m[39m
+2025-05-24 17:42:49:4249 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=s 500 - - 3.201 ms[39m
+[35m[39m
+2025-05-24 17:42:50:4250 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 115.945 ms[39m
+[35m[39m
+2025-05-24 17:42:50:4250 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=a 500 - - 3.055 ms[39m
+[35m[39m
+2025-05-24 17:42:51:4251 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 131.657 ms[39m
+[35m[39m
+2025-05-24 17:42:53:4253 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=t 500 - - 3.192 ms[39m
+[35m[39m
+2025-05-24 17:42:53:4253 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=ty 500 - - 3.126 ms[39m
+[35m[39m
+2025-05-24 17:43:33:4333 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:43:51:4351 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=t 500 - - 29.991 ms[39m
+[35m[39m
+2025-05-24 17:43:51:4351 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 130.320 ms[39m
+[35m[39m
+2025-05-24 17:43:52:4352 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=t 500 - - 3.025 ms[39m
+[35m[39m
+2025-05-24 17:43:53:4353 [35mhttp[39m: [35m::1 GET /api/projects/search?limit=12&page=1&q=ty 500 - - 2.782 ms[39m
+[35m[39m
+2025-05-24 17:44:21:4421 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 137.734 ms[39m
+[35m[39m
+2025-05-24 17:44:23:4423 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=t 200 - - 129.563 ms[39m
+[35m[39m
+2025-05-24 17:44:24:4424 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=ty 200 - - 118.586 ms[39m
+[35m[39m
+2025-05-24 17:44:50:4450 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyl 200 - - 116.710 ms[39m
+[35m[39m
+2025-05-24 17:44:50:4450 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyle 200 - - 116.520 ms[39m
+[35m[39m
+2025-05-24 17:44:50:4450 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyler 200 - - 120.297 ms[39m
+[35m[39m
+2025-05-24 17:47:12:4712 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:50:11:5011 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyle 304 - - 143.895 ms[39m
+[35m[39m
+2025-05-24 17:50:11:5011 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyler 304 - - 120.103 ms[39m
+[35m[39m
+2025-05-24 17:50:11:5011 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyler 304 - - 117.206 ms[39m
+[35m[39m
+2025-05-24 17:50:15:5015 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 126.604 ms[39m
+[35m[39m
+2025-05-24 17:53:09:539 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=t 304 - - 120.504 ms[39m
+[35m[39m
+2025-05-24 17:53:10:5310 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=ty 304 - - 134.015 ms[39m
+[35m[39m
+2025-05-24 17:53:10:5310 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyl 304 - - 128.742 ms[39m
+[35m[39m
+2025-05-24 17:53:10:5310 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyle 304 - - 120.237 ms[39m
+[35m[39m
+2025-05-24 17:53:11:5311 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&q=tyler 304 - - 114.658 ms[39m
+[35m[39m
+2025-05-24 17:53:27:5327 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:53:37:5337 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 119.377 ms[39m
+[35m[39m
+2025-05-24 17:54:32:5432 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 139.461 ms[39m
+[35m[39m
+2025-05-24 17:54:32:5432 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 116.590 ms[39m
+[35m[39m
+2025-05-24 17:57:50:5750 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 114.706 ms[39m
+[35m[39m
+2025-05-24 17:58:14:5814 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=t 200 45 - 125.598 ms[39m
+[35m[39m
+2025-05-24 17:58:14:5814 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=ty 200 45 - 113.438 ms[39m
+[35m[39m
+2025-05-24 17:58:50:5850 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:59:53:5953 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 17:59:58:5958 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:00:04:04 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:00:12:012 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=t 200 - - 131.373 ms[39m
+[35m[39m
+2025-05-24 18:00:12:012 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=ty 200 339 - 109.999 ms[39m
+[35m[39m
+2025-05-24 18:00:13:013 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=t 304 - - 111.345 ms[39m
+[35m[39m
+2025-05-24 18:00:14:014 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 115.039 ms[39m
+[35m[39m
+2025-05-24 18:00:16:016 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=g 200 - - 116.971 ms[39m
+[35m[39m
+2025-05-24 18:00:16:016 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=go 200 543 - 117.525 ms[39m
+[35m[39m
+2025-05-24 18:00:17:017 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=g 304 - - 125.778 ms[39m
+[35m[39m
+2025-05-24 18:00:18:018 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 110.337 ms[39m
+[35m[39m
+2025-05-24 18:00:22:022 [35mhttp[39m: [35m::1 GET /api/projects/675a2f5009c8aafb30e46dd4 304 - - 78.191 ms[39m
+[35m[39m
+2025-05-24 18:00:29:029 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 115.045 ms[39m
+[35m[39m
+2025-05-24 18:00:29:029 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 112.906 ms[39m
+[35m[39m
+2025-05-24 18:00:30:030 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 172.869 ms[39m
+[35m[39m
+2025-05-24 18:04:42:442 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:08:02:82 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 200 - - 141.551 ms[39m
+[35m[39m
+2025-05-24 18:08:02:82 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 200 - - 250.127 ms[39m
+[35m[39m
+2025-05-24 18:08:04:84 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 200 - - 114.899 ms[39m
+[35m[39m
+2025-05-24 18:08:10:810 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 200 - - 224.023 ms[39m
+[35m[39m
+2025-05-24 18:08:17:817 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=t 200 - - 116.950 ms[39m
+[35m[39m
+2025-05-24 18:08:17:817 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=ty 200 339 - 127.182 ms[39m
+[35m[39m
+2025-05-24 18:08:19:819 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=tyl 200 339 - 127.879 ms[39m
+[35m[39m
+2025-05-24 18:08:19:819 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=tyle 200 339 - 115.472 ms[39m
+[35m[39m
+2025-05-24 18:08:19:819 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=tyler 200 339 - 109.997 ms[39m
+[35m[39m
+2025-05-24 18:08:20:820 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=tyle 304 - - 128.435 ms[39m
+[35m[39m
+2025-05-24 18:08:20:820 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=tyl 304 - - 110.257 ms[39m
+[35m[39m
+2025-05-24 18:08:20:820 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=ty 304 - - 113.745 ms[39m
+[35m[39m
+2025-05-24 18:08:20:820 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=t 304 - - 108.806 ms[39m
+[35m[39m
+2025-05-24 18:08:21:821 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=2 200 838 - 110.015 ms[39m
+[35m[39m
+2025-05-24 18:08:27:827 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=2 304 - - 132.288 ms[39m
+[35m[39m
+2025-05-24 18:08:32:832 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=s 200 - - 117.459 ms[39m
+[35m[39m
+2025-05-24 18:08:33:833 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=st 200 - - 116.746 ms[39m
+[35m[39m
+2025-05-24 18:08:34:834 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=str 200 642 - 116.430 ms[39m
+[35m[39m
+2025-05-24 18:08:36:836 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=stre 200 642 - 128.619 ms[39m
+[35m[39m
+2025-05-24 18:08:57:857 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=s 304 - - 132.745 ms[39m
+[35m[39m
+2025-05-24 18:09:01:91 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=s 304 - - 137.891 ms[39m
+[35m[39m
+2025-05-24 18:09:01:91 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=ss 200 642 - 111.571 ms[39m
+[35m[39m
+2025-05-24 18:09:04:94 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=s 304 - - 109.670 ms[39m
+[35m[39m
+2025-05-24 18:09:11:911 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=a 200 - - 132.542 ms[39m
+[35m[39m
+2025-05-24 18:09:12:912 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1&keyword=aa 200 45 - 128.371 ms[39m
+[35m[39m
+2025-05-24 18:15:38:1538 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 109.476 ms[39m
+[35m[39m
+2025-05-24 18:15:39:1539 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 223.557 ms[39m
+[35m[39m
+2025-05-24 18:15:41:1541 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 121.075 ms[39m
+[35m[39m
+2025-05-24 18:15:42:1542 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 221.096 ms[39m
+[35m[39m
+2025-05-24 18:18:00:180 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 239.469 ms[39m
+[35m[39m
+2025-05-24 18:25:42:2542 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:30:07:307 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 267.088 ms[39m
+[35m[39m
+2025-05-24 18:30:18:3018 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 239.153 ms[39m
+[35m[39m
+2025-05-24 18:30:58:3058 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 239.000 ms[39m
+[35m[39m
+2025-05-24 18:31:23:3123 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=s 200 - - 263.338 ms[39m
+[35m[39m
+2025-05-24 18:31:24:3124 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 219.924 ms[39m
+[35m[39m
+2025-05-24 18:31:25:3125 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=w 200 - - 174.688 ms[39m
+[35m[39m
+2025-05-24 18:31:25:3125 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=wq 200 - - 172.897 ms[39m
+[35m[39m
+2025-05-24 18:31:36:3136 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas&keyword=wq 200 - - 250.899 ms[39m
+[35m[39m
+2025-05-24 18:32:00:320 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:32:43:3243 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:32:51:3251 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:33:55:3355 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:34:04:344 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 18:34:16:3416 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas&keyword=swq 200 65 - 201.098 ms[39m
+[35m[39m
+2025-05-24 18:34:17:3417 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas&keyword=wq 200 65 - 192.424 ms[39m
+[35m[39m
+2025-05-24 18:34:18:3418 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas 200 289 - 183.208 ms[39m
+[35m[39m
+2025-05-24 18:34:21:3421 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 248.474 ms[39m
+[35m[39m
+2025-05-24 18:34:24:3424 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=w 200 65 - 185.140 ms[39m
+[35m[39m
+2025-05-24 18:34:26:3426 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 221.151 ms[39m
+[35m[39m
+2025-05-24 18:34:29:3429 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%AA 200 - - 638.857 ms[39m
+[35m[39m
+2025-05-24 18:34:29:3429 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%AA%D8%B7 200 - - 337.148 ms[39m
+[35m[39m
+2025-05-24 18:34:31:3431 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 224.267 ms[39m
+[35m[39m
+2025-05-24 18:34:32:3432 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%B9 200 - - 246.368 ms[39m
+[35m[39m
+2025-05-24 18:34:32:3432 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%B9%D8%A8 200 - - 176.564 ms[39m
+[35m[39m
+2025-05-24 18:34:32:3432 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%B9%D8%A8%D8%B1 200 - - 174.348 ms[39m
+[35m[39m
+2025-05-24 18:34:38:3438 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%B9%D8%A8 304 - - 200.165 ms[39m
+[35m[39m
+2025-05-24 18:34:38:3438 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D8%B9 304 - - 178.165 ms[39m
+[35m[39m
+2025-05-24 18:34:38:3438 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 169.942 ms[39m
+[35m[39m
+2025-05-24 18:34:39:3439 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86 200 - - 191.329 ms[39m
+[35m[39m
+2025-05-24 18:34:39:3439 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86%D8%B3 200 65 - 168.513 ms[39m
+[35m[39m
+2025-05-24 18:34:39:3439 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86%D8%B3%D8%B9 200 65 - 211.374 ms[39m
+[35m[39m
+2025-05-24 18:34:39:3439 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86%D8%B3%D8%B9%D9%8A 200 65 - 192.394 ms[39m
+[35m[39m
+2025-05-24 18:34:40:3440 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86%D8%B3%D8%B9 304 - - 176.483 ms[39m
+[35m[39m
+2025-05-24 18:34:41:3441 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86%D8%B3 304 - - 202.714 ms[39m
+[35m[39m
+2025-05-24 18:34:42:3442 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&keyword=%D9%86 304 - - 261.751 ms[39m
+[35m[39m
+2025-05-24 18:34:42:3442 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 222.095 ms[39m
+[35m[39m
+2025-05-24 18:34:48:3448 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas 304 - - 194.006 ms[39m
+[35m[39m
+2025-05-24 18:34:50:3450 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 278.189 ms[39m
+[35m[39m
+2025-05-24 18:34:52:3452 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas 304 - - 188.248 ms[39m
+[35m[39m
+2025-05-24 18:34:56:3456 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 243.083 ms[39m
+[35m[39m
+2025-05-24 18:34:59:3459 [35mhttp[39m: [35m::1 GET /api/ideas?limit=5&page=1 200 - - 248.101 ms[39m
+[35m[39m
+2025-05-24 18:35:26:3526 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 218.366 ms[39m
+[35m[39m
+2025-05-24 18:35:33:3533 [35mhttp[39m: [35m::1 GET /api/ideas/673296097391f66e120d337d 200 - - 61.821 ms[39m
+[35m[39m
+2025-05-24 18:35:41:3541 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 270.813 ms[39m
+[35m[39m
+2025-05-24 18:35:41:3541 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 271.609 ms[39m
+[35m[39m
+2025-05-24 18:35:44:3544 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1&category=ideas 304 - - 403.893 ms[39m
+[35m[39m
+2025-05-24 18:35:47:3547 [35mhttp[39m: [35m::1 GET /api/ideas/675e150773ca1c85b0f90247 200 224 - 65.645 ms[39m
+[35m[39m
+2025-05-24 18:35:52:3552 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 244.739 ms[39m
+[35m[39m
+2025-05-24 18:35:52:3552 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 203.104 ms[39m
+[35m[39m
+2025-05-24 18:40:48:4048 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 6.819 ms[39m
+[35m[39m
+2025-05-24 18:40:54:4054 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 0.488 ms[39m
+[35m[39m
+2025-05-24 18:41:17:4117 [35mhttp[39m: [35m::1 GET /api/posts 404 1426 - 1.673 ms[39m
+[35m[39m
+2025-05-24 18:41:54:4154 [35mhttp[39m: [35m::1 GET /api/blog 200 - - 120.257 ms[39m
+[35m[39m
+2025-05-24 18:50:42:5042 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 0.824 ms[39m
+[35m[39m
+2025-05-24 18:50:58:5058 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 0.465 ms[39m
+[35m[39m
+2025-05-24 18:51:03:513 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 0.407 ms[39m
+[35m[39m
+2025-05-24 18:51:10:5110 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 0.668 ms[39m
+[35m[39m
+2025-05-24 18:51:33:5133 [35mhttp[39m: [35m::1 GET /api/posts?limit=10&page=1 404 1458 - 0.835 ms[39m
+[35m[39m
+2025-05-24 18:51:54:5154 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 200 - - 128.488 ms[39m
+[35m[39m
+2025-05-24 18:52:17:5217 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 115.578 ms[39m
+[35m[39m
+2025-05-24 18:52:49:5249 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 128.886 ms[39m
+[35m[39m
+2025-05-24 18:52:49:5249 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 107.412 ms[39m
+[35m[39m
+2025-05-24 18:53:09:539 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 118.393 ms[39m
+[35m[39m
+2025-05-24 18:59:00:590 [35mhttp[39m: [35m::1 GET /api/blog/671311ca5b689fa3a4efe424 200 - - 55.782 ms[39m
+[35m[39m
+2025-05-24 18:59:22:5922 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 112.393 ms[39m
+[35m[39m
+2025-05-24 19:00:05:05 [35mhttp[39m: [35m::1 GET /api/blog/671311ca5b689fa3a4efe424 304 - - 53.938 ms[39m
+[35m[39m
+2025-05-24 19:00:10:010 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 108.202 ms[39m
+[35m[39m
+2025-05-24 19:00:13:013 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=%D9%81 200 - - 126.048 ms[39m
+[35m[39m
+2025-05-24 19:00:14:014 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=%D9%81%D8%B3 200 - - 114.000 ms[39m
+[35m[39m
+2025-05-24 19:00:15:015 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=%D9%81%D8%B3%D8%B4 200 - - 113.982 ms[39m
+[35m[39m
+2025-05-24 19:00:15:015 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=%D9%81%D8%B3 304 - - 115.136 ms[39m
+[35m[39m
+2025-05-24 19:00:15:015 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=%D9%81 304 - - 109.152 ms[39m
+[35m[39m
+2025-05-24 19:00:15:015 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 113.572 ms[39m
+[35m[39m
+2025-05-24 19:00:55:055 [35mhttp[39m: [35m::1 GET /api/blog/671311ca5b689fa3a4efe424 304 - - 67.536 ms[39m
+[35m[39m
+2025-05-24 19:01:11:111 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 108.599 ms[39m
+[35m[39m
+2025-05-24 19:02:41:241 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 19:02:47:247 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 124.638 ms[39m
+[35m[39m
+2025-05-24 19:02:48:248 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 113.340 ms[39m
+[35m[39m
+2025-05-24 19:02:50:250 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=t 200 - - 123.489 ms[39m
+[35m[39m
+2025-05-24 19:02:51:251 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 126.110 ms[39m
+[35m[39m
+2025-05-24 19:02:51:251 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=w 200 - - 114.843 ms[39m
+[35m[39m
+2025-05-24 19:02:51:251 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=ww 200 - - 124.830 ms[39m
+[35m[39m
+2025-05-24 19:02:52:252 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=wwq 200 - - 128.307 ms[39m
+[35m[39m
+2025-05-24 19:03:48:348 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 19:03:55:355 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=wwqa 200 42 - 158.288 ms[39m
+[35m[39m
+2025-05-24 19:03:56:356 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=wwq 200 42 - 112.441 ms[39m
+[35m[39m
+2025-05-24 19:03:56:356 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=ww 200 42 - 108.864 ms[39m
+[35m[39m
+2025-05-24 19:03:56:356 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=w 304 - - 119.363 ms[39m
+[35m[39m
+2025-05-24 19:03:57:357 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 114.127 ms[39m
+[35m[39m
+2025-05-24 19:03:58:358 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=w 304 - - 116.945 ms[39m
+[35m[39m
+2025-05-24 19:03:58:358 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=we 200 - - 146.382 ms[39m
+[35m[39m
+2025-05-24 19:03:59:359 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=weq 200 42 - 113.019 ms[39m
+[35m[39m
+2025-05-24 19:04:00:40 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=we 304 - - 113.549 ms[39m
+[35m[39m
+2025-05-24 19:04:02:42 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=w 304 - - 131.004 ms[39m
+[35m[39m
+2025-05-24 19:04:02:42 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 111.180 ms[39m
+[35m[39m
+2025-05-24 19:04:04:44 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=s 200 - - 135.296 ms[39m
+[35m[39m
+2025-05-24 19:04:05:45 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=su 200 - - 229.205 ms[39m
+[35m[39m
+2025-05-24 19:04:06:46 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=sum 200 - - 118.838 ms[39m
+[35m[39m
+2025-05-24 19:04:06:46 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=summ 200 - - 113.981 ms[39m
+[35m[39m
+2025-05-24 19:04:07:47 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=summa 200 - - 129.524 ms[39m
+[35m[39m
+2025-05-24 19:04:18:418 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=summaa 200 42 - 125.646 ms[39m
+[35m[39m
+2025-05-24 19:04:20:420 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=summa 304 - - 193.734 ms[39m
+[35m[39m
+2025-05-24 19:04:20:420 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=summ 304 - - 113.126 ms[39m
+[35m[39m
+2025-05-24 19:04:20:420 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=sum 304 - - 112.396 ms[39m
+[35m[39m
+2025-05-24 19:04:21:421 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=su 304 - - 111.625 ms[39m
+[35m[39m
+2025-05-24 19:04:21:421 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=s 304 - - 120.355 ms[39m
+[35m[39m
+2025-05-24 19:04:21:421 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 127.429 ms[39m
+[35m[39m
+2025-05-24 19:04:23:423 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=w 304 - - 116.466 ms[39m
+[35m[39m
+2025-05-24 19:04:24:424 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=we 304 - - 192.433 ms[39m
+[35m[39m
+2025-05-24 19:04:25:425 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=weq 304 - - 173.614 ms[39m
+[35m[39m
+2025-05-24 19:04:26:426 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 114.177 ms[39m
+[35m[39m
+2025-05-24 19:04:26:426 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=t 304 - - 108.710 ms[39m
+[35m[39m
+2025-05-24 19:04:27:427 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=ti 200 - - 110.516 ms[39m
+[35m[39m
+2025-05-24 19:04:27:427 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=til 200 - - 113.005 ms[39m
+[35m[39m
+2025-05-24 19:04:27:427 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=ti 304 - - 112.986 ms[39m
+[35m[39m
+2025-05-24 19:04:27:427 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=tit 200 - - 114.344 ms[39m
+[35m[39m
+2025-05-24 19:04:28:428 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=titl 200 - - 121.353 ms[39m
+[35m[39m
+2025-05-24 19:04:28:428 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=title 200 - - 165.809 ms[39m
+[35m[39m
+2025-05-24 19:04:29:429 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 116.500 ms[39m
+[35m[39m
+2025-05-24 19:04:37:437 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 114.258 ms[39m
+[35m[39m
+2025-05-24 19:04:37:437 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 110.544 ms[39m
+[35m[39m
+2025-05-24 19:04:39:439 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=legacy 200 - - 133.373 ms[39m
+[35m[39m
+2025-05-24 19:04:40:440 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=legacys 200 42 - 126.568 ms[39m
+[35m[39m
+2025-05-24 19:04:41:441 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1&keyword=legacy 304 - - 131.575 ms[39m
+[35m[39m
+2025-05-24 19:04:42:442 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 132.272 ms[39m
+[35m[39m
+2025-05-24 19:05:00:50 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 19:05:05:55 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=2 200 42 - 145.117 ms[39m
+[35m[39m
+2025-05-24 19:05:24:524 [35mhttp[39m: [35m::1 GET /api/blog?limit=10&page=1 304 - - 118.580 ms[39m
+[35m[39m
+2025-05-24 19:05:29:529 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 115.943 ms[39m
+[35m[39m
+2025-05-24 19:05:29:529 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 228.081 ms[39m
+[35m[39m
+2025-05-24 19:05:30:530 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 116.385 ms[39m
+[35m[39m
+2025-05-24 19:05:40:540 [35mhttp[39m: [35m::1 GET /api/projects?limit=12&page=1 304 - - 109.274 ms[39m
+[35m[39m
+2025-05-24 23:37:36:3736 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-24 23:37:54:3754 [35mhttp[39m: [35m::1 GET /api/projects?limit=3&page=1&fields=id,name,description,image,price,category,createdAt 304 - - 191.649 ms[39m
+[35m[39m
+2025-05-24 23:37:54:3754 [35mhttp[39m: [35m::1 GET /api/ideas?limit=3&page=1&fields=id,name,description,category,content,createdAt,updatedAt 304 - - 332.882 ms[39m
+[35m[39m
+2025-05-24 23:38:22:3822 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 248.385 ms[39m
+[35m[39m
+2025-05-24 23:38:34:3834 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 347 - 275.808 ms[39m
+[35m[39m
+2025-05-24 23:38:56:3856 [35mhttp[39m: [35m::1 GET /api/users/675bc568da2e6a8aa1a741d2 200 135 - 131.217 ms[39m
+[35m[39m
+2025-05-24 23:47:26:4726 [35mhttp[39m: [35m::1 GET /api/users/675bc568da2e6a8aa1a741d2 304 - - 118.353 ms[39m
+[35m[39m
+2025-05-24 23:48:20:4820 [35mhttp[39m: [35m::1 GET /api/users/675bc568da2e6a8aa1a741d2 304 - - 113.740 ms[39m
+[35m[39m
+2025-05-24 23:48:37:4837 [35mhttp[39m: [35m::1 PATCH /api/users/675bc568da2e6a8aa1a741d2 200 140 - 180.933 ms[39m
+[35m[39m
+2025-05-24 23:48:37:4837 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 352 - 165.825 ms[39m
+[35m[39m
+2025-05-24 23:48:48:4848 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 139.669 ms[39m
+[35m[39m
+2025-05-24 23:49:05:495 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 237.408 ms[39m
+[35m[39m
+2025-05-24 23:50:45:5045 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 224.853 ms[39m
+[35m[39m
+2025-05-24 23:50:49:5049 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 254.691 ms[39m
+[35m[39m
+2025-05-24 23:51:23:5123 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 231.442 ms[39m
+[35m[39m
+2025-05-24 23:51:27:5127 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 249.382 ms[39m
+[35m[39m
+2025-05-24 23:52:09:529 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 244.462 ms[39m
+[35m[39m
+2025-05-24 23:52:45:5245 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 261.131 ms[39m
+[35m[39m
+2025-05-24 23:55:40:5540 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 233.773 ms[39m
+[35m[39m
+2025-05-24 23:56:15:5615 [35mhttp[39m: [35m::1 GET /api/ideas?limit=10&page=1 304 - - 260.877 ms[39m
+[35m[39m
+2025-05-25 00:01:30:130 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 304 - - 130.551 ms[39m
+[35m[39m
+2025-05-25 00:02:06:26 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 182.289 ms[39m
+[35m[39m
+2025-05-25 00:02:13:213 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 168.429 ms[39m
+[35m[39m
+2025-05-25 00:02:17:217 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=l 500 1692 - 84.921 ms[39m
+[35m[39m
+2025-05-25 00:02:20:220 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85 500 1692 - 74.830 ms[39m
+[35m[39m
+2025-05-25 00:02:20:220 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD 500 1692 - 161.069 ms[39m
+[35m[39m
+2025-05-25 00:02:20:220 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD%D9%85 500 1692 - 67.205 ms[39m
+[35m[39m
+2025-05-25 00:02:23:223 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD 500 1692 - 73.186 ms[39m
+[35m[39m
+2025-05-25 00:02:23:223 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85 500 1692 - 75.870 ms[39m
+[35m[39m
+2025-05-25 00:02:29:229 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=r 500 1692 - 122.808 ms[39m
+[35m[39m
+2025-05-25 00:02:29:229 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ra 500 1692 - 63.750 ms[39m
+[35m[39m
+2025-05-25 00:02:29:229 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ram 500 1692 - 89.323 ms[39m
+[35m[39m
+2025-05-25 00:02:30:230 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=rama 500 1692 - 71.879 ms[39m
+[35m[39m
+2025-05-25 00:02:30:230 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ramad 500 1692 - 63.043 ms[39m
+[35m[39m
+2025-05-25 00:02:30:230 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ramada 500 1692 - 85.637 ms[39m
+[35m[39m
+2025-05-25 00:02:30:230 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ramadan 500 1692 - 66.976 ms[39m
+[35m[39m
+2025-05-25 00:02:37:237 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=s 500 1692 - 61.586 ms[39m
+[35m[39m
+2025-05-25 00:06:14:614 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
+2025-05-25 00:06:28:628 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=l 500 1692 - 94.498 ms[39m
+[35m[39m
+2025-05-25 00:06:30:630 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=r 500 1692 - 85.008 ms[39m
+[35m[39m
+2025-05-25 00:06:30:630 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ra 500 1692 - 66.760 ms[39m
+[35m[39m
+2025-05-25 00:06:30:630 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=ram 500 1692 - 74.092 ms[39m
+[35m[39m
+2025-05-25 00:06:31:631 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=rama 500 1692 - 64.674 ms[39m
+[35m[39m
+2025-05-25 00:06:32:632 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85 500 1692 - 87.967 ms[39m
+[35m[39m
+2025-05-25 00:06:32:632 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD 500 1692 - 67.462 ms[39m
+[35m[39m
+2025-05-25 00:06:33:633 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD%D9%85 500 1692 - 99.715 ms[39m
+[35m[39m
+2025-05-25 00:06:33:633 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD%D9%85%D8%AF 500 1692 - 61.780 ms[39m
+[35m[39m
+2025-05-25 00:06:37:637 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 192.371 ms[39m
+[35m[39m
+2025-05-25 00:06:41:641 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 200 352 - 171.859 ms[39m
+[35m[39m
+2025-05-25 00:06:59:659 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85 500 1692 - 81.422 ms[39m
+[35m[39m
+2025-05-25 00:07:00:70 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD 500 1692 - 77.900 ms[39m
+[35m[39m
+2025-05-25 00:07:00:70 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD%D9%85 500 1692 - 62.741 ms[39m
+[35m[39m
+2025-05-25 00:07:01:71 [35mhttp[39m: [35m::1 GET /api/users/search?fullName=%D9%85%D8%AD%D9%85%D8%AF 500 1692 - 59.334 ms[39m
+[35m[39m
+2025-05-25 00:07:48:748 [35mhttp[39m: [35m::1 GET /api/users?limit=10&page=1 304 - - 183.983 ms[39m
+[35m[39m
+2025-05-25 00:07:49:749 [35mhttp[39m: [35m::1 GET /api/users?fullName=l 200 42 - 170.681 ms[39m
+[35m[39m
+2025-05-25 00:07:50:750 [35mhttp[39m: [35m::1 GET /api/users?fullName=lp 200 42 - 168.062 ms[39m
+[35m[39m
+2025-05-25 00:07:50:750 [35mhttp[39m: [35m::1 GET /api/users?fullName=lpl 200 42 - 176.547 ms[39m
+[35m[39m
+2025-05-25 00:07:51:751 [35mhttp[39m: [35m::1 GET /api/users?fullName=%D9%85 200 211 - 188.759 ms[39m
+[35m[39m
+2025-05-25 00:07:51:751 [35mhttp[39m: [35m::1 GET /api/users?fullName=%D9%85%D8%AD 200 211 - 175.235 ms[39m
+[35m[39m
+2025-05-25 00:07:52:752 [35mhttp[39m: [35m::1 GET /api/users?fullName=%D9%85%D8%AD%D9%85 200 211 - 193.337 ms[39m
+[35m[39m
+2025-05-25 00:07:52:752 [35mhttp[39m: [35m::1 GET /api/users?fullName=%D9%85%D8%AD%D9%85%D8%AF 200 211 - 171.877 ms[39m
+[35m[39m
+2025-05-25 00:07:52:752 [35mhttp[39m: [35m::1 GET /api/users?fullName=%D9%85%D8%AD%D9%85%D8%AF 304 - - 188.341 ms[39m
+[35m[39m
+2025-05-25 00:07:55:755 [35mhttp[39m: [35m::1 GET /api/users?fullName=t 200 182 - 185.435 ms[39m
+[35m[39m
+2025-05-25 00:07:55:755 [35mhttp[39m: [35m::1 GET /api/users?fullName=te 200 182 - 188.068 ms[39m
+[35m[39m
+2025-05-25 00:07:55:755 [35mhttp[39m: [35m::1 GET /api/users?fullName=tes 200 182 - 173.677 ms[39m
+[35m[39m
+2025-05-25 00:07:55:755 [35mhttp[39m: [35m::1 GET /api/users?fullName=test 200 182 - 180.972 ms[39m
+[35m[39m
+2025-05-25 00:08:07:87 [35mhttp[39m: [35m::1 GET /api/users/672eb8d2f4bc3f14710562dc 200 169 - 119.411 ms[39m
+[35m[39m
+2025-05-25 00:08:15:815 [35mhttp[39m: [35m::1 GET /api/projects?limit=10&page=1 200 - - 137.325 ms[39m
+[35m[39m
+2025-05-25 00:09:39:939 [32minfo[39m: [32mServer in development mode started successfully using port 8080[39m
