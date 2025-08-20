@@ -8,12 +8,11 @@ const postController_1 = __importDefault(require("../controllers/postController"
 const validate_1 = require("../middlewares/validate");
 const postValidator_1 = require("../validators/postValidator");
 const auth_1 = require("../middlewares/auth");
-const multer_1 = __importDefault(require("multer"));
+const uploadFile_1 = require("../middlewares/uploadFile");
 const router = express_1.default.Router();
-const upload = (0, multer_1.default)({ storage: multer_1.default.memoryStorage() });
-router.post("/", auth_1.authenticate, upload.single("image"), (0, validate_1.validate)(postValidator_1.createPostSchema), postController_1.default.createPost);
+router.post("/", auth_1.authenticate, uploadFile_1.upload.single("image"), (0, validate_1.validate)(postValidator_1.createPostSchema), postController_1.default.createPost);
 router.get("/", postController_1.default.getPosts);
 router.get("/:id", postController_1.default.getPostById);
-router.patch("/:id", auth_1.authenticate, upload.single("image"), (0, validate_1.validate)(postValidator_1.updatePostSchema), postController_1.default.updatePost);
+router.patch("/:id", auth_1.authenticate, uploadFile_1.upload.single("image"), (0, validate_1.validate)(postValidator_1.updatePostSchema), postController_1.default.updatePost);
 router.delete("/:id", auth_1.authenticate, postController_1.default.deletePost);
 exports.default = router;

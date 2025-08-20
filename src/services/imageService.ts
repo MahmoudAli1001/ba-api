@@ -1,43 +1,40 @@
-import { DeleteObjectCommand } from "@aws-sdk/client-s3";
-
-import { config } from "../config/environment";
-import uploadFile from "../middlewares/uploadFile";
+import cloudinaryUpload, { deleteFile, getPublicIdFromUrl } from "../utils/cloudinaryUpload";
 import AppError from "../utils/appError";
-import s3Client from "../config/s3Config";
 
 export class ImageService {
-  async uploadImage(file: Express.Multer.File): Promise<string> {
+  async uploadImage(file: Express.Multer.File, folder?: string): Promise<string> {
     try {
-      const result = await uploadFile(file);
-      return result.Location;
+      const result = await cloudinaryUpload(file, folder);
+      return result.secure_url;
     } catch (error) {
-      console.error("Error uploading image to S3:", error);
+      console.error("Error uploading image to Cloudinary:", error);
       throw new AppError("Failed to upload image", 500);
     }
   }
 
-  async deleteImage(key: string): Promise<void> {
-    const deleteParams = {
-      Bucket: config.aws.S3_BUCKET_NAME,
-      Key: key,
-    };
-
+  async deleteImage(publicIdOrUrl: string): Promise<void> {
     try {
-      const command = new DeleteObjectCommand(deleteParams);
-      await s3Client.send(command);
+      // If it's a URL, extract the public_id
+      const publicId = publicIdOrUrl.includes('cloudinary.com') 
+        ? getPublicIdFromUrl(publicIdOrUrl) 
+        : publicIdOrUrl;
+      
+      await deleteFile(publicId);
     } catch (error) {
-      console.error("Error deleting image from S3:", error);
+      console.error("Error deleting image from Cloudinary:", error);
       throw new AppError("Failed to delete image", 500);
     }
   }
 
-  getImageUrl(key: string): string {
-    return `https://${config.aws.S3_BUCKET_NAME}.s3.${config.aws.REGION}.amazonaws.com/${key}`;
+  getImageUrl(publicId: string): string {
+    // For Cloudinary, we don't need to construct URLs manually
+    // The upload function already returns the full URL
+    return publicId;
   }
 
   getKeyFromUrl(url: string): string {
-    const baseUrl = `https://${config.aws.S3_BUCKET_NAME}.s3.${config.aws.REGION}.amazonaws.com/`;
-    return url.replace(baseUrl, "");
+    // Extract public_id from Cloudinary URL
+    return getPublicIdFromUrl(url);
   }
 }
 

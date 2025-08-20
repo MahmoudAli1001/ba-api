@@ -23,10 +23,20 @@ class BlogService {
             return this.createBlogResponse(newBlog);
         });
     }
-    getBlogs(page, limit) {
+    getBlogs(page, limit, keyword) {
         return __awaiter(this, void 0, void 0, function* () {
-            const total = yield Blog_1.default.countDocuments();
-            const blogs = yield Blog_1.default.find()
+            const filter = {};
+            // Handle keyword filtering
+            if (keyword && typeof keyword === "string" && keyword.trim() !== "") {
+                const regex = new RegExp(keyword, "i");
+                filter.$or = [
+                    { title: { $regex: regex } },
+                    { summary: { $regex: regex } },
+                    { "content.content.text": { $regex: regex } },
+                ];
+            }
+            const total = yield Blog_1.default.countDocuments(filter);
+            const blogs = yield Blog_1.default.find(filter)
                 .sort({ time: -1 })
                 .skip((page - 1) * limit)
                 .limit(limit);

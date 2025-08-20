@@ -16,7 +16,8 @@ export class BlogController {
   async getBlogs(req: Request, res: Response, next: NextFunction) {
     try {
       const { page, limit, keyword } = req.query;
-      const result = await BlogService.getBlogs(Number(page) || 1, Number(limit) || 10, keyword || "");
+      const keywordStr = typeof keyword === 'string' ? keyword : '';
+      const result = await BlogService.getBlogs(Number(page) || 1, Number(limit) || 10, keywordStr);
       res.status(200).json(result);
     } catch (error) {
       next(error);

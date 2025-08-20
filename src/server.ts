@@ -14,8 +14,14 @@ process.on('uncaughtException', (err: Error) => {
   process.exit(1);
 });
 
-// Connect to database
-connectDatabase();
+// Database connection
+connectDatabase().then(() => {
+  Logger.info('Database connected successfully');
+});
+
+console.log('🔗 Initializing database connection...');
+console.log(`📚 Swagger documentation available at: http://localhost:${PORT}/api-docs`);
+console.log('🌐 API endpoints available for testing\n');
 
 const server = app.listen(PORT, () => {
   Logger.info(

@@ -23,14 +23,25 @@ class IdeaClubService {
             return this.createIdeaClubResponse(newIdea);
         });
     }
-    getIdeaClubs(page, limit) {
+    getIdeaClubs(page, limit, category, keyword) {
         return __awaiter(this, void 0, void 0, function* () {
-            const total = yield IdeaClub_1.default.countDocuments();
-            const ideas = yield IdeaClub_1.default.find()
+            // Build dynamic filter
+            const filter = {};
+            if (category && typeof category === "string" && category !== "all") {
+                filter.category = category;
+            }
+            if (keyword && typeof keyword === "string" && keyword.trim() !== "") {
+                const regex = new RegExp(keyword, "i");
+                filter.$or = [{ name: { $regex: regex } }, { description: { $regex: regex } }];
+            }
+            const categories = yield IdeaClub_1.default.distinct("category");
+            const total = yield IdeaClub_1.default.countDocuments(filter);
+            const ideas = yield IdeaClub_1.default.find(filter)
                 .skip((page - 1) * limit)
                 .limit(limit);
             return {
                 ideas: ideas.map(this.createIdeaClubResponse),
+                categories,
                 total,
                 page,
                 limit,

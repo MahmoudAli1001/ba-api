@@ -17,7 +17,9 @@ process.on('uncaughtException', (err) => {
     process.exit(1);
 });
 // Connect to database
-(0, database_1.connectDatabase)();
+(0, database_1.connectDatabase)().then(() => {
+    logger_1.default.info('Database connected successfully');
+});
 const server = app_1.default.listen(PORT, () => {
     logger_1.default.info(`Server in ${environment_1.config.nodeEnv} mode started successfully using port ${PORT}`);
     console.log(`Server running in ${environment_1.config.nodeEnv} mode on port ${PORT}`);

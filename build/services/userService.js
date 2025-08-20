@@ -33,10 +33,15 @@ class UserService {
             return this.createUserResponse(newUser);
         });
     }
-    getUsers(page, limit) {
+    getUsers(page, limit, fullName) {
         return __awaiter(this, void 0, void 0, function* () {
-            const total = yield User_1.default.countDocuments();
-            const users = yield User_1.default.find()
+            const filter = {};
+            // Apply case-insensitive full name search if provided
+            if (fullName && fullName.trim() !== "") {
+                filter.fullName = { $regex: new RegExp(fullName, "i") };
+            }
+            const total = yield User_1.default.countDocuments(filter);
+            const users = yield User_1.default.find(filter)
                 .skip((page - 1) * limit)
                 .limit(limit);
             return {

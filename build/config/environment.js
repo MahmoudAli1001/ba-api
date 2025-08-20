@@ -12,10 +12,10 @@ exports.config = {
     mongoUri: process.env.MONGO_URI || "mongodb://localhost:27017/business-arabic",
     jwtSecret: process.env.JWT_SECRET || "",
     maxImageSize: 5 * 1024 * 1024,
-    aws: {
-        ACCESS_KEY_ID: process.env.AWS_ACCESS_KEY_ID || "",
-        SECRET_ACCESS_KEY: process.env.AWS_SECRET_ACCESS_KEY || "",
-        REGION: process.env.AWS_REGION || "",
-        S3_BUCKET_NAME: process.env.AWS_S3_BUCKET_NAME || "",
+    cloudinary: {
+        CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME || "",
+        API_KEY: process.env.CLOUDINARY_API_KEY || "",
+        API_SECRET: process.env.CLOUDINARY_API_SECRET || "",
+        FOLDER: process.env.CLOUDINARY_FOLDER || "business-arabic-api",
     },
 };

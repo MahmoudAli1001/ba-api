@@ -3,18 +3,23 @@ import cors from "cors";
 import express, { Request, Response, NextFunction } from "express";
 
 import { config } from "./config/environment";
+import { setupSwagger } from "./config/swagger";
 import globalErrorHandler from "./controllers/errorController";
 import morganMiddleware from "./middlewares/loggingMiddleware";
 import authRoutes from "./routes/authRoutes";
-import mediaRoute from "./routes/mediaRoutes";
+import mediaRoutes from "./routes/mediaRoutes";
 import usersRoutes from "./routes/userRoutes";
 import blogRoutes from "./routes/blogRoutes";
 import ideasRoutes from "./routes/ideasRoutes";
 import projectsRoutes from "./routes/projectsRoutes";
+import feasibilityStudyRoutes from "./routes/feasibilityStudyRoutes";
 
 import AppError from "./utils/appError";
 
 const app = express();
+
+// Setup Swagger documentation
+setupSwagger(app);
 
 app.use(
   cors({
@@ -28,6 +33,30 @@ app.use(morganMiddleware);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Root route
+app.get("/", (req: Request, res: Response) => {
+  res.status(200).json({
+    message: "Welcome to Business Arabic API",
+    version: "1.0.0",
+    status: "running",
+    endpoints: {
+      health: "/health",
+      auth: "/api/auth",
+      users: "/api/users", 
+      blog: "/api/blog",
+      media: "/api/media",
+      ideas: "/api/ideas",
+      projects: "/api/projects",
+      feasibilityStudies: "/api/feasibility-studies"
+    },
+    documentation: {
+      swagger: "/api-docs",
+      github: "https://github.com/Mohammedramadan99/ba-api"
+    },
+    timestamp: new Date().toISOString()
+  });
+});
+
 app.get("/health", (req: Request, res: Response) => {
   res.status(200).json({
     status: "OK",
@@ -40,9 +69,10 @@ app.get("/health", (req: Request, res: Response) => {
 app.use("/api/auth", authRoutes);
 app.use("/api/users", usersRoutes);
 app.use("/api/blog", compression(), blogRoutes);
-app.use("/api/media", mediaRoute);
+app.use("/api/media", mediaRoutes);
 app.use("/api/ideas", compression(), ideasRoutes);
 app.use("/api/projects", compression(), projectsRoutes);
+app.use("/api/feasibility-studies", compression(), feasibilityStudyRoutes);
 
 app.all("*", (req: Request, res: Response, next: NextFunction) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));

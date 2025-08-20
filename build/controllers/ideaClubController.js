@@ -37,8 +37,10 @@ class IdeaClubController {
     getIdeaClubs(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const { page, limit } = req.query;
-                const result = yield ideaClubService_1.default.getIdeaClubs(Number(page) || 1, Number(limit) || 10);
+                const { page, limit, category, keyword } = req.query;
+                const categoryStr = typeof category === 'string' ? category : '';
+                const keywordStr = typeof keyword === 'string' ? keyword : '';
+                const result = yield ideaClubService_1.default.getIdeaClubs(Number(page) || 1, Number(limit) || 10, categoryStr, keywordStr);
                 res.status(200).json(result);
             }
             catch (error) {

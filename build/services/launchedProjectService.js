@@ -22,10 +22,15 @@ class LaunchedProjectService {
             return this.createLaunchedProjectResponse(newProject);
         });
     }
-    getLaunchedProjects(page, limit) {
+    getLaunchedProjects(page, limit, keyword) {
         return __awaiter(this, void 0, void 0, function* () {
-            const total = yield LaunchedProject_1.default.countDocuments();
-            const projects = yield LaunchedProject_1.default.find()
+            const filter = {};
+            if (keyword && typeof keyword === "string") {
+                const regex = new RegExp(keyword, "i");
+                filter.$or = [{ name: { $regex: regex } }, { description: { $regex: regex } }];
+            }
+            const total = yield LaunchedProject_1.default.countDocuments(filter);
+            const projects = yield LaunchedProject_1.default.find(filter)
                 .skip((page - 1) * limit)
                 .limit(limit);
             return {
@@ -70,7 +75,7 @@ class LaunchedProjectService {
             category: project.category,
             image: project.image,
             price: project.price,
-            createdAt: project.createdAt
+            createdAt: project.createdAt,
         };
     }
 }

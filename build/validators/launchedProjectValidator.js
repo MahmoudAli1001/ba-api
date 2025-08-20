@@ -6,7 +6,7 @@ exports.createLaunchedProjectSchema = zod_1.z.object({
     name: zod_1.z.string().min(1, "Name is required").max(200, "Name must be 200 characters or less"),
     description: zod_1.z.string().min(1, "Description is required"),
     category: zod_1.z.string().min(1, 'Category is required'),
-    image: zod_1.z.string().url("Invalid image URL").optional(),
+    // image: z.string().url("Invalid image URL").optional(),
     price: zod_1.z.string().min(1, "Price is required"),
 });
 exports.updateLaunchedProjectSchema = zod_1.z.object({

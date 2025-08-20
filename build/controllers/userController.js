@@ -30,8 +30,8 @@ class UserController {
     getUsers(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const { page, limit } = req.query;
-                const result = yield userService_1.default.getUsers(Number(page) || 1, Number(limit) || 10);
+                const { page, limit, fullName } = req.query;
+                const result = yield userService_1.default.getUsers(Number(page) || 1, Number(limit) || 10, fullName || "");
                 res.status(200).json(result);
             }
             catch (error) {

@@ -44,7 +44,7 @@ class AuthService {
             }
             const isPasswordValid = yield user.comparePassword(password);
             if (!isPasswordValid) {
-                throw new appError_1.default("Invalid credentials", 401);
+                throw new appError_1.default("Invalid credentials", 400);
             }
             const token = (0, jwt_1.generateToken)(user._id.toString());
             return this.createAuthResponse(user, token);

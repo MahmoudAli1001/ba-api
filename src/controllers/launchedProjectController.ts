@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { CreateLaunchedProjectDto, UpdateLaunchedProjectDto } from "../dtos/launchedProjectsDto";
 import LaunchedProjectService from "../services/launchedProjectService";
-import uploadToS3 from "../utils/fileUpload";
+import uploadFile from "../utils/cloudinaryUpload";
 import AppError from "../utils/appError";
 
 export class LaunchedProjectController {
@@ -12,8 +12,8 @@ export class LaunchedProjectController {
       if (!file) {
         throw new AppError("File is required", 400);
       }
-      const { Key, Location } = await uploadToS3(file, "project");
-      createLaunchedProjectDto.image = Location;
+      const uploadResult = await uploadFile(file, "projects");
+      createLaunchedProjectDto.image = uploadResult.secure_url;
       const result = await LaunchedProjectService.createLaunchedProject(createLaunchedProjectDto);
       res.status(201).json(result);
     } catch (error) {
@@ -24,10 +24,11 @@ export class LaunchedProjectController {
   async getLaunchedProjects(req: Request, res: Response, next: NextFunction) {
     try {
       const { page, limit, keyword } = req.query;
+      const keywordStr = typeof keyword === 'string' ? keyword : '';
       const result = await LaunchedProjectService.getLaunchedProjects(
         Number(page) || 1,
         Number(limit) || 10,
-        keyword || "" 
+        keywordStr
       );
       res.status(200).json(result);
     } catch (error) {
@@ -51,8 +52,8 @@ export class LaunchedProjectController {
       const file = req.file;
       const updateLaunchedProjectDto: UpdateLaunchedProjectDto = req.body;
       if (file) {
-        const { Key, Location } = await uploadToS3(file, "project");
-        updateLaunchedProjectDto.image = Location;
+        const uploadResult = await uploadFile(file, "projects");
+        updateLaunchedProjectDto.image = uploadResult.secure_url;
       }
 
       const result = await LaunchedProjectService.updateLaunchedProject(id, updateLaunchedProjectDto);

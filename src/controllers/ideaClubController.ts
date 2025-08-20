@@ -24,11 +24,13 @@ export class IdeaClubController {
   async getIdeaClubs(req: Request, res: Response, next: NextFunction) {
     try {
       const { page, limit, category, keyword } = req.query;
+      const categoryStr = typeof category === 'string' ? category : '';
+      const keywordStr = typeof keyword === 'string' ? keyword : '';
       const result = await IdeaClubService.getIdeaClubs(
         Number(page) || 1,
         Number(limit) || 10,
-        category || "",
-        keyword || ""
+        categoryStr,
+        keywordStr
       );
       res.status(200).json(result);
     } catch (error) {

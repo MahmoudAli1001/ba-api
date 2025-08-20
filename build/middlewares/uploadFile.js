@@ -12,28 +12,59 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const client_s3_1 = require("@aws-sdk/client-s3");
+exports.upload = void 0;
+const multer_1 = __importDefault(require("multer"));
+const cloudinaryConfig_1 = __importDefault(require("../config/cloudinaryConfig"));
 const environment_1 = require("../config/environment");
-const s3Config_1 = __importDefault(require("../config/s3Config"));
-const uploadFile = (file) => __awaiter(void 0, void 0, void 0, function* () {
-    const params = {
-        Bucket: environment_1.config.aws.S3_BUCKET_NAME,
-        Key: `${Date.now()}-${file.originalname}`,
-        Body: file.buffer,
-        ContentType: file.mimetype,
-    };
+// Multer configuration for memory storage
+const storage = multer_1.default.memoryStorage();
+// File filter to accept only images
+const fileFilter = (req, file, cb) => {
+    if (file.mimetype.startsWith('image/')) {
+        cb(null, true);
+    }
+    else {
+        cb(new Error('Only image files are allowed!'), false);
+    }
+};
+// Multer middleware configuration
+exports.upload = (0, multer_1.default)({
+    storage: storage,
+    fileFilter: fileFilter,
+    limits: {
+        fileSize: environment_1.config.maxImageSize, // 5MB limit
+    },
+});
+// Upload file to Cloudinary function
+const uploadFile = (file, folder) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const command = new client_s3_1.PutObjectCommand(params);
-        const response = yield s3Config_1.default.send(command);
+        // Convert buffer to base64
+        const base64String = `data:${file.mimetype};base64,${file.buffer.toString('base64')}`;
+        // Upload options
+        const uploadOptions = {
+            folder: folder || environment_1.config.cloudinary.FOLDER,
+            resource_type: 'auto',
+            public_id: `${Date.now()}-${file.originalname.split('.')[0]}`,
+            transformation: [
+                { quality: 'auto:good' },
+                { fetch_format: 'auto' }
+            ]
+        };
+        // Upload to Cloudinary
+        const result = yield cloudinaryConfig_1.default.uploader.upload(base64String, uploadOptions);
         return {
-            ETag: response.ETag,
-            Location: `https://${environment_1.config.aws.S3_BUCKET_NAME}.s3.${environment_1.config.aws.REGION}.amazonaws.com/${params.Key}`,
-            Key: params.Key,
-            Bucket: environment_1.config.aws.S3_BUCKET_NAME,
+            public_id: result.public_id,
+            secure_url: result.secure_url,
+            url: result.url,
+            width: result.width,
+            height: result.height,
+            format: result.format,
+            resource_type: result.resource_type,
+            bytes: result.bytes
         };
     }
     catch (error) {
-        console.error("Error uploading file:", error);
+        console.error('Error uploading file to Cloudinary:', error);
         throw error;
     }
 });

@@ -30,8 +30,9 @@ class BlogController {
     getBlogs(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const { page, limit } = req.query;
-                const result = yield blogService_1.default.getBlogs(Number(page) || 1, Number(limit) || 10);
+                const { page, limit, keyword } = req.query;
+                const keywordStr = typeof keyword === 'string' ? keyword : '';
+                const result = yield blogService_1.default.getBlogs(Number(page) || 1, Number(limit) || 10, keywordStr);
                 res.status(200).json(result);
             }
             catch (error) {

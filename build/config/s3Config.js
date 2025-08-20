@@ -1,15 +1,20 @@
 "use strict";
+import fromIni from "@aws-sdk/credential-provider-ini";
 Object.defineProperty(exports, "__esModule", { value: true });
-const client_s3_1 = require("@aws-sdk/client-s3");
-const environment_1 = require("./environment");
-if (!environment_1.config.aws.REGION) {
+import { S3Client } from "@aws-sdk/client-s3";
+import { config } from "./environment";
+if (!config.aws.REGION) {
     throw new Error("AWS_REGION environment variable is not set");
 }
-const s3Client = new client_s3_1.S3Client({
-    region: environment_1.config.aws.REGION,
-    credentials: {
-        accessKeyId: environment_1.config.aws.ACCESS_KEY_ID,
-        secretAccessKey: environment_1.config.aws.SECRET_ACCESS_KEY,
-    },
+const s3Client = new S3Client({
+    region: config.aws.REGION,
+    credentials: fromIni({
+        profile: config.aws.PROFILE || "default",
+    }),
+    // credentials: {
+    //     accessKeyId: config.aws.ACCESS_KEY_ID,
+    //     secretAccessKey: config.aws.SECRET_ACCESS_KEY,
+    // },
 });
-exports.default = s3Client;
+const _default = s3Client;
+export { _default as default };
