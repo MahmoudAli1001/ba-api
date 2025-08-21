@@ -38,6 +38,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     message: "Welcome to Business Arabic API",
+    author: "Mahmoud Ali",
     version: "1.0.0",
     status: "running",
     endpoints: {
@@ -52,7 +53,9 @@ app.get("/", (req: Request, res: Response) => {
     },
     documentation: {
       swagger: "/api-docs",
-      github: "https://github.com/Mohammedramadan99/ba-api"
+      github: "https://github.com/MahmoudAli1001/ba-api",
+      
+     
     },
     timestamp: new Date().toISOString()
   });
