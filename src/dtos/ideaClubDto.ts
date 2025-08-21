@@ -29,3 +29,11 @@ export interface IdeaClubListResponseDto {
   page: number;
   limit: number;
 }
+export interface PaymentResponseDto {
+  id: string;
+  userId: string;
+  amount: number;
+  status: string;
+  createdAt: string;
+  updatedAt: string;
+}

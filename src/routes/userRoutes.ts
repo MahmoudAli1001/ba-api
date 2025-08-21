@@ -108,6 +108,7 @@ const router = express.Router();
  */
 router.post("/", authenticate, authorize(["admin"]), validate(createUserSchema), UserController.createUser);
 router.get("/", authenticate, authorize(["admin"]), UserController.getUsers);
+router.get("/allPayments", authenticate, UserController.getAllPaymentsOfUser);
 
 /**
  * @swagger

@@ -1,4 +1,6 @@
-import { Request, Response, NextFunction } from "express";
+import { Response, NextFunction } from "express";
+import { AuthenticatedRequest } from "../middlewares/auth";
+
 import feasibilityStudyService from "../services/feasibilityStudyService";
 
 // Define DTOs inline to avoid import issues
@@ -20,7 +22,7 @@ interface UpdateFeasibilityStudyDto {
 
 export class FeasibilityStudyController {
   // Get all feasibility studies
-  async getAllFeasibilityStudies(req: Request, res: Response, next: NextFunction) {
+  async getAllFeasibilityStudies(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const studies = await feasibilityStudyService.getAllFeasibilityStudies();
       res.status(200).json({
@@ -34,7 +36,7 @@ export class FeasibilityStudyController {
   }
 
   // Get feasibility study by ID
-  async getFeasibilityStudyById(req: Request, res: Response, next: NextFunction) {
+  async getFeasibilityStudyById(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const { id } = req.params;
       const study = await feasibilityStudyService.getFeasibilityStudyById(id);
@@ -48,7 +50,7 @@ export class FeasibilityStudyController {
   }
 
   // Create new feasibility study
-  async createFeasibilityStudy(req: Request, res: Response, next: NextFunction) {
+  async createFeasibilityStudy(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const data: CreateFeasibilityStudyDto = req.body;
       const study = await feasibilityStudyService.createFeasibilityStudy(data);
@@ -63,7 +65,7 @@ export class FeasibilityStudyController {
   }
 
   // Update feasibility study
-  async updateFeasibilityStudy(req: Request, res: Response, next: NextFunction) {
+  async updateFeasibilityStudy(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const { id } = req.params;
       const data: UpdateFeasibilityStudyDto = req.body;
@@ -79,7 +81,7 @@ export class FeasibilityStudyController {
   }
 
   // Delete feasibility study
-  async deleteFeasibilityStudy(req: Request, res: Response, next: NextFunction) {
+  async deleteFeasibilityStudy(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const { id } = req.params;
       await feasibilityStudyService.deleteFeasibilityStudy(id);
@@ -93,7 +95,7 @@ export class FeasibilityStudyController {
   }
 
   // Get feasibility studies by category
-  async getFeasibilityStudiesByCategory(req: Request, res: Response, next: NextFunction) {
+  async getFeasibilityStudiesByCategory(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const { category } = req.params;
       const studies = await feasibilityStudyService.getFeasibilityStudiesByCategory(category);
@@ -108,7 +110,7 @@ export class FeasibilityStudyController {
   }
 
   // Search feasibility studies
-  async searchFeasibilityStudies(req: Request, res: Response, next: NextFunction) {
+  async searchFeasibilityStudies(req: AuthenticatedRequest, res: Response, next: NextFunction) {
     try {
       const { q } = req.query;
       if (!q || typeof q !== 'string') {
@@ -123,6 +125,27 @@ export class FeasibilityStudyController {
         status: "success",
         results: studies.length,
         data: studies
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  async getFeasibilityStudiesByBuyers(req: AuthenticatedRequest, res: Response, next: NextFunction) {
+    try {
+      if (!req.user || !req.user.id) {
+        return res.status(401).json({
+          status: "error",
+          message: "Unauthorized: User not found"
+        });
+      }
+
+      const serviceId = req.params.id;
+      const buyers = await feasibilityStudyService.getBuyersOfFeasibilityStudy(serviceId);
+      res.status(200).json({
+        status: "success",
+        results: buyers.length,
+        data: buyers
       });
     } catch (error) {
       next(error);

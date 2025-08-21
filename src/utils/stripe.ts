@@ -1,43 +1,53 @@
 import { config } from "../config/environment";
 const stripe = require("stripe")(config.stripe.SECRET_KEY);
 import { Request, Response } from "express";
+import payment from "../models/payment";
 
-// price_data:{
-//   currency: "usd",
-//   product_data: {
-//     name: "T-shirt",
-//     images: ["https://example.com/t-shirt.png"],
-//   },
-//   unit_amount: 2000,
-// }
+import Stripe from "stripe";
+/**
+ * Creates a Stripe Checkout session for a one-time payment.
+ * @param {Request} req - The request object containing product details.
+ * @param {Response} res - The response object to send the session URL.
+ * @returns {Promise<void>}
+ */
 
-const createCheckoutSession = async (req: Request, res: Response) => {
+//create stripe web hook
+
+import { AuthenticatedRequest } from "../middlewares/auth";
+
+const createCheckoutSession = async (req: AuthenticatedRequest, res: Response) => {
   const domain = req.headers.origin;
+  const userId = req?.user?.id; 
+  const { serviceId, serviceType, name, description, image, price, category } =
+    req.body;
 
+  if (!serviceId || !serviceType) {
+    return res
+      .status(400)
+      .json({ error: "serviceId and serviceType required" });
+  }
 
-
-const { name, description, image, price, category } = req.body; 
-if (!name || !description || !image || !price || !category) {
+  if (!name || !description || !image || !price || !category) {
     return res.status(400).json({
-      error: "Missing required fields: name, description, image, price, category",
+      error: "Missing required fields",
     });
   }
-const line_items = [
-  {
-    price_data: {
-      currency: "aed",
-      product_data: {
-        name,
-        description,
-        category,
-        images: [image],
+  const line_items = [
+    {
+      price_data: {
+        currency: "aed",
+        product_data: {
+          name,
+          description,
+          category,
+          images: [image],
+        },
+        unit_amount: price,
       },
-      unit_amount: price,
+
+      quantity: 1,
     },
-  
-    quantity: 1, 
-  },
-];
+  ];
 
   try {
     const session = await stripe.checkout.sessions.create({
@@ -48,19 +58,63 @@ const line_items = [
       cancel_url: `${domain}/canceled`,
     });
 
+    // احفظ session في DB كـ pending
+    await payment.create({
+      userId,
+      serviceId,
+      serviceType,
+      amount: price,
+      stripeSessionId: session.id,
+      status: "pending",
+    });
+
     // Return the session URL instead of redirecting
-    res
-      .status(200)
-      .json({
-        url: session.url,
-        id: session.id,
-        message: "Checkout session created successfully",
-      });
+    res.status(200).json({
+      url: session.url,
+      id: session.id,
+      message: "Checkout session created successfully",
+    });
   } catch (error) {
     res
       .status(400)
       .json({ error: error, message: "Failed to create checkout session" });
   }
+};
+
+const stripeWebHook = async (req: Request, res: Response) => {
+  const sig = req.headers["stripe-signature"];
+  const endpointSecret = config.stripe.WEBHOOK_SECRET;
+
+  let event;
+
+  try {
+    event = stripe.webhooks.constructEvent(req.body, sig, endpointSecret);
+  } catch (err: any) {
+    console.error("Webhook Error: " + err.message);
+    return res.status(400).send("Webhook Error: " + err.message);
+  }
+
+  // Handle the event
+  switch (event.type) {
+    case "checkout.session.completed":
+      const session = event.data.object as Stripe.Checkout.Session;
+      await payment.findOneAndUpdate(
+        { stripeSessionId: session.id },
+        { status: "completed" }
+      );
+      break;
+    case "checkout.session.async_payment_failed":
+      const failedSession = event.data.object as Stripe.Checkout.Session;
+      await payment.findOneAndUpdate(
+        { stripeSessionId: failedSession.id },
+        { status: "failed" }
+      );
+      break;
+    default:
+      console.warn(`Unhandled event type: ${event.type}`);
+  }
+
+  res.json({ received: true });
 };
 
 // Test specific endpoint to simulate different payment scenarios
@@ -113,38 +167,74 @@ const createTestCheckoutSession = async (req: Request, res: Response) => {
   }
 };
 
-const createSubscriptionCheckoutSession = async (req: Request, res: Response) => {
+
+
+const createSubscriptionCheckoutSession = async (
+  req: AuthenticatedRequest,
+  res: Response
+) => {
   const domain = req.headers.origin;
+  const userId = req?.user?.id;
+  const { serviceId, serviceType, name, description, image, price, category } = req.body;
+
+  if (!serviceId || !serviceType) {
+    return res.status(400).json({ error: "serviceId and serviceType required" });
+  }
+  if (!name || !description || !image || !price || !category) {
+    return res.status(400).json({ error: "Missing required fields" });
+  }
+  const line_items = [
+    {
+      price_data: {
+        currency: "aed",
+        product_data: {
+          name,
+          description,
+          category,
+          images: [image],
+        },
+        recurring: {
+          interval: "month",
+          interval_count: 1,
+        },
+        unit_amount: price,
+      },
+      quantity: 1,
+    },
+  ];
 
   try {
     const session = await stripe.checkout.sessions.create({
-      line_items: [
-        {
-          price_data: {
-            currency: "usd",
-            product_data: {
-              name: "Pro Membership",
-              description: "Monthly subscription for Pro features",
-              images: ["https://picsum.photos/200/300"],
-            },
-            recurring: {
-              interval: "month",
-              interval_count: 1,
-            },
-            unit_amount: 1500, // $15.00/month
-          },
-          quantity: 1,
-        },
-      ],
+      line_items,
+      payment_method_types: ["card"],
       mode: "subscription",
       success_url: `${domain}/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${domain}/canceled`,
     });
 
-    res.json({ url: session.url });
+    // احفظ session في DB كـ pending
+    await payment.create({
+      userId,
+      serviceId,
+      serviceType,
+      amount: price,
+      stripeSessionId: session.id,
+      status: "pending",
+    });
+
+    res.status(200).json({
+      url: session.url,
+      id: session.id,
+      message: "Subscription checkout session created successfully",
+    });
   } catch (error) {
-    res.status(400).json({ error: error });
+    res.status(400).json({ error: error, message: "Failed to create subscription checkout session" });
   }
 };
 
-export { createCheckoutSession, createTestCheckoutSession, createSubscriptionCheckoutSession };
+export {
+  createCheckoutSession,
+  createTestCheckoutSession,
+  createSubscriptionCheckoutSession,
+    stripeWebHook
+};

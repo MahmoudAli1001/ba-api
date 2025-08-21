@@ -11,6 +11,7 @@ export interface AuthenticatedRequest extends Request {
   };
 }
 
+
 export const authenticate = async (req: AuthenticatedRequest, res: Response, next: NextFunction) => {
   try {
     const token = req.header("Authorization")?.replace("Bearer ", "");
@@ -27,6 +28,7 @@ export const authenticate = async (req: AuthenticatedRequest, res: Response, nex
     }
 
     req.user = { id: user._id.toString(), role: user.role };
+    // يمكنك الآن الحصول على userId من req.user.id في أي ميدل وير لاحق
     next();
   } catch (error) {
     res.status(401).send({ error: "Please authenticate." });

@@ -7,6 +7,8 @@ import {
   LaunchedProjectListResponseDto,
 } from "../dtos/launchedProjectsDto";
 import LaunchedProject, { ILaunchedProject } from "../models/LaunchedProject";
+import AppError from "../utils/appError";
+import payment from "../models/payment";
 
 export class LaunchedProjectService {
   async createLaunchedProject(createLaunchedProjectDto: CreateLaunchedProjectDto): Promise<LaunchedProjectResponseDto> {
@@ -64,6 +66,15 @@ export class LaunchedProjectService {
     const result = await LaunchedProject.findByIdAndDelete(id);
     if (!result) {
       throw new Error("Project not found");
+    }
+  }
+
+  async getLaunchedProjectBuyers(serviceId: string): Promise<any[]> {
+    try {
+      const payments = await payment.find({ serviceId, serviceType: "LaunchedProject", status: "paid" }).populate("userId");
+      return payments.map((p: any) => p.userId);
+    } catch (error) {
+      throw new AppError("Failed to fetch buyers of launched project", 500);
     }
   }
 

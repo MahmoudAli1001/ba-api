@@ -1,4 +1,5 @@
 import FeasibilityStudy, { IFeasibilityStudy } from "../models/FeasibilityStudy";
+import payment from "../models/payment";
 import AppError from "../utils/appError";
 
 // Define DTOs inline to avoid import issues
@@ -113,6 +114,22 @@ export class FeasibilityStudyService {
       throw new AppError("Failed to search feasibility studies", 500);
     }
   }
+
+  // Get buyers of a specific feasibility study service
+  async getBuyersOfFeasibilityStudy(serviceId: string): Promise<any[]> {
+    try {
+      const payments = await payment.find({
+        serviceId,
+        serviceType: "FeasibilityStudy",
+        status: "paid"
+      }).populate("userId");
+      // Return array of users who bought the service
+      return payments.map((p: any) => p.userId);
+    } catch (error) {
+      throw new AppError("Failed to fetch buyers of feasibility study", 500);
+    }
+  }
+
 }
 
 export default new FeasibilityStudyService();

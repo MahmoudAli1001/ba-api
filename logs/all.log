@@ -3028,3 +3028,114 @@ npm install --save stripenpm install --save stripenpm install --save stripe2024-
 2025-08-21 10:05:19:519 [32minfo[39m: [32mDatabase connected successfully[39m
 2025-08-21 10:05:31:531 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
 2025-08-21 10:05:32:532 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:23:12:2312 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:14:2314 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:23:31:2331 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:32:2332 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:23:37:2337 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:39:2339 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:43:2343 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:45:2345 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:23:47:2347 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:49:2349 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:23:56:2356 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:23:57:2357 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:24:02:242 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:24:04:244 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:30:23:3023 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:30:24:3024 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:38:42:3842 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:38:46:3846 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:38:48:3848 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:39:01:391 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:39:02:392 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 10:41:06:416 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 10:41:08:418 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:04:41:441 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:04:42:442 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:04:54:454 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:04:55:455 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:05:55:555 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:05:56:556 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:06:22:622 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:06:24:624 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:07:01:71 [35mhttp[39m: [35m::1 GET / 200 424 - 10.593 ms[39m
+[35m[39m
+2025-08-21 12:08:03:83 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:08:04:84 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:08:33:833 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:08:34:834 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:10:34:1034 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:10:35:1035 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:10:43:1043 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:10:44:1044 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:11:25:1125 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:11:26:1126 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:12:42:1242 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:12:44:1244 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:13:15:1315 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:13:18:1318 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:14:22:1422 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:14:23:1423 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:14:33:1433 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:14:34:1434 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:17:13:1713 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:17:14:1714 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:18:25:1825 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:18:26:1826 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:19:21:1921 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:19:22:1922 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:20:41:2041 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:20:42:2042 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:21:30:2130 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:21:31:2131 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:23:02:232 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:23:03:233 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:24:52:2452 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:24:54:2454 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:33:16:3316 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 308 - 370.402 ms[39m
+[35m[39m
+2025-08-21 12:33:47:3347 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:33:48:3348 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:35:32:3532 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:35:33:3533 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:36:35:3635 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:36:37:3637 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:39:20:3920 [35mhttp[39m: [35m::1 GET /api/feasibility-studies 404 - - 29.702 ms[39m
+[35m[39m
+2025-08-21 12:41:51:4151 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:41:52:4152 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:42:04:424 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:42:06:426 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:42:35:4235 [35mhttp[39m: [35m::1 GET /api/blog?page=1&limit=10 200 42 - 212.623 ms[39m
+[35m[39m
+2025-08-21 12:42:58:4258 [35mhttp[39m: [35m::1 POST /api/blog 401 32 - 118.379 ms[39m
+[35m[39m
+2025-08-21 12:43:40:4340 [35mhttp[39m: [35m::1 POST /api/blog 401 32 - 111.563 ms[39m
+[35m[39m
+2025-08-21 12:44:19:4419 [35mhttp[39m: [35m::1 POST /api/blog 401 32 - 96.824 ms[39m
+[35m[39m
+2025-08-21 12:45:35:4535 [35mhttp[39m: [35m::1 POST /api/auth/signup 400 432 - 187.502 ms[39m
+[35m[39m
+2025-08-21 12:46:02:462 [35mhttp[39m: [35m::1 POST /api/auth/signin 200 308 - 191.516 ms[39m
+[35m[39m
+2025-08-21 12:47:03:473 [35mhttp[39m: [35m::1 POST /api/blog 400 99 - 188.266 ms[39m
+[35m[39m
+2025-08-21 12:47:52:4752 [35mhttp[39m: [35m::1 POST /api/blog 500 - - 182.552 ms[39m
+[35m[39m
+2025-08-21 12:49:50:4950 [35mhttp[39m: [35m::1 POST /api/blog 500 - - 140.148 ms[39m
+[35m[39m
+2025-08-21 12:52:00:520 [35mhttp[39m: [35m::1 POST /api/blog 201 392 - 376.703 ms[39m
+[35m[39m
+2025-08-21 12:52:18:5218 [35mhttp[39m: [35m::1 GET /api/blog?page=1&limit=10 200 434 - 234.700 ms[39m
+[35m[39m
+2025-08-21 12:54:49:5449 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:54:50:5450 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:55:16:5516 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:55:18:5518 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:55:28:5528 [32minfo[39m: [32mServer in development mode started successfully using port 3000[39m
+2025-08-21 12:55:29:5529 [32minfo[39m: [32mDatabase connected successfully[39m
+2025-08-21 12:55:52:5552 [35mhttp[39m: [35m::1 POST /api/feasibility-studies 400 114 - 132.151 ms[39m
+[35m[39m
+2025-08-21 12:56:55:5655 [35mhttp[39m: [35m::1 POST /api/feasibility-studies 201 417 - 418.576 ms[39m
+[35m[39m

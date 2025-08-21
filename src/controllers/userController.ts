@@ -64,6 +64,17 @@ export class UserController {
       next(error);
     }
   }
-}
+
+
+async getAllPaymentsOfUser(req: Request, res: Response, next: NextFunction) {
+  try {
+    // @ts-ignore
+    const { id } = (req as Express.Request).user!;
+    const result = await UserService.getAllPaymentsOfUser(id);
+    res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+}}
 
 export default new UserController();

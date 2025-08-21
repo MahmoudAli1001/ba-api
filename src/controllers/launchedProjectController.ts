@@ -63,6 +63,20 @@ export class LaunchedProjectController {
     }
   }
 
+  async getLaunchedProjectBuyers(req: Request, res: Response, next: NextFunction) {
+    const { id } = req.params;
+    try {
+      const buyers = await LaunchedProjectService.getLaunchedProjectBuyers(id);
+      res.status(200).json({
+        status: "success",
+        results: buyers.length,
+        data: buyers
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
   async deleteLaunchedProject(req: Request, res: Response, next: NextFunction) {
     try {
       const { id } = req.params;

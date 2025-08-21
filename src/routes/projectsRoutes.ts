@@ -243,5 +243,41 @@ router.patch(
   launchedProjectController.updateLaunchedProject
 );
 router.delete("/:id", authenticate, authorize(["admin"]), launchedProjectController.deleteLaunchedProject);
+/**
+ * @swagger
+ * /projects/{id}/buyers:
+ *   get:
+ *     summary: Get all buyers for a launched project
+ *     tags: [Projects]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Launched Project ID
+ *     responses:
+ *       200:
+ *         description: Buyers retrieved successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: success
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     $ref: '#/components/schemas/User'
+ *       401:
+ *         $ref: '#/components/responses/Unauthorized'
+ *       404:
+ *         $ref: '#/components/responses/NotFound'
+ */
+router.get("/:id/buyers", authenticate, launchedProjectController.getLaunchedProjectBuyers);
 
 export default router;

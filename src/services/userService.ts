@@ -1,6 +1,8 @@
 // src/services/userService.ts
 
+import { PaymentResponseDto } from "../dtos/ideaClubDto";
 import { CreateUserDto, UpdateUserDto, UserResponseDto, UserListResponseDto } from "../dtos/userDto";
+import payment from "../models/payment";
 import User, { IUser } from "../models/User";
 
 
@@ -89,6 +91,18 @@ export class UserService {
       createdAt: user.createdAt,
     };
   }
+  async getAllPaymentsOfUser(userId: string): Promise<PaymentResponseDto[]> {
+    const payments = await payment.find({ userId ,status:"paid"});
+    return payments.map((pay) => ({
+      id: pay._id.toString(),
+      userId: pay.userId.toString(),
+      amount: pay.amount,
+      status: pay.status,
+      createdAt: pay.createdAt.toISOString(),
+      updatedAt: pay.updatedAt.toISOString(),
+    }));
+  }
+
 }
 
 export default new UserService();

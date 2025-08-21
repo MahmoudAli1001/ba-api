@@ -1,5 +1,8 @@
-import { Router } from 'express';
+
+import express ,{ Router } from 'express';
 import { handleCreateCheckoutSession, handleCreateSubscriptionCheckoutSession, handleCreateTestCheckoutSession } from '../controllers/stripeController';
+import { authenticate } from '../middlewares/auth';
+import { stripeWebHook } from '../utils/stripe';
 
 const router = Router();
 
@@ -48,24 +51,27 @@ const router = Router();
  *           schema:
  *             type: object
  *             properties:
- *               interval:
+ *               serviceId:
  *                 type: string
- *                 enum: [month, year]
- *                 example: month
- *               unit_amount:
- *                 type: integer
- *                 example: 1500
+ *                 example: "abc123"
+ *               serviceType:
+ *                 type: string
+ *                 example: "membership"
  *               name:
  *                 type: string
- *                 example: Pro Membership
+ *                 example: "Pro Membership"
  *               description:
  *                 type: string
- *                 example: Monthly subscription for Pro features
- *               images:
- *                 type: array
- *                 items:
- *                   type: string
- *                 example: ["https://picsum.photos/200/300"]
+ *                 example: "Monthly subscription for Pro features"
+ *               image:
+ *                 type: string
+ *                 example: "https://picsum.photos/200/300"
+ *               price:
+ *                 type: integer
+ *                 example: 1500
+ *               category:
+ *                 type: string
+ *                 example: "premium"
  *     responses:
  *       200:
  *         description: Subscription checkout session created
@@ -77,6 +83,12 @@ const router = Router();
  *                 url:
  *                   type: string
  *                   example: https://checkout.stripe.com/pay/cs_test_sub_789
+ *                 id:
+ *                   type: string
+ *                   example: cs_test_sub_789
+ *                 message:
+ *                   type: string
+ *                   example: Subscription checkout session created successfully
  *       400:
  *         $ref: '#/components/responses/BadRequest'
  *
@@ -110,12 +122,48 @@ const router = Router();
  *         $ref: '#/components/responses/BadRequest'
  */
 
-router.post('/create-checkout-session', handleCreateCheckoutSession);
+router.post('/create-checkout-session', authenticate, handleCreateCheckoutSession);
 
 // POST /create-test-checkout-session
-router.post('/create-test-checkout-session', handleCreateTestCheckoutSession);
+router.post('/create-test-checkout-session', authenticate, handleCreateTestCheckoutSession);
 
 // POST /create-subscription-checkout-session
-router.post('/create-subscription-checkout-session', handleCreateSubscriptionCheckoutSession);
+router.post('/create-subscription-checkout-session', authenticate, handleCreateSubscriptionCheckoutSession);
+/**
+ * @swagger
+ * /api/stripe/stripe/webhook:
+ *   post:
+ *     summary: Stripe webhook endpoint
+ *     description: Receives Stripe event notifications (e.g., payment completed, payment failed)
+ *     tags: [Stripe]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             description: Stripe event payload
+ *     responses:
+ *       200:
+ *         description: Webhook received and processed
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 received:
+ *                   type: boolean
+ *                   example: true
+ *       400:
+ *         description: Webhook error
+ *         content:
+ *           text/plain:
+ *             schema:
+ *               type: string
+ *               example: Webhook Error: Invalid signature
+ */
+// Post webhook for Stripe events
+
+router.post("/stripe/webhook", express.raw({ type: "application/json" }), stripeWebHook);
 
 export default router;
