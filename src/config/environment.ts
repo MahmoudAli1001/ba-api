@@ -13,4 +13,9 @@ export const config = {
     API_SECRET: process.env.CLOUDINARY_API_SECRET || "",
     FOLDER: process.env.CLOUDINARY_FOLDER || "business-arabic-api",
   },
+  stripe: {
+    SECRET_KEY: process.env.STRIPE_SECRET_KEY || "",
+    PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY || "",
+    WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET || "",
+  },
 };

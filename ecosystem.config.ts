@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: "wash-avengers-cms",
+        name: "ba-api",
         script: "npm",
         args: "run dev",
         env: {

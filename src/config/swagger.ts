@@ -1,14 +1,14 @@
-import swaggerJsdoc from 'swagger-jsdoc';
-import swaggerUi from 'swagger-ui-express';
-import { Express } from 'express';
-import { config } from './environment';
+import swaggerJsdoc from "swagger-jsdoc";
+import swaggerUi from "swagger-ui-express";
+import { Express } from "express";
+import { config } from "./environment";
 
 const options: swaggerJsdoc.Options = {
   definition: {
-    openapi: '3.0.0',
+    openapi: "3.0.0",
     info: {
-      title: 'Business Arabic API',
-      version: '1.0.0',
+      title: "Business Arabic API",
+      version: "1.0.0",
       description: `
 ## Business Arabic Learning Platform API
 
@@ -39,235 +39,235 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
 - **Real-time Validation**: Input validation on all endpoints
       `,
       contact: {
-        name: 'Mahmoud Ali',
-        email: 'Mahmoud.Ali.Spider@gmail.com',
+        name: "Mahmoud Ali",
+        email: "Mahmoud.Ali.Spider@gmail.com",
       },
     },
     servers: [
       {
         url: `http://localhost:${config.port}`,
-        description: 'Development server',
+        description: "Development server",
       },
       {
-        url: 'https://your-production-domain.com',
-        description: 'Production server',
+        url: "https://your-production-domain.com",
+        description: "Production server",
       },
     ],
     components: {
       securitySchemes: {
         bearerAuth: {
-          type: 'http',
-          scheme: 'bearer',
-          bearerFormat: 'JWT',
+          type: "http",
+          scheme: "bearer",
+          bearerFormat: "JWT",
         },
       },
       schemas: {
         Error: {
-          type: 'object',
+          type: "object",
           properties: {
             message: {
-              type: 'string',
+              type: "string",
             },
             statusCode: {
-              type: 'number',
+              type: "number",
             },
             status: {
-              type: 'string',
+              type: "string",
             },
           },
         },
         User: {
-          type: 'object',
+          type: "object",
           properties: {
             _id: {
-              type: 'string',
+              type: "string",
             },
             email: {
-              type: 'string',
-              format: 'email',
+              type: "string",
+              format: "email",
             },
             fullName: {
-              type: 'string',
+              type: "string",
             },
             role: {
-              type: 'string',
-              enum: ['user', 'admin'],
+              type: "string",
+              enum: ["user", "admin"],
             },
             createdAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
             updatedAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
           },
         },
         Blog: {
-          type: 'object',
+          type: "object",
           properties: {
             _id: {
-              type: 'string',
+              type: "string",
             },
             title: {
-              type: 'string',
+              type: "string",
             },
             summary: {
-              type: 'string',
+              type: "string",
             },
             content: {
-              type: 'array',
+              type: "array",
               items: {
-                type: 'object',
+                type: "object",
                 additionalProperties: true,
               },
-              description: 'Dynamic content structure',
+              description: "Dynamic content structure",
             },
             image: {
-              type: 'string',
+              type: "string",
               nullable: true,
             },
             createdAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
             updatedAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
           },
         },
         Post: {
-          type: 'object',
+          type: "object",
           properties: {
             _id: {
-              type: 'string',
+              type: "string",
             },
             title: {
-              type: 'string',
+              type: "string",
             },
             content: {
-              type: 'array',
+              type: "array",
               items: {
-                type: 'object',
+                type: "object",
                 additionalProperties: true,
               },
-              description: 'Dynamic content structure',
+              description: "Dynamic content structure",
             },
             image: {
-              type: 'string',
+              type: "string",
               nullable: true,
             },
             createdAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
             updatedAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
           },
         },
         IdeaClub: {
-          type: 'object',
+          type: "object",
           properties: {
             _id: {
-              type: 'string',
+              type: "string",
             },
             name: {
-              type: 'string',
+              type: "string",
             },
             description: {
-              type: 'string',
+              type: "string",
             },
             content: {
-              type: 'array',
+              type: "array",
               items: {
-                type: 'object',
+                type: "object",
                 additionalProperties: true,
               },
-              description: 'Dynamic content structure',
+              description: "Dynamic content structure",
             },
             category: {
-              type: 'string',
+              type: "string",
             },
             createdAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
             updatedAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
           },
         },
         LaunchedProject: {
-          type: 'object',
+          type: "object",
           properties: {
             _id: {
-              type: 'string',
+              type: "string",
             },
             name: {
-              type: 'string',
+              type: "string",
             },
             description: {
-              type: 'string',
+              type: "string",
             },
             image: {
-              type: 'string',
+              type: "string",
             },
             price: {
-              type: 'string',
+              type: "string",
             },
             category: {
-              type: 'string',
+              type: "string",
             },
             createdAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
             updatedAt: {
-              type: 'string',
-              format: 'date-time',
+              type: "string",
+              format: "date-time",
             },
           },
         },
         Pagination: {
-          type: 'object',
+          type: "object",
           properties: {
             currentPage: {
-              type: 'integer',
+              type: "integer",
             },
             totalPages: {
-              type: 'integer',
+              type: "integer",
             },
             totalItems: {
-              type: 'integer',
+              type: "integer",
             },
             itemsPerPage: {
-              type: 'integer',
+              type: "integer",
             },
           },
         },
       },
       responses: {
         BadRequest: {
-          description: 'Bad Request',
+          description: "Bad Request",
           content: {
-            'application/json': {
+            "application/json": {
               schema: {
-                type: 'object',
+                type: "object",
                 properties: {
                   status: {
-                    type: 'string',
-                    example: 'error',
+                    type: "string",
+                    example: "error",
                   },
                   message: {
-                    type: 'string',
-                    example: 'Invalid request data',
+                    type: "string",
+                    example: "Invalid request data",
                   },
                   statusCode: {
-                    type: 'number',
+                    type: "number",
                     example: 400,
                   },
                 },
@@ -276,22 +276,22 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
           },
         },
         Unauthorized: {
-          description: 'Unauthorized',
+          description: "Unauthorized",
           content: {
-            'application/json': {
+            "application/json": {
               schema: {
-                type: 'object',
+                type: "object",
                 properties: {
                   status: {
-                    type: 'string',
-                    example: 'error',
+                    type: "string",
+                    example: "error",
                   },
                   message: {
-                    type: 'string',
-                    example: 'Access denied. No token provided.',
+                    type: "string",
+                    example: "Access denied. No token provided.",
                   },
                   statusCode: {
-                    type: 'number',
+                    type: "number",
                     example: 401,
                   },
                 },
@@ -300,22 +300,22 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
           },
         },
         Forbidden: {
-          description: 'Forbidden',
+          description: "Forbidden",
           content: {
-            'application/json': {
+            "application/json": {
               schema: {
-                type: 'object',
+                type: "object",
                 properties: {
                   status: {
-                    type: 'string',
-                    example: 'error',
+                    type: "string",
+                    example: "error",
                   },
                   message: {
-                    type: 'string',
-                    example: 'Access denied. Insufficient permissions.',
+                    type: "string",
+                    example: "Access denied. Insufficient permissions.",
                   },
                   statusCode: {
-                    type: 'number',
+                    type: "number",
                     example: 403,
                   },
                 },
@@ -324,22 +324,22 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
           },
         },
         NotFound: {
-          description: 'Resource not found',
+          description: "Resource not found",
           content: {
-            'application/json': {
+            "application/json": {
               schema: {
-                type: 'object',
+                type: "object",
                 properties: {
                   status: {
-                    type: 'string',
-                    example: 'error',
+                    type: "string",
+                    example: "error",
                   },
                   message: {
-                    type: 'string',
-                    example: 'Resource not found',
+                    type: "string",
+                    example: "Resource not found",
                   },
                   statusCode: {
-                    type: 'number',
+                    type: "number",
                     example: 404,
                   },
                 },
@@ -348,22 +348,22 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
           },
         },
         InternalServerError: {
-          description: 'Internal Server Error',
+          description: "Internal Server Error",
           content: {
-            'application/json': {
+            "application/json": {
               schema: {
-                type: 'object',
+                type: "object",
                 properties: {
                   status: {
-                    type: 'string',
-                    example: 'error',
+                    type: "string",
+                    example: "error",
                   },
                   message: {
-                    type: 'string',
-                    example: 'Something went wrong!',
+                    type: "string",
+                    example: "Something went wrong!",
                   },
                   statusCode: {
-                    type: 'number',
+                    type: "number",
                     example: 500,
                   },
                 },
@@ -379,30 +379,34 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
       },
     ],
   },
-  apis: ['./src/routes/*.ts'], // Path to the API routes
+  apis: ["./src/routes/*.ts"], // Path to the API routes
 };
 
 const specs = swaggerJsdoc(options);
 
 export const setupSwagger = (app: Express): void => {
-  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs, {
-    explorer: true,
-    customCss: `
+  app.use(
+    "/api-docs",
+    swaggerUi.serve,
+    swaggerUi.setup(specs, {
+      explorer: true,
+      customCss: `
       .swagger-ui .topbar { display: none }
       .swagger-ui .info .title { color: #2c5530; }
       .swagger-ui .scheme-container { background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 15px 0; }
       .swagger-ui .btn.authorize { background-color: #28a745; border-color: #28a745; }
       .swagger-ui .btn.authorize:hover { background-color: #218838; }
     `,
-    customSiteTitle: 'Business Arabic API - Mahmoud Ali',
-    swaggerOptions: {
-      persistAuthorization: true,
-      displayRequestDuration: true,
-      docExpansion: 'list',
-      defaultModelsExpandDepth: 2,
-      defaultModelExpandDepth: 2,
-    }
-  }));
+      customSiteTitle: "Business Arabic API - Mahmoud Ali",
+      swaggerOptions: {
+        persistAuthorization: true,
+        displayRequestDuration: true,
+        docExpansion: "list",
+        defaultModelsExpandDepth: 2,
+        defaultModelExpandDepth: 2,
+      },
+    })
+  );
 };
 
 export default specs;

@@ -13,6 +13,7 @@ import blogRoutes from "./routes/blogRoutes";
 import ideasRoutes from "./routes/ideasRoutes";
 import projectsRoutes from "./routes/projectsRoutes";
 import feasibilityStudyRoutes from "./routes/feasibilityStudyRoutes";
+import stripeRoutes from "./routes/stripeRoutes";
 
 import AppError from "./utils/appError";
 
@@ -73,6 +74,18 @@ app.use("/api/media", mediaRoutes);
 app.use("/api/ideas", compression(), ideasRoutes);
 app.use("/api/projects", compression(), projectsRoutes);
 app.use("/api/feasibility-studies", compression(), feasibilityStudyRoutes);
+app.use("/api/stripe", stripeRoutes);
+
+
+// Stripe success and cancel endpoints
+app.get("/success", (req: Request, res: Response) => {
+  const sessionId = req.query.session_id;
+  res.status(200).send(`<h2>Payment successful!</h2><p>Session ID: ${sessionId || "N/A"}</p>`);
+});
+
+app.get("/canceled", (req: Request, res: Response) => {
+  res.status(200).send("<h2>Payment canceled.</h2>");
+});
 
 app.all("*", (req: Request, res: Response, next: NextFunction) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
