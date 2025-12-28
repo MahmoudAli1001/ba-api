@@ -49,7 +49,7 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
         description: "Development server",
       },
       {
-        url: "https://your-production-domain.com",
+        url: "https://api.businessstorepro.com/",
         description: "Production server",
       },
     ],
@@ -232,6 +232,47 @@ A comprehensive REST API for managing blogs, posts, ideas, projects, and media u
             },
           },
         },
+        Plan: {
+          type: "object",
+          properties: {
+            _id: {
+              type: "string",
+              example: "64a3b2c4f91d2a001e5d1234",
+            },
+            title: {
+              type: "string",
+              example: "Basic Plan",
+            },
+            price: {
+              type: "number",
+              example: 29.99,
+            },
+            ideas: {
+              type: "array",
+              description: "List of ideas included in this plan",
+              items: {
+                type: "string",
+              },
+              example: ["Idea 1", "Idea 2", "Idea 3"],
+            },
+            image: {
+            type: "string",
+              nullable: true,
+              example: "https://example.com/plan.jpg",
+            },
+            createdAt: {
+              type: "string",
+              format: "date-time",
+              example: "2023-07-01T12:00:00.000Z",
+            },
+            updatedAt: {
+              type: "string",
+              format: "date-time",
+              example: "2023-07-10T15:30:00.000Z",
+            },
+          },
+        },
+
         Pagination: {
           type: "object",
           properties: {

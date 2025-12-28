@@ -21,9 +21,26 @@ interface UpdateFeasibilityStudyDto {
 
 export class FeasibilityStudyService {
   // Get all feasibility studies
-  async getAllFeasibilityStudies(): Promise<IFeasibilityStudy[]> {
+  async getAllFeasibilityStudies(
+    limit?: number,
+    page?: number,
+    keyword?: string
+  ): Promise<IFeasibilityStudy[]> {
     try {
-      const studies = await FeasibilityStudy.find().sort({ createdAt: -1 });
+      const query: any = {};
+      if (keyword) {
+        query.$or = [
+          { name: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+          { category: { $regex: keyword, $options: "i" } }
+        ];
+      }
+
+      const studies = await FeasibilityStudy.find(query)
+        .sort({ createdAt: -1 })
+        .skip(limit && page ? (page - 1) * limit : 0)
+        .limit(limit || 0);
+
       return studies;
     } catch (error) {
       throw new AppError("Failed to fetch feasibility studies", 500);

@@ -67,10 +67,14 @@ export class UserController {
 
 
 async getAllPaymentsOfUser(req: Request, res: Response, next: NextFunction) {
+
+  // get query parameters limit and page
+  const { page, limit ,id} = req.query;
   try {
     // @ts-ignore
-    const { id } = (req as Express.Request).user!;
-    const result = await UserService.getAllPaymentsOfUser(id);
+    // const { id } = (req as Express.Request).user!;
+    console.log("this is user id from backend:", id);
+    const result = await UserService.getAllPaymentsOfUser(String(id), Number(page) || 1, Number(limit) || 10);
     res.status(200).json(result);
   } catch (error) {
     next(error);

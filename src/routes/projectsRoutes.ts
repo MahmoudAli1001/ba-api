@@ -13,7 +13,8 @@ const router = express.Router();
 
 /**
  * @swagger
- * /projects:
+ * /api/projects:
+ * 
  *   post:
  *     summary: Create a new launched project (Admin only)
  *     tags: [Projects]
@@ -129,7 +130,7 @@ router.get("/", validate(getLaunchedProjectsQuerySchema), launchedProjectControl
 
 /**
  * @swagger
- * /projects/{id}:
+ * /api/projects/{id}:
  *   get:
  *     summary: Get a project by ID
  *     tags: [Projects]
@@ -234,6 +235,7 @@ router.get("/", validate(getLaunchedProjectsQuerySchema), launchedProjectControl
  *         $ref: '#/components/responses/NotFound'
  */
 router.get("/:id", launchedProjectController.getLaunchedProjectById);
+
 router.patch(
   "/:id",
   authenticate,
@@ -245,7 +247,7 @@ router.patch(
 router.delete("/:id", authenticate, authorize(["admin"]), launchedProjectController.deleteLaunchedProject);
 /**
  * @swagger
- * /projects/{id}/buyers:
+ * /api/projects/{id}/buyers:
  *   get:
  *     summary: Get all buyers for a launched project
  *     tags: [Projects]

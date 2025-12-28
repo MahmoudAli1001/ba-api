@@ -91,11 +91,18 @@ export class UserService {
       createdAt: user.createdAt,
     };
   }
-  async getAllPaymentsOfUser(userId: string): Promise<PaymentResponseDto[]> {
-    const payments = await payment.find({ userId ,status:"paid"});
+  async getAllPaymentsOfUser(userId: string, page: number, limit: number): Promise<PaymentResponseDto[]> {
+
+    // user query limit and page makek it
+    const payments = await payment.find({ userId})
+      .skip((page - 1) * limit)
+      .limit(limit);
     return payments.map((pay) => ({
       id: pay._id.toString(),
       userId: pay.userId.toString(),
+      serviceId: pay.serviceId,
+      payNumber: pay.payNumber,
+      serviceType: pay.serviceType === "FeasibilityStudy" ? "Feasibility Study" : "Launched Project",
       amount: pay.amount,
       status: pay.status,
       createdAt: pay.createdAt.toISOString(),

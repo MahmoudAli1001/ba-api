@@ -18,3 +18,12 @@ export const getBlogsQuerySchema = z.object({
   page: z.string().regex(/^\d+$/).transform(Number).optional(),
   limit: z.string().regex(/^\d+$/).transform(Number).optional(),
 });
+
+export const CreatePlanSchema = z.object({
+  title: z.string().min(1, "Title is required"),
+  description: z.string().optional(),
+  price: z.number().min(0, "Price must be a positive number"),
+  ideas: z.array(z.string()),
+
+
+});

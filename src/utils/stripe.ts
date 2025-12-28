@@ -14,11 +14,12 @@ import Stripe from "stripe";
 //create stripe web hook
 
 import { AuthenticatedRequest } from "../middlewares/auth";
+import createPaymentNumber from "./createPayNamber";
 
 const createCheckoutSession = async (req: AuthenticatedRequest, res: Response) => {
   const domain = req.headers.origin;
-  const userId = req?.user?.id; 
-  const { serviceId, serviceType, name, description, image, price, category } =
+  const userId = req.params?.id || req?.user?.id;
+  const { serviceId, serviceType, name, description, image, price} =
     req.body;
 
   if (!serviceId || !serviceType) {
@@ -27,11 +28,11 @@ const createCheckoutSession = async (req: AuthenticatedRequest, res: Response) =
       .json({ error: "serviceId and serviceType required" });
   }
 
-  if (!name || !description || !image || !price || !category) {
-    return res.status(400).json({
-      error: "Missing required fields",
-    });
-  }
+  // if (!name || !description || !image || !price ) {
+  //   return res.status(400).json({
+  //     error: "Missing required fields",
+  //   });
+  // }
   const line_items = [
     {
       price_data: {
@@ -39,10 +40,10 @@ const createCheckoutSession = async (req: AuthenticatedRequest, res: Response) =
         product_data: {
           name,
           description,
-          category,
+        
           images: [image],
         },
-        unit_amount: price,
+        unit_amount: price * 100,
       },
 
       quantity: 1,
@@ -54,12 +55,20 @@ const createCheckoutSession = async (req: AuthenticatedRequest, res: Response) =
       line_items,
       payment_method_types: ["card"],
       mode: "payment",
-      success_url: `${domain}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${domain}/canceled`,
+      success_url: `http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `http://localhost:3000/canceled`,
     });
 
     // احفظ session في DB كـ pending
+    if (!userId || !serviceId) {
+      return res.status(400).json({ error: "userId and serviceId are required for payment creation" });
+    }
+    if (typeof userId !== "string" || typeof serviceId !== "string") {
+      return res.status(400).json({ error: "userId and serviceId must be valid strings for payment creation" });
+    }
+    
     await payment.create({
+      payNumber: createPaymentNumber(userId, serviceId),
       userId,
       serviceId,
       serviceType,
@@ -157,8 +166,8 @@ const createTestCheckoutSession = async (req: Request, res: Response) => {
         },
       ],
       mode: "payment",
-      success_url: `${domain}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${domain}/canceled`,
+      success_url: `http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `http://localhost:3000/canceled`,
     });
 
     res.json({ url: session.url });
@@ -212,8 +221,12 @@ const createSubscriptionCheckoutSession = async (
       cancel_url: `${domain}/canceled`,
     });
 
+    if (typeof userId !== "string" || typeof serviceId !== "string") {
+      return res.status(400).json({ error: "userId and serviceId must be valid strings for payment creation" });
+    }
     // احفظ session في DB كـ pending
     await payment.create({
+      payNumber: createPaymentNumber(userId, serviceId),
       userId,
       serviceId,
       serviceType,

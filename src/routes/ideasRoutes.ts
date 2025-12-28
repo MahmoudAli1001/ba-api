@@ -1,3 +1,32 @@
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     IdeaClubResponse:
+ *       type: object
+ *       properties:
+ *         status:
+ *           type: string
+ *           example: success
+ *         data:
+ *           $ref: '#/components/schemas/IdeaClub'
+ *     IdeaClubListResponse:
+ *       type: object
+ *       properties:
+ *         status:
+ *           type: string
+ *           example: success
+ *         data:
+ *           type: array
+ *           items:
+ *             $ref: '#/components/schemas/IdeaClub'
+ *     ErrorResponse:
+ *       type: object
+ *       properties:
+ *         error:
+ *           type: string
+ *           example: Error message
+ */
 import express from "express";
 import IdeaClubController from "../controllers/ideaClubController";
 import { validate } from "../middlewares/validate";
@@ -8,8 +37,9 @@ import { upload } from "../middlewares/uploadFile";
 const router = express.Router();
 
 /**
+/**
  * @swagger
- * /ideas:
+ * /api/ideas:
  *   post:
  *     summary: Create a new idea club entry (Admin only)
  *     tags: [Ideas]
@@ -49,19 +79,25 @@ const router = express.Router();
  *         content:
  *           application/json:
  *             schema:
- *               type: object
- *               properties:
- *                 status:
- *                   type: string
- *                   example: success
- *                 data:
- *                   $ref: '#/components/schemas/IdeaClub'
+ *               $ref: '#/components/schemas/IdeaClubResponse'
  *       400:
- *         $ref: '#/components/responses/BadRequest'
+ *         description: Bad request
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  *       401:
- *         $ref: '#/components/responses/Unauthorized'
+ *         description: Unauthorized
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  *       403:
- *         $ref: '#/components/responses/Forbidden'
+ *         description: Forbidden
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
  *   get:
  *     summary: Get all ideas
  *     tags: [Ideas]
@@ -89,17 +125,7 @@ const router = express.Router();
  *         content:
  *           application/json:
  *             schema:
- *               type: object
- *               properties:
- *                 status:
- *                   type: string
- *                   example: success
- *                 data:
- *                   type: array
- *                   items:
- *                     $ref: '#/components/schemas/IdeaClub'
- *                 pagination:
- *                   $ref: '#/components/schemas/Pagination'
+ *               $ref: '#/components/schemas/IdeaClubListResponse'
  */
 router.post(
   "/",
@@ -113,7 +139,7 @@ router.get("/", validate(getIdeaClubQuerySchema), IdeaClubController.getIdeaClub
 
 /**
  * @swagger
- * /ideas/{id}:
+ * /api/ideas/{id}:
  *   get:
  *     summary: Get an idea by ID
  *     tags: [Ideas]

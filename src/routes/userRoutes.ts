@@ -243,8 +243,8 @@ router.get("/me", authenticate, UserController.getProfile);
  *       404:
  *         $ref: '#/components/responses/NotFound'
  */
-router.get("/:id", authenticate, authorize(["admin"]), UserController.getUserById);
-router.patch("/:id", authenticate, authorize(["admin"]), validate(updateUserSchema), UserController.updateUser);
+router.get("/:id", authenticate, UserController.getUserById);
+router.patch("/:id", authenticate,  validate(updateUserSchema), UserController.updateUser);
 router.delete("/:id", authenticate, authorize(["admin"]), UserController.deleteUser);
 
 export default router;

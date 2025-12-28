@@ -124,6 +124,7 @@ import {
   createFeasibilityStudySchema, 
   updateFeasibilityStudySchema, 
   feasibilityStudyIdSchema,
+
   searchFeasibilityStudySchema
 } from "../validators/feasibilityStudyValidator";
 import { upload } from "../middlewares/uploadFile";
@@ -264,6 +265,7 @@ const router = express.Router();
  */
 router.get("/search", feasibilityStudyController.searchFeasibilityStudies);
 
+router.get("/", feasibilityStudyController.getAllFeasibilityStudies);
 /**
  * @swagger
  * /api/feasibility-studies/category/{category}:
@@ -330,7 +332,7 @@ router.get("/category/:category", feasibilityStudyController.getFeasibilityStudi
  *       404:
  *         $ref: '#/components/responses/NotFound'
  */
-router.get("/:id", validate(feasibilityStudyIdSchema), feasibilityStudyController.getFeasibilityStudyById);
+router.get("/:id",  feasibilityStudyController.getFeasibilityStudyById);
 
 /**
  * @swagger

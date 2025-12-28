@@ -14,6 +14,7 @@ import ideasRoutes from "./routes/ideasRoutes";
 import projectsRoutes from "./routes/projectsRoutes";
 import feasibilityStudyRoutes from "./routes/feasibilityStudyRoutes";
 import stripeRoutes from "./routes/stripeRoutes";
+import planRouter from "./routes/planRoutes";
 
 import AppError from "./utils/appError";
 
@@ -22,12 +23,8 @@ const app = express();
 // Setup Swagger documentation
 setupSwagger(app);
 
-app.use(
-  cors({
-    origin: "*",
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
-  })
-);
+
+app.use(cors({ origin: "*", methods: ["GET", "POST", "PUT", "PATCH", "DELETE"] }));
 
 app.use(morganMiddleware);
 
@@ -78,6 +75,7 @@ app.use("/api/ideas", compression(), ideasRoutes);
 app.use("/api/projects", compression(), projectsRoutes);
 app.use("/api/feasibility-studies", compression(), feasibilityStudyRoutes);
 app.use("/api/stripe", stripeRoutes);
+app.use("/api/plans", planRouter);
 
 
 // Stripe success and cancel endpoints
